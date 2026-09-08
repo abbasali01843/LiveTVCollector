@@ -17,11 +17,7 @@
         }
         body.light { background: #f4f4f4; color: #333; }
         body.pool { background: #0a0f1a; color: #00ffcc; }
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
         header {
             text-align: center;
             padding: 40px 0;
@@ -29,171 +25,87 @@
             color: white;
             border-radius: 0 0 20px 20px;
         }
-        header h1 {
-            font-size: 2.8em;
-            margin-bottom: 10px;
-            animation: fadeIn 1s ease-in;
-        }
+        header h1 { font-size: 2.8em; margin-bottom: 10px; animation: fadeIn 1s ease-in; }
         header p { font-size: 1.3em; }
         .theme-toggle {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: none;
-            border: none;
-            font-size: 1.5em;
-            cursor: pointer;
-            color: inherit;
+            position: absolute; top: 20px; right: 20px;
+            background: none; border: none; font-size: 1.5em; cursor: pointer; color: inherit;
         }
-        .search-bar {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-        }
+        .search-bar { display: flex; justify-content: center; margin: 20px 0; gap: 10px; flex-wrap: wrap; }
         #search {
-            padding: 12px;
-            width: 100%;
-            max-width: 500px;
-            border: none;
-            border-radius: 25px;
-            font-size: 1em;
-            background: #333;
-            color: #fff;
-            transition: background 0.3s;
+            padding: 12px; width: 100%; max-width: 500px; border: none; border-radius: 25px;
+            font-size: 1em; background: #333; color: #fff; transition: background 0.3s;
         }
         body.light #search { background: #ddd; color: #333; }
         body.pool #search { background: #1a2a3a; border: 1px solid #ff007a; }
         .dropdown-section { margin: 20px 0; }
         select {
-            width: 100%;
-            max-width: 300px;
-            padding: 10px;
-            background: #2a2a2a;
-            color: #fff;
-            border: none;
-            border-radius: 10px;
-            font-size: 1em;
-            cursor: pointer;
+            width: 100%; max-width: 300px; padding: 10px; background: #2a2a2a; color: #fff;
+            border: none; border-radius: 10px; font-size: 1em; cursor: pointer;
         }
         body.light select { background: #fff; color: #333; }
         body.pool select { background: #1a2a3a; border: 1px solid #00ddeb; }
         .card {
-            display: none;
-            background: #2a2a2a;
-            border-radius: 15px;
-            padding: 15px;
-            margin-top: 10px;
-            transition: transform 0.3s, box-shadow 0.3s;
+            display: none; background: #2a2a2a; border-radius: 15px; padding: 15px;
+            margin-top: 10px; transition: transform 0.3s, box-shadow 0.3s;
         }
         .card.active { display: block; }
         body.light .card { background: #fff; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         body.pool .card { background: #1a2a3a; box-shadow: 0 0 15px rgba(255, 0, 122, 0.5); }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-        }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 6px 12px rgba(0,0,0,0.3); }
         .link-item {
-            padding: 10px;
-            border-bottom: 1px solid #444;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: relative;
+            padding: 10px; border-bottom: 1px solid #444; display: flex;
+            justify-content: space-between; align-items: center; position: relative; gap: 8px; flex-wrap: wrap;
         }
         body.light .link-item { border-bottom: 1px solid #ccc; }
         body.pool .link-item { border-bottom: 1px solid #00ddeb; }
         .link-item a { color: #00ddeb; text-decoration: none; }
-        .status-badge {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-        }
+        .status-badge { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 8px; }
         .status-online { background: #00ff00; }
+        .status-degraded { background: #ffaa00; }
         .status-offline { background: #ff0000; }
+        .status-unknown { background: #888; }
+        .meta { font-size: 0.85em; opacity: 0.8; }
+        .warn {
+            background: #4a0015; border: 1px solid #ff007a; border-radius: 10px;
+            padding: 10px 14px; margin: 10px 0; font-size: 0.95em;
+        }
         .copy-btn, .download-btn {
-            background: #ff007a;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 5px;
-            color: white;
-            cursor: pointer;
-            transition: background 0.3s;
-            margin-left: 5px;
+            background: #ff007a; border: none; padding: 5px 10px; border-radius: 5px;
+            color: white; cursor: pointer; transition: background 0.3s; margin-left: 5px;
         }
         .copy-btn:hover, .download-btn:hover { background: #e6006b; }
         .analytics {
-            margin: 40px 0;
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            background: #2a2a2a;
-            border-radius: 15px;
-            padding: 20px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            margin: 40px 0; display: flex; justify-content: space-between; flex-wrap: wrap;
+            background: #2a2a2a; border-radius: 15px; padding: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
         body.light .analytics { background: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
         body.pool .analytics { background: #1a2a3a; box-shadow: 0 0 15px rgba(255, 0, 122, 0.3); }
-        .analytics-left, .analytics-right {
-            flex: 1;
-            min-width: 300px;
-            padding: 10px;
-        }
-        .analytics-left h2, .analytics-right h2 {
-            font-size: 1.8em;
-            margin-bottom: 15px;
-            color: #00ddeb;
-        }
-        .gauge {
-            width: 150px;
-            height: 150px;
-            margin: 20px auto;
-            position: relative;
-        }
+        .analytics-left, .analytics-right { flex: 1; min-width: 300px; padding: 10px; }
+        .analytics-left h2, .analytics-right h2 { font-size: 1.8em; margin-bottom: 15px; color: #00ddeb; }
+        .gauge { width: 150px; height: 150px; margin: 20px auto; position: relative; }
         .gauge-text {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 1.2em;
-            font-weight: 600;
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            font-size: 1.1em; font-weight: 600; text-align: center;
         }
         .line-chart { max-width: 100%; margin: 20px 0; }
         .leaderboard { margin: 20px 0; }
         .leaderboard-item { padding: 5px 0; display: flex; justify-content: space-between; }
         .export-btn {
-            background: #00ddeb;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 25px;
-            color: #fff;
-            cursor: pointer;
-            transition: background 0.3s;
-            display: block;
-            margin: 20px auto;
+            background: #00ddeb; border: none; padding: 10px 20px; border-radius: 25px;
+            color: #fff; cursor: pointer; transition: background 0.3s; display: block; margin: 20px auto;
         }
         .export-btn:hover { background: #00b8c9; }
+        .ghost-btn {
+            background: transparent; border: 1px solid #00ddeb; padding: 10px 18px; border-radius: 25px;
+            color: #00ddeb; cursor: pointer; transition: background 0.3s;
+        }
+        .ghost-btn:hover { background: rgba(0, 221, 235, 0.15); }
         .notification {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #00ddeb;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-            display: none;
+            position: fixed; bottom: 20px; right: 20px; background: #00ddeb; color: #fff;
+            padding: 10px 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3); display: none;
         }
-        footer {
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #888;
-        }
+        footer { text-align: center; padding: 20px; margin-top: 40px; font-size: 0.9em; color: #888; }
         @media (max-width: 600px) {
             header h1 { font-size: 1.8em; }
             header p { font-size: 1em; }
@@ -209,11 +121,12 @@
     <header>
         <button class="theme-toggle" onclick="toggleTheme()">☀️</button>
         <h1>M3U Links Hub</h1>
-        <p>Global Live TV & Movies Playlists</p>
+        <p>Global Live TV &amp; Movies Playlists</p>
     </header>
     <div class="container">
         <div class="search-bar">
-            <input type="text" id="search" placeholder="Search channels or movies..." onkeyup="searchContent()">
+            <input type="text" id="search" placeholder="Search country, category or loaded channels..." onkeyup="searchContent()">
+            <button class="ghost-btn" id="preload-btn" onclick="preloadAll()">Load all for search</button>
         </div>
         <div class="dropdown-section">
             <h2>Live TV</h2>
@@ -228,6 +141,13 @@
                 <option value="">Select Category</option>
             </select>
             <div id="movies-content" class="card"></div>
+        </div>
+        <div class="dropdown-section">
+            <h2>Special Links</h2>
+            <select id="special-select" onchange="showSpecial(this.value)">
+                <option value="">Select Group</option>
+            </select>
+            <div id="special-content" class="card"></div>
         </div>
         <div class="analytics">
             <div class="analytics-left">
@@ -244,24 +164,32 @@
     </div>
     <div class="notification" id="notification"></div>
     <footer>
-        Powered by <a href="https://github.com/bugsfreeweb/LiveTVCollector" target="_blank">M3U Collector</a> | Updated Daily
+        Powered by <a href="https://github.com/abbasali01843/LiveTVCollector" target="_blank">M3U Collector</a> | Updated Daily
     </footer>
 
     <script>
-        const baseUrl = window.location.hostname.includes('netlify.app') ? 'https://tvm3u.netlify.app/' : 
-                       window.location.hostname.includes('github.io') ? 'https://bugsfreeweb.github.io/LiveTVCollector/' : 
-                       '/';
-        const rawBaseUrl = 'https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/main/';
-        let analytics = JSON.parse(localStorage.getItem('m3u_analytics')) || { 
-            liveTv: {}, 
-            movies: {}, 
-            totalChannels: 0, 
-            activeChannels: 0, 
-            lastSync: {} 
-        };
-        let contentMap = { liveTv: {}, movies: {} };
-        let downloadHistory = JSON.parse(localStorage.getItem('download_history')) || [];
-        let statusCache = JSON.parse(localStorage.getItem('m3u_status')) || {};
+        const GITHUB_IO = 'https://abbasali01843.github.io/LiveTVCollector/';
+        const baseUrl = window.location.hostname.includes('github.io') ? GITHUB_IO : '/';
+        const rawBaseUrl = 'https://raw.githubusercontent.com/abbasali01843/LiveTVCollector/main/';
+
+        function loadLocal(key, fallback) {
+            try { return JSON.parse(localStorage.getItem(key)) || fallback; }
+            catch { return fallback; }
+        }
+        let analytics = loadLocal('m3u_analytics_v2', { livetv: {}, movies: {}, special: {}, lastSync: {} });
+        // migrate legacy keys (liveTv -> livetv)
+        if (analytics.liveTv) { analytics.livetv = { ...analytics.liveTv, ...analytics.livetv }; delete analytics.liveTv; }
+        let downloadHistory = loadLocal('download_history', []);
+        let indexes = { livetv: [], movies: [], special: [] };
+        let contentMap = { livetv: {}, movies: {} };
+        let charts = [];
+
+        function saveAnalytics() {
+            try {
+                localStorage.setItem('m3u_analytics_v2', JSON.stringify(analytics));
+                localStorage.setItem('download_history', JSON.stringify(downloadHistory));
+            } catch {}
+        }
 
         async function fetchJson(url) {
             try {
@@ -274,166 +202,195 @@
             }
         }
 
-        async function checkStatus(url) {
-            try {
-                const response = await fetch(url, { method: 'HEAD', mode: 'no-cors', timeout: 5000 });
-                return response.ok || response.type === 'opaque';
-            } catch {
-                return false;
+        function healthBadge(entry) {
+            const h = entry.health;
+            if (!h || !h.checked) return { cls: 'unknown', text: 'health: n/a' };
+            const ratio = h.active / h.checked;
+            const cls = ratio >= 0.7 ? 'online' : ratio >= 0.3 ? 'degraded' : 'offline';
+            return { cls, text: `health: ${h.active}/${h.checked} active` };
+        }
+
+        function warningHtml(entry) {
+            if (entry.content_warning) {
+                return `<div class="warn">⚠️ Content warning: this collection is flagged <b>${entry.content_warning}</b>. 18+ only.</div>`;
             }
+            return '';
         }
 
         async function populateDropdowns() {
-            const liveTvIndex = await fetchJson(`${rawBaseUrl}LiveTV/index.json`);
-            const moviesIndex = await fetchJson(`${rawBaseUrl}Movies/index.json`);
-            const liveTvSelect = document.getElementById('live-tv-select');
-            const moviesSelect = document.getElementById('movies-select');
+            const [liveTvIndex, moviesIndex, specialIndex] = await Promise.all([
+                fetchJson(`${rawBaseUrl}LiveTV/index.json`),
+                fetchJson(`${rawBaseUrl}Movies/index.json`),
+                fetchJson(`${rawBaseUrl}SpecialLinks/index.json`)
+            ]);
+            indexes.livetv = (liveTvIndex && liveTvIndex.items) || [];
+            indexes.movies = (moviesIndex && moviesIndex.items) || [];
+            indexes.special = (specialIndex && specialIndex.items) || [];
 
-            if (liveTvIndex) {
-                for (const country of liveTvIndex) {
-                    const option = document.createElement('option');
-                    option.value = country;
-                    option.textContent = country;
-                    liveTvSelect.appendChild(option);
-                    const json = await fetchJson(`${rawBaseUrl}LiveTV/${country}/LiveTV.json`);
-                    if (json) {
-                        contentMap.liveTv[country] = json;
-                        analytics.totalChannels += Object.values(json.channels).flat().length;
-                        analytics.activeChannels += Object.values(json.channels).flat().filter(ch => ch.url).length;
-                        analytics.lastSync[`LiveTV/${country}`] = json.date;
-                        if (!statusCache[`LiveTV/${country}`] || Date.now() - statusCache[`LiveTV/${country}`].timestamp > 3600000) {
-                            const sampleChannel = Object.values(json.channels).flat().find(ch => ch.url);
-                            statusCache[`LiveTV/${country}`] = {
-                                online: sampleChannel ? await checkStatus(sampleChannel.url) : false,
-                                timestamp: Date.now()
-                            };
-                        }
-                        checkForUpdates(`LiveTV/${country}`, json.date);
-                    }
-                }
-            }
-            if (moviesIndex) {
-                for (const category of moviesIndex) {
-                    const option = document.createElement('option');
-                    option.value = category;
-                    option.textContent = category;
-                    moviesSelect.appendChild(option);
-                    const json = await fetchJson(`${rawBaseUrl}Movies/${category}/Movies.json`);
-                    if (json) {
-                        contentMap.movies[category] = json;
-                        analytics.totalChannels += Object.values(json.channels).flat().length;
-                        analytics.activeChannels += Object.values(json.channels).flat().filter(ch => ch.url).length;
-                        analytics.lastSync[`Movies/${category}`] = json.date;
-                        if (!statusCache[`Movies/${category}`] || Date.now() - statusCache[`Movies/${category}`].timestamp > 3600000) {
-                            const sampleMovie = Object.values(json.channels).flat().find(ch => ch.url);
-                            statusCache[`Movies/${category}`] = {
-                                online: sampleMovie ? await checkStatus(sampleMovie.url) : false,
-                                timestamp: Date.now()
-                            };
-                        }
-                        checkForUpdates(`Movies/${category}`, json.date);
-                    }
-                }
-            }
-            localStorage.setItem('m3u_status', JSON.stringify(statusCache));
+            fillSelect('live-tv-select', indexes.livetv);
+            fillSelect('movies-select', indexes.movies);
+            fillSelect('special-select', indexes.special);
+            const stamp = (liveTvIndex && liveTvIndex.updated) || 'n/a';
+            notify(`Index updated: ${stamp}`);
             updateAnalytics();
         }
 
-        function createFileLinks(dir, subDir) {
-            const m3uFile = dir === 'LiveTV' ? 'LiveTV.m3u' : 'Movies.m3u';
-            const jsonFile = dir === 'LiveTV' ? 'LiveTV.json' : 'Movies.json';
-            const txtFile = dir === 'LiveTV' ? 'LiveTV.txt' : 'Movies.txt';
-            const prefix = dir === 'LiveTV' ? `${subDir}_LiveTV` : `${subDir}_Movies`;
-            const key = `${dir}/${subDir}`;
-            const status = statusCache[key]?.online ? 'online' : 'offline';
+        function fillSelect(id, items) {
+            const sel = document.getElementById(id);
+            for (const entry of items) {
+                const option = document.createElement('option');
+                option.value = entry.name;
+                const badge = entry.health ? ` (✓ ${entry.health.active}/${entry.health.checked})` : '';
+                option.textContent = `${entry.name} — ${entry.count}${badge}`;
+                sel.appendChild(option);
+            }
+        }
+
+        function findEntry(kind, name) {
+            return indexes[kind].find(e => e.name === name);
+        }
+
+        async function ensureContent(kind, dir, file, name) {
+            if (contentMap[kind][name]) return contentMap[kind][name];
+            const json = await fetchJson(`${rawBaseUrl}${dir}/${encodeURIComponent(name)}/${file}`);
+            if (json) {
+                contentMap[kind][name] = json;
+                analytics.lastSync[`${dir}/${name}`] = json.updated || json.date || 'n/a';
+                saveAnalytics();
+            }
+            return json;
+        }
+
+        function fileRow(dir, sub, file, label, prefix, kind, badge) {
             return `
                 <div class="link-item">
-                    <div class="status-badge status-${status}"></div>
-                    <a href="${dir}/${subDir}/${m3uFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')" style="margin-left: 15px;">M3U File</a>
-                    <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${m3uFile}', '${dir}', '${subDir}', 'm3u')">Copy</button>
-                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${m3uFile}', '${prefix}.m3u', '${dir}', '${subDir}')">Download</button>
-                </div>
-                <div class="link-item">
-                    <div class="status-badge status-${status}"></div>
-                    <a href="${dir}/${subDir}/${jsonFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')" style="margin-left: 15px;">JSON File</a>
-                    <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${jsonFile}', '${dir}', '${subDir}', 'json')">Copy</button>
-                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${jsonFile}', '${prefix}.json', '${dir}', '${subDir}')">Download</button>
-                </div>
-                <div class="link-item">
-                    <div class="status-badge status-${status}"></div>
-                    <a href="${dir}/${subDir}/${txtFile}" target="_blank" onclick="trackLink('${dir}', '${subDir}', 'click')" style="margin-left: 15px;">TXT File</a>
-                    <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${subDir}/${txtFile}', '${dir}', '${subDir}', 'txt')">Copy</button>
-                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${subDir}/${txtFile}', '${prefix}.txt', '${dir}', '${subDir}')">Download</button>
-                </div>
-            `;
+                    <span><span class="status-badge status-${badge.cls}"></span>
+                    <a href="${dir}/${encodeURIComponent(sub)}/${file}" target="_blank" onclick="trackLink('${kind}', '${sub}', 'click')">${label}</a>
+                    <span class="meta">${badge.text}</span></span>
+                    <span>
+                    <button class="copy-btn" onclick="copyToClipboard('${baseUrl}${dir}/${encodeURIComponent(sub)}/${file}', '${kind}', '${sub}', '${file.split('.').pop()}')">Copy</button>
+                    <button class="download-btn" onclick="downloadFile('${baseUrl}${dir}/${encodeURIComponent(sub)}/${file}', '${prefix}_${sub}.${file.split('.').pop()}', '${kind}', '${sub}')">Download</button>
+                    </span>
+                </div>`;
         }
 
-        function showLiveTV(country) {
-            const content = document.getElementById('live-tv-content');
-            const moviesContent = document.getElementById('movies-content');
-            content.innerHTML = '';
-            moviesContent.classList.remove('active');
+        async function showLiveTV(country) {
+            setActive('live-tv-content', ['movies-content', 'special-content']);
             document.getElementById('movies-select').value = '';
-            if (country) {
-                content.innerHTML = createFileLinks('LiveTV', country);
-                content.classList.add('active');
-                document.getElementById('live-tv-select').value = country;
-            }
+            document.getElementById('special-select').value = '';
+            if (!country) return;
+            const entry = findEntry('livetv', country) || { name: country, count: '?' };
+            const content = document.getElementById('live-tv-content');
+            content.innerHTML = '<div class="link-item">Loading…</div>';
+            await ensureContent('livetv', 'LiveTV', 'LiveTV.json', country);
+            const badge = healthBadge(entry);
+            content.innerHTML = warningHtml(entry) +
+                `<div class="link-item"><span class="meta">${entry.count} channels · index: ${entry.health ? entry.health.checked_at || '' : ''}</span></div>` +
+                fileRow('LiveTV', country, 'LiveTV.m3u', 'M3U File', 'LiveTV', 'livetv', badge) +
+                fileRow('LiveTV', country, 'LiveTV.json', 'JSON File', 'LiveTV', 'livetv', badge) +
+                fileRow('LiveTV', country, 'LiveTV.txt', 'TXT File', 'LiveTV', 'livetv', badge);
+            document.getElementById('live-tv-select').value = country;
         }
 
-        function showMovies(category) {
-            const content = document.getElementById('movies-content');
-            const liveTvContent = document.getElementById('live-tv-content');
-            content.innerHTML = '';
-            liveTvContent.classList.remove('active');
+        async function showMovies(category) {
+            setActive('movies-content', ['live-tv-content', 'special-content']);
             document.getElementById('live-tv-select').value = '';
-            if (category) {
-                content.innerHTML = createFileLinks('Movies', category);
-                content.classList.add('active');
-                document.getElementById('movies-select').value = category;
-            }
+            document.getElementById('special-select').value = '';
+            if (!category) return;
+            const entry = findEntry('movies', category) || { name: category, count: '?' };
+            const content = document.getElementById('movies-content');
+            content.innerHTML = '<div class="link-item">Loading…</div>';
+            await ensureContent('movies', 'Movies', 'Movies.json', category);
+            const badge = healthBadge(entry);
+            content.innerHTML = warningHtml(entry) +
+                `<div class="link-item"><span class="meta">${entry.count} entries</span></div>` +
+                fileRow('Movies', category, 'Movies.m3u', 'M3U File', 'Movies', 'movies', badge) +
+                fileRow('Movies', category, 'Movies.json', 'JSON File', 'Movies', 'movies', badge) +
+                fileRow('Movies', category, 'Movies.txt', 'TXT File', 'Movies', 'movies', badge);
+            document.getElementById('movies-select').value = category;
         }
 
-        function copyToClipboard(text, dir, subDir, type) {
+        function showSpecial(group) {
+            setActive('special-content', ['live-tv-content', 'movies-content']);
+            document.getElementById('live-tv-select').value = '';
+            document.getElementById('movies-select').value = '';
+            if (!group) return;
+            const entry = findEntry('special', group) || { name: group, count: '?', countries: [] };
+            const badge = { cls: 'unknown', text: `${entry.count} entries` };
+            let rows = warningHtml(entry);
+            for (const country of entry.countries || []) {
+                rows += fileRow('SpecialLinks/' + encodeURIComponent(group), country, 'SpecialLinks.m3u',
+                    `M3U — ${country}`, `Special_${group}`, 'special', badge);
+            }
+            if (!rows) rows = '<div class="link-item">No country exports found.</div>';
+            document.getElementById('special-content').innerHTML = rows;
+            document.getElementById('special-select').value = group;
+        }
+
+        function setActive(showId, hideIds) {
+            for (const id of hideIds) document.getElementById(id).classList.remove('active');
+            const el = document.getElementById(showId);
+            el.innerHTML = '';
+            el.classList.add('active');
+        }
+
+        function copyToClipboard(text, kind, sub, type) {
             navigator.clipboard.writeText(text).then(() => {
                 alert(`${type.toUpperCase()} link copied!`);
-                trackLink(dir, subDir, 'copy');
+                trackLink(kind, sub, 'copy');
             }).catch(err => console.error('Copy failed:', err));
         }
 
-        function downloadFile(url, filename, dir, subDir) {
+        function downloadFile(url, filename, kind, sub) {
             const a = document.createElement('a');
             a.href = url;
             a.download = filename;
             document.body.appendChild(a);
             a.click();
             document.body.removeChild(a);
-            trackLink(dir, subDir, 'download');
+            trackLink(kind, sub, 'download');
+        }
+
+        function channelList(json) {
+            if (!json || !json.channels) return [];
+            if (Array.isArray(json.channels)) return json.channels;
+            return Object.values(json.channels).flat();
         }
 
         function searchContent() {
             const query = document.getElementById('search').value.toLowerCase().trim();
-            const liveTvContent = document.getElementById('live-tv-content');
-            const moviesContent = document.getElementById('movies-content');
-            liveTvContent.innerHTML = '';
-            moviesContent.innerHTML = '';
-            liveTvContent.classList.remove('active');
-            moviesContent.classList.remove('active');
             if (!query) return;
-            for (const [country, json] of Object.entries(contentMap.liveTv)) {
-                const channels = Object.values(json.channels).flat();
-                if (channels.some(ch => ch.name.toLowerCase().includes(query))) {
-                    showLiveTV(country);
-                    return;
+            // 1. match country / category / group names (no fetch needed)
+            const lv = indexes.livetv.find(e => e.name.toLowerCase().includes(query));
+            if (lv) { showLiveTV(lv.name); return; }
+            const mv = indexes.movies.find(e => e.name.toLowerCase().includes(query));
+            if (mv) { showMovies(mv.name); return; }
+            const sp = indexes.special.find(e => e.name.toLowerCase().includes(query));
+            if (sp) { showSpecial(sp.name); return; }
+            // 2. match channel names inside already-loaded data
+            for (const [name, json] of Object.entries(contentMap.livetv)) {
+                if (channelList(json).some(ch => (ch.name || '').toLowerCase().includes(query))) {
+                    showLiveTV(name); return;
                 }
             }
-            for (const [category, json] of Object.entries(contentMap.movies)) {
-                const movies = Object.values(json.channels).flat();
-                if (movies.some(m => m.name.toLowerCase().includes(query))) {
-                    showMovies(category);
-                    return;
+            for (const [name, json] of Object.entries(contentMap.movies)) {
+                if (channelList(json).some(m => (m.name || '').toLowerCase().includes(query))) {
+                    showMovies(name); return;
                 }
             }
+            notify('No match in names or loaded data — try "Load all for search".');
+        }
+
+        async function preloadAll() {
+            const btn = document.getElementById('preload-btn');
+            btn.disabled = true;
+            btn.textContent = 'Loading… (this downloads ~100 MB)';
+            const jobs = [];
+            for (const e of indexes.livetv) jobs.push(ensureContent('livetv', 'LiveTV', 'LiveTV.json', e.name));
+            for (const e of indexes.movies) jobs.push(ensureContent('movies', 'Movies', 'Movies.json', e.name));
+            await Promise.all(jobs);
+            btn.textContent = 'All data loaded ✓';
+            notify('Full search index ready.');
         }
 
         function toggleTheme() {
@@ -451,92 +408,82 @@
             }
         }
 
-        function trackLink(dir, subDir, action) {
-            const key = `${dir}/${subDir}`;
-            analytics[dir.toLowerCase()][key] = analytics[dir.toLowerCase()][key] || { clicks: 0, copies: 0, downloads: 0 };
-            analytics[dir.toLowerCase()][key][action === 'click' ? 'clicks' : action === 'copy' ? 'copies' : 'downloads']++;
-            localStorage.setItem('m3u_analytics', JSON.stringify(analytics));
+        function trackLink(kind, sub, action) {
+            const key = `${kind}/${sub}`;
+            analytics[kind] = analytics[kind] || {};
+            analytics[kind][key] = analytics[kind][key] || { clicks: 0, copies: 0, downloads: 0 };
+            const field = action === 'click' ? 'clicks' : action === 'copy' ? 'copies' : 'downloads';
+            analytics[kind][key][field]++;
             if (action === 'download') {
                 downloadHistory.push({ key, timestamp: new Date().toISOString() });
-                localStorage.setItem('download_history', JSON.stringify(downloadHistory));
             }
+            saveAnalytics();
             updateAnalytics();
         }
 
-        function checkForUpdates(key, date) {
-            const lastVisit = new Date(localStorage.getItem('last_visit') || 0);
-            const syncDate = new Date(date);
-            if (syncDate > lastVisit) {
-                const notification = document.getElementById('notification');
-                notification.textContent = `${key} updated ${Math.round((Date.now() - syncDate) / 60000)} mins ago!`;
-                notification.style.display = 'block';
-                setTimeout(() => notification.style.display = 'none', 5000);
-            }
-            localStorage.setItem('last_visit', new Date().toISOString());
+        function notify(text) {
+            const el = document.getElementById('notification');
+            el.textContent = text;
+            el.style.display = 'block';
+            clearTimeout(notify._t);
+            notify._t = setTimeout(() => el.style.display = 'none', 4000);
+        }
+
+        function totals() {
+            const sum = arr => arr.reduce((a, e) => a + (e.count || 0), 0);
+            const active = arr => arr.reduce((a, e) => a + ((e.health && e.health.active) || 0), 0);
+            return {
+                total: sum(indexes.livetv) + sum(indexes.movies) + sum(indexes.special),
+                active: active(indexes.livetv)
+            };
         }
 
         function updateAnalytics() {
+            const t = totals();
             const gaugesContainer = document.getElementById('gauges-container');
             gaugesContainer.innerHTML = `
                 <div class="gauge">
                     <canvas id="totalChannelsGauge"></canvas>
-                    <div class="gauge-text">${analytics.totalChannels}<br>Total Channels</div>
+                    <div class="gauge-text">${t.total}<br>Total Entries</div>
                 </div>
                 <div class="gauge">
                     <canvas id="activeChannelsGauge"></canvas>
-                    <div class="gauge-text">${analytics.activeChannels}<br>Active Channels</div>
+                    <div class="gauge-text">${t.active}<br>Active TV</div>
                 </div>
             `;
 
+            const scale = Math.max(t.total, 1);
             const totalCtx = document.getElementById('totalChannelsGauge').getContext('2d');
-            new Chart(totalCtx, {
+            charts.push(new Chart(totalCtx, {
                 type: 'doughnut',
-                data: {
-                    datasets: [{
-                        data: [analytics.totalChannels, 10000 - analytics.totalChannels],
-                        backgroundColor: ['#ff007a', '#333'],
-                        borderWidth: 0
-                    }]
-                },
-                options: {
-                    cutout: '70%',
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { legend: { display: false }, tooltip: { enabled: false } }
-                }
-            });
+                data: { datasets: [{ data: [t.total, 0.0001], backgroundColor: ['#ff007a', '#333'], borderWidth: 0 }] },
+                options: { cutout: '70%', responsive: true, maintainAspectRatio: false,
+                    plugins: { legend: { display: false }, tooltip: { enabled: false } } }
+            }));
 
+            const tvTotal = indexes.livetv.reduce((a, e) => a + (e.count || 0), 0);
             const activeCtx = document.getElementById('activeChannelsGauge').getContext('2d');
-            new Chart(activeCtx, {
+            charts.push(new Chart(activeCtx, {
                 type: 'doughnut',
-                data: {
-                    datasets: [{
-                        data: [analytics.activeChannels, analytics.totalChannels - analytics.activeChannels],
-                        backgroundColor: ['#00ddeb', '#333'],
-                        borderWidth: 0
-                    }]
-                },
-                options: {
-                    cutout: '70%',
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { legend: { display: false }, tooltip: { enabled: false } }
-                }
-            });
+                data: { datasets: [{ data: [t.active, Math.max(tvTotal - t.active, 0.0001)], backgroundColor: ['#00ddeb', '#333'], borderWidth: 0 }] },
+                options: { cutout: '70%', responsive: true, maintainAspectRatio: false,
+                    plugins: { legend: { display: false }, tooltip: { enabled: false } } }
+            }));
 
             const downloadData = {};
-            ['liveTv', 'movies'].forEach(type => {
-                Object.entries(analytics[type]).forEach(([key, { downloads }]) => {
-                    downloadData[key] = downloads;
+            ['livetv', 'movies', 'special'].forEach(type => {
+                Object.entries(analytics[type] || {}).forEach(([key, v]) => {
+                    downloadData[key] = (v && v.downloads) || 0;
                 });
             });
 
             const leaderboard = document.getElementById('leaderboard');
-            leaderboard.innerHTML = Object.entries(downloadData)
+            const rows = Object.entries(downloadData)
                 .sort((a, b) => b[1] - a[1])
                 .slice(0, 5)
-                .map(([key, downloads]) => `<div class="leaderboard-item">${key.split('/')[1]}: ${downloads}</div>`)
+                .map(([key, downloads]) => `<div class="leaderboard-item"><span>${key}</span><span>${downloads}</span></div>`)
                 .join('');
+            leaderboard.innerHTML = rows || '<div class="leaderboard-item"><span>No downloads yet</span><span>—</span></div>';
 
             const historyByDay = {};
             downloadHistory.forEach(({ timestamp }) => {
@@ -546,47 +493,34 @@
             const labels = Object.keys(historyByDay).slice(-7);
             const data = Object.values(historyByDay).slice(-7);
             const chartCtx = document.getElementById('downloadChart').getContext('2d');
-            new Chart(chartCtx, {
+            charts.push(new Chart(chartCtx, {
                 type: 'line',
-                data: {
-                    labels,
-                    datasets: [{
-                        label: 'Downloads',
-                        data,
-                        borderColor: '#ff007a',
-                        backgroundColor: 'rgba(255, 0, 122, 0.2)',
-                        fill: true,
-                        tension: 0.4
-                    }]
-                },
-                options: {
-                    responsive: true,
+                data: { labels, datasets: [{ label: 'Downloads', data, borderColor: '#ff007a',
+                    backgroundColor: 'rgba(255, 0, 122, 0.2)', fill: true, tension: 0.4 }] },
+                options: { responsive: true,
                     scales: {
                         y: { beginAtZero: true, title: { display: true, text: 'Downloads', color: '#fff' } },
                         x: { title: { display: true, text: 'Date', color: '#fff' } }
                     },
-                    plugins: {
-                        legend: { labels: { color: '#fff' } },
-                        title: { display: false }
-                    }
-                }
-            });
+                    plugins: { legend: { labels: { color: '#fff' } } } }
+            }));
+            while (charts.length > 9) charts.shift().destroy();
         }
 
         function exportStats() {
             const csvRows = ['Key,Clicks,Copies,Downloads,Last Sync'];
-            ['liveTv', 'movies'].forEach(type => {
-                Object.entries(analytics[type]).forEach(([key, { clicks, copies, downloads }]) => {
+            ['livetv', 'movies', 'special'].forEach(type => {
+                Object.entries(analytics[type] || {}).forEach(([key, v]) => {
                     const lastSync = analytics.lastSync[key] || 'N/A';
-                    csvRows.push(`${key},${clicks},${copies},${downloads},${lastSync}`);
+                    csvRows.push(`${key},${v.clicks || 0},${v.copies || 0},${v.downloads || 0},${lastSync}`);
                 });
             });
-            csvRows.push(`Total Channels,,${analytics.totalChannels},,`);
-            csvRows.push(`Active Channels,,${analytics.activeChannels},,`);
+            const t = totals();
+            csvRows.push(`Total Entries,,${t.total},,`);
+            csvRows.push(`Active TV,,${t.active},,`);
             const csvContent = 'data:text/csv;charset=utf-8,' + csvRows.join('\n');
-            const encodedUri = encodeURI(csvContent);
             const link = document.createElement('a');
-            link.setAttribute('href', encodedUri);
+            link.setAttribute('href', encodeURI(csvContent));
             link.setAttribute('download', `m3u_stats_${new Date().toISOString().split('T')[0]}.csv`);
             document.body.appendChild(link);
             link.click();

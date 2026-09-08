@@ -7,8 +7,6 @@ available. The workflow does not contain private credentials or Xtream URLs.
 from __future__ import annotations
 
 import os
-import shutil
-from pathlib import Path
 
 from BugsfreeCore.collector import Collector
 
@@ -26,23 +24,10 @@ def sources() -> list[str]:
 
 
 def main() -> None:
-    collector = Collector(country="VOD", base_dir="Movies", check_links=True, max_workers=32, timeout=8)
+    collector = Collector(country="VOD", base_dir="Movies", file_prefix="Movies",
+                          check_links=True, max_workers=32, timeout=8)
     collector.process_sources(sources())
     collector.export()
-
-    out = Path("Movies/VOD")
-    mapping = {
-        "LiveTV.m3u": "Movies.m3u",
-        "LiveTV.txt": "Movies.txt",
-        "LiveTV.json": "Movies.json",
-        "LiveTV": "Movies",
-    }
-    for src, dst in mapping.items():
-        src_path = out / src
-        dst_path = out / dst
-        if src_path.exists():
-            shutil.move(str(src_path), str(dst_path))
-
     print(f"VOD collection complete: {len(collector.channels)} active entries")
 
 

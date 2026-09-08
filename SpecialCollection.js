@@ -1,8 +1,31 @@
 const fs = require('fs').promises;
+const fsSync = require('fs');
 const path = require('path');
 
-const OUTPUT = 'SpecialLinks';
-const CHANNELS_PER_FILE = 2000;
+function loadConfig() {
+  const cfg = {
+    concurrency: 24,
+    fetchTimeout: 15000,
+    linkCheckTimeout: 8000,
+    batchSize: 100,
+    outputDirPrefix: 'SpecialLinks',
+    channelsPerFile: 2000
+  };
+  try {
+    const text = fsSync.readFileSync('config.yml', 'utf8');
+    for (const line of text.split(/\r?\n/)) {
+      const num = line.match(/^\s*(concurrency|fetchTimeout|linkCheckTimeout|batchSize|channelsPerFile)\s*:\s*(\d+)\s*$/);
+      if (num) { cfg[num[1]] = Math.max(1, parseInt(num[2], 10)); continue; }
+      const str = line.match(/^\s*outputDirPrefix\s*:\s*([A-Za-z0-9_-]+)\s*$/);
+      if (str) cfg.outputDirPrefix = str[1];
+    }
+  } catch { /* fall back to defaults when config.yml is absent */ }
+  return cfg;
+}
+
+const CONFIG = loadConfig();
+const OUTPUT = CONFIG.outputDirPrefix;
+const CHANNELS_PER_FILE = CONFIG.channelsPerFile;
 
 function sourceUrls() {
   const raw = process.env.SPECIAL_M3U_URLS || '';
@@ -11,7 +34,7 @@ function sourceUrls() {
 
 async function fetchText(url) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 15000);
+  const timer = setTimeout(() => controller.abort(), CONFIG.fetchTimeout);
   try {
     const response = await fetch(url, {
       redirect: 'follow',
@@ -84,13 +107,24 @@ function classify(ch) {
   return { group: ch.group || 'Uncategorized', country: found || ch.country || 'Unknown' };
 }
 
-async function probe(url) {
+async function fetchWithTimeout(url, options, ms) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), ms);
   try {
-    let r = await fetch(url, { method: 'HEAD', redirect: 'follow', headers: { 'user-agent': 'LiveTVCollector-Special/2.3' } });
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function probe(url) {
+  const headers = { 'user-agent': 'LiveTVCollector-Special/2.3' };
+  try {
+    const r = await fetchWithTimeout(url, { method: 'HEAD', redirect: 'follow', headers }, CONFIG.linkCheckTimeout);
     if (r.status >= 200 && r.status < 400) return true;
   } catch {}
   try {
-    const r = await fetch(url, { redirect: 'follow', headers: { 'user-agent': 'LiveTVCollector-Special/2.3' } });
+    const r = await fetchWithTimeout(url, { redirect: 'follow', headers }, CONFIG.linkCheckTimeout);
     return r.status >= 200 && r.status < 400;
   } catch { return false; }
 }
@@ -117,10 +151,15 @@ async function main() {
 
   const channels = [...map.values()];
   const active = [];
-  for (let i = 0; i < channels.length; i += 100) {
-    const batch = channels.slice(i, i + 100);
-    const results = await Promise.all(batch.map(async ch => [ch, await probe(ch.url)]));
-    for (const [ch, ok] of results) if (ok) active.push(ch);
+  const step = Math.max(1, Math.min(CONFIG.batchSize, 500));
+  const parallel = Math.max(1, Math.min(CONFIG.concurrency, step));
+  for (let i = 0; i < channels.length; i += step) {
+    const batch = channels.slice(i, i + step);
+    for (let j = 0; j < batch.length; j += parallel) {
+      const slice = batch.slice(j, j + parallel);
+      const results = await Promise.all(slice.map(async ch => [ch, await probe(ch.url)]));
+      for (const [ch, ok] of results) if (ok) active.push(ch);
+    }
   }
 
   await fs.rm(OUTPUT, { recursive: true, force: true });
@@ -132,8 +171,11 @@ async function main() {
     grouped.get(key).channels.push(ch);
   }
 
+  const esc = s => String(s).replace(/"/g, '&quot;').replace(/[\r\n]+/g, ' ');
+  // NOTE: dots are intentionally stripped so hostile group/country names
+  // cannot escape OUTPUT via ".." path traversal.
+  const safe = s => String(s).replace(/[^a-zA-Z0-9_-]+/g, '_').replace(/^_+/g, '').slice(0, 80) || 'Unknown';
   for (const { group, country, channels: list } of grouped.values()) {
-    const safe = s => s.replace(/[^a-zA-Z0-9._-]+/g, '_').slice(0, 80) || 'Unknown';
     const dir = path.join(OUTPUT, safe(group), safe(country));
     await fs.mkdir(dir, { recursive: true });
     for (let i = 0; i < list.length; i += CHANNELS_PER_FILE) {
@@ -141,7 +183,7 @@ async function main() {
       const suffix = i === 0 ? '' : String(i / CHANNELS_PER_FILE + 1);
       const base = `SpecialLinks${suffix}`;
       const m3u = ['#EXTM3U'];
-      for (const ch of chunk) m3u.push(`#EXTINF:-1 group-title="${ch.group}",${ch.name}`, ch.url);
+      for (const ch of chunk) m3u.push(`#EXTINF:-1 group-title="${esc(ch.group)}",${esc(ch.name)}`, ch.url);
       await Promise.all([
         fs.writeFile(path.join(dir, `${base}.m3u`), `${m3u.join('\n')}\n`),
         fs.writeFile(path.join(dir, `${base}.json`), JSON.stringify(chunk, null, 2)),

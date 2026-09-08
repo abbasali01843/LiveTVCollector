@@ -2,7 +2,7 @@ name: TV-Canada Update Files
 
 on:
   schedule:
-    - cron: '0 0,8,16 * * *'
+    - cron: '4 0,8,16 * * *'
   workflow_dispatch:
 
 permissions:
@@ -17,16 +17,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m pip install --upgrade pip requests
-      - run: python BugsfreeMain/TV-Canada.py
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip requests
+      - name: Run collector
+        run: python BugsfreeMain/TV-Canada.py
       - name: Commit and push changes
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add LiveTV/Canada/LiveTV.m3u LiveTV/Canada/LiveTV.txt LiveTV/Canada/LiveTV.json LiveTV/Canada/LiveTV
-          git commit -m "Update Canada TV files" || exit 0
+          git diff --cached --quiet || git commit -m "Update Canada TV files"
+          git pull --rebase origin main
           git push
