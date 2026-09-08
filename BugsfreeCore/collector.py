@@ -20,7 +20,7 @@ import requests
 
 LOG = logging.getLogger(__name__)
 DEFAULT_LOGO = "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
-HEADERS = {"User-Agent": "LiveTVCollector/2.2 (+https://github.com/abbasali01843/LiveTVCollector)"}
+HEADERS = {"User-Agent": "LiveTVCollector/2.3 (+https://github.com/abbasali01843/LiveTVCollector)"}
 
 
 class _LinkParser(HTMLParser):
@@ -172,11 +172,48 @@ class Collector:
         return self.channels
 
     @staticmethod
-    def _check(url: str, timeout: float):
+    def _probe_hls_segment(response, manifest_url: str, timeout: float) -> tuple[bool, str]:
+        lines = []
+        for raw in response.iter_lines(decode_unicode=True):
+            line = (raw or "").strip()
+            if line and not line.startswith("#"):
+                lines.append(line)
+                if len(lines) >= 1:
+                    break
+        if not lines:
+            return True, ""
+        segment_url = urljoin(manifest_url, lines[0])
+        try:
+            with requests.get(segment_url, headers=HEADERS, timeout=timeout, allow_redirects=True,
+                              stream=True, headers_extra=None) as segment:
+                if segment.status_code >= 400:
+                    return False, segment_url
+                chunk = next(segment.iter_content(chunk_size=2048), b"")
+                if not chunk:
+                    return False, segment_url
+                return True, segment_url
+        except TypeError:
+            # Compatibility fallback for requests versions that reject the extra kwarg above.
+            try:
+                with requests.get(segment_url, headers=HEADERS, timeout=timeout, allow_redirects=True,
+                                  stream=True) as segment:
+                    if segment.status_code >= 400:
+                        return False, segment_url
+                    chunk = next(segment.iter_content(chunk_size=2048), b"")
+                    return bool(chunk), segment_url
+            except requests.RequestException:
+                return False, segment_url
+        except requests.RequestException:
+            return False, segment_url
+
+    @classmethod
+    def _check(cls, url: str, timeout: float):
         try:
             r = requests.head(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
             if r.status_code < 400:
                 ct = (r.headers.get("content-type") or "").lower()
+                if url.lower().split("?", 1)[0].endswith(".m3u8"):
+                    return cls._check_hls(url, timeout, r.url)
                 return True, r.url, r.status_code, ct
         except requests.RequestException:
             pass
@@ -186,22 +223,52 @@ class Collector:
                 ct = (r.headers.get("content-type") or "").lower()
                 if r.status_code >= 400:
                     return False, r.url, r.status_code, ct
-                if url.lower().split("?", 1)[0].endswith(".m3u8"):
-                    sample_lines = []
-                    for line in r.iter_lines(decode_unicode=False):
-                        if line:
-                            sample_lines.append(line[:4096])
-                        if len(sample_lines) >= 12:
-                            break
-                    manifest = b"\n".join(sample_lines).upper()
-                    return b"#EXTM3U" in manifest or "mpegurl" in ct, r.url, r.status_code, ct
-                if url.lower().split("?", 1)[0].endswith(".mpd"):
+                path = url.lower().split("?", 1)[0]
+                if path.endswith(".m3u8"):
+                    return cls._check_hls_response(r, timeout)
+                if path.endswith(".mpd"):
                     chunk = next(r.iter_content(chunk_size=16384), b"")
                     valid = b"<MPD" in chunk or b":MPD" in chunk
                     return valid or "dash" in ct, r.url, r.status_code, ct
                 return True, r.url, r.status_code, ct
         except requests.RequestException:
             return False, url, 0, ""
+
+    @classmethod
+    def _check_hls(cls, url: str, timeout: float, final_url: str):
+        try:
+            with requests.get(final_url, headers=HEADERS, timeout=timeout, allow_redirects=True, stream=True) as r:
+                return cls._check_hls_response(r, timeout)
+        except requests.RequestException:
+            return False, final_url, 0, ""
+
+    @classmethod
+    def _check_hls_response(cls, r, timeout: float):
+        ct = (r.headers.get("content-type") or "").lower()
+        sample_lines = []
+        for line in r.iter_lines(decode_unicode=False):
+            if line:
+                sample_lines.append(line[:4096])
+            if len(sample_lines) >= 24:
+                break
+        manifest = b"\n".join(sample_lines).upper()
+        if not (b"#EXTM3U" in manifest or "mpegurl" in ct):
+            return False, r.url, r.status_code, ct
+        # A manifest-only success is useful, but probe one media/child playlist
+        # when an ordinary URI is present to catch stale HLS manifests.
+        segment = next((x.decode("utf-8", "ignore").strip() for x in sample_lines
+                        if not x.startswith(b"#") and x.strip()), "")
+        if not segment:
+            return True, r.url, r.status_code, ct
+        child = urljoin(r.url, segment)
+        try:
+            with requests.get(child, headers=HEADERS, timeout=timeout, allow_redirects=True, stream=True) as probe:
+                if probe.status_code >= 400:
+                    return False, r.url, r.status_code, ct
+                chunk = next(probe.iter_content(chunk_size=2048), b"")
+                return bool(chunk), r.url, r.status_code, ct
+        except requests.RequestException:
+            return False, r.url, r.status_code, ct
 
     def validate(self):
         kept = []
