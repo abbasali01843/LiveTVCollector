@@ -16,6 +16,13 @@ jobs:
   health:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    env:
+      STREAM_WORKERS: '64'
+      STREAM_MAX_PER_HOST: '8'
+      STREAM_TIMEOUT: '5'
+      STREAM_HEAD_TIMEOUT: '2'
+      STREAM_RETRIES: '0'
+      STREAM_SKIP_HEAD_FOR_MEDIA: '1'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
