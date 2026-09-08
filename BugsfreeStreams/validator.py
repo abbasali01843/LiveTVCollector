@@ -5,7 +5,7 @@ import concurrent.futures
 import json
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
 
 import requests
 
@@ -13,7 +13,17 @@ ROOT = Path("LiveTV")
 OUT = Path("BugsfreeStreams/Output")
 TIMEOUT = 6
 WORKERS = 32
-HEADERS = {"User-Agent": "LiveTVCollector-Health/1.2"}
+HEADERS = {"User-Agent": "LiveTVCollector-Health/1.3"}
+TRACKING_PARAMS = {"utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"}
+
+
+def normalize_url(url: str) -> str:
+    url = url.strip()
+    p = urlparse(url)
+    if not p.scheme or not p.netloc:
+        return url
+    query = [(k, v) for k, v in parse_qsl(p.query, keep_blank_values=True) if k.lower() not in TRACKING_PARAMS]
+    return urlunparse((p.scheme.lower(), p.netloc.lower(), p.path, p.params, urlencode(query), ""))
 
 
 def protocol(url: str, content_type: str = "") -> str:
@@ -71,7 +81,7 @@ def probe_segment(url: str) -> bool:
 
 
 def probe(channel: dict) -> dict:
-    url = str(channel.get("url", "")).strip()
+    url = normalize_url(str(channel.get("url", "")))
     result = {
         "name": channel.get("name", "Unnamed Channel"), "url": url,
         "country": channel.get("country", ""), "group": channel.get("group", "Uncategorized"),
@@ -83,16 +93,16 @@ def probe(channel: dict) -> dict:
 
     try:
         r = requests.head(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True)
-        result["http_status"] = r.status_code; result["final_url"] = r.url
-        result["redirected"] = r.url != url
+        result["http_status"] = r.status_code; result["final_url"] = normalize_url(r.url)
+        result["redirected"] = result["final_url"] != url
         result["protocol"] = protocol(r.url, r.headers.get("content-type", ""))
-        if 200 <= r.status_code < 400 and result["protocol"] not in {"hls", "dash"}:
-            result["status"] = "active"
-            result["score"] = score(result["status"], result["protocol"], result["redirected"])
-            return result
         if r.status_code in (401, 403, 451):
             result["status"] = "geo_or_restricted"
             result["score"] = score(result["status"], result["protocol"])
+            return result
+        if 200 <= r.status_code < 400 and result["protocol"] not in {"hls", "dash"}:
+            result["status"] = "active"
+            result["score"] = score(result["status"], result["protocol"], result["redirected"])
             return result
     except requests.Timeout:
         result["status"] = "timeout"
@@ -103,8 +113,8 @@ def probe(channel: dict) -> dict:
 
     try:
         with requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True, stream=True) as r:
-            result["http_status"] = r.status_code; result["final_url"] = r.url
-            result["redirected"] = r.url != url
+            result["http_status"] = r.status_code; result["final_url"] = normalize_url(r.url)
+            result["redirected"] = result["final_url"] != url
             result["protocol"] = protocol(r.url, r.headers.get("content-type", ""))
             if r.status_code in (401, 403, 451):
                 result["status"] = "geo_or_restricted"
@@ -151,8 +161,10 @@ def load_channels() -> list[dict]:
 def main() -> None:
     channels = load_channels(); unique = {}
     for channel in channels:
-        url = str(channel.get("url", "")).strip()
-        if url: unique.setdefault(url, channel)
+        url = normalize_url(str(channel.get("url", "")))
+        if url:
+            channel = dict(channel); channel["url"] = url
+            unique.setdefault(url, channel)
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
         results = list(pool.map(probe, unique.values()))
     summary = {}
