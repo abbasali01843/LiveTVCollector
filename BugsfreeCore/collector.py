@@ -19,7 +19,7 @@ from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode
 import requests
 
 LOG = logging.getLogger(__name__)
-DEFAULT_LOGO = "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
+DEFAULT_LOGO = "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
 HEADERS = {"User-Agent": "LiveTVCollector/2.3 (+https://github.com/abbasali01843/LiveTVCollector)"}
 
 
@@ -45,9 +45,10 @@ def normalize_url(url: str) -> str:
 
 class Collector:
     def __init__(self, country: str, base_dir: str = "LiveTV", check_links: bool = False,
-                 max_workers: int = 20, timeout: float = 8):
+                 max_workers: int = 20, timeout: float = 8, file_prefix: str = "LiveTV"):
         self.country = country
         self.output_dir = os.path.join(base_dir, country)
+        self.file_prefix = file_prefix or "LiveTV"
         self.check_links = check_links
         self.max_workers = max_workers
         self.timeout = timeout
@@ -252,20 +253,33 @@ class Collector:
         self.channels = kept
         return kept
 
+    @staticmethod
+    def _m3u_attr(value: str) -> str:
+        """Escape a value used inside an EXTINF quoted attribute."""
+        return str(value).replace('"', "&quot;").replace("\n", " ").replace("\r", " ")
+
+    @staticmethod
+    def _m3u_name(value: str) -> str:
+        """Escape a display name (playlist injection guard for hostile upstreams)."""
+        return str(value).replace("\n", " ").replace("\r", " ")
+
     def export(self):
         grouped = defaultdict(list)
         now = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
         for ch in self.channels:
             grouped[ch["group"]].append(ch)
         payload = {"updated": now, "country": self.country, "count": len(self.channels), "channels": dict(grouped)}
-        with open(os.path.join(self.output_dir, "LiveTV.json"), "w", encoding="utf-8") as f:
+        with open(os.path.join(self.output_dir, f"{self.file_prefix}.json"), "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
-        with open(os.path.join(self.output_dir, "LiveTV"), "w", encoding="utf-8") as f:
+        with open(os.path.join(self.output_dir, self.file_prefix), "w", encoding="utf-8") as f:
             json.dump(self.channels, f, ensure_ascii=False, indent=2)
-        with open(os.path.join(self.output_dir, "LiveTV.m3u"), "w", encoding="utf-8") as f:
+        with open(os.path.join(self.output_dir, f"{self.file_prefix}.m3u"), "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
             for ch in self.channels:
-                f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}\n{ch["url"]}\n')
-        with open(os.path.join(self.output_dir, "LiveTV.txt"), "w", encoding="utf-8") as f:
+                logo = self._m3u_attr(ch["logo"])
+                group = self._m3u_attr(ch["group"])
+                name = self._m3u_name(ch["name"])
+                f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{name}\n{ch["url"]}\n')
+        with open(os.path.join(self.output_dir, f"{self.file_prefix}.txt"), "w", encoding="utf-8") as f:
             for ch in self.channels:
                 f.write(f'{ch["name"]} | {ch["group"]} | {ch["url"]}\n')

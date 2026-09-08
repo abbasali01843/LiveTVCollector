@@ -2,7 +2,7 @@ name: TV-Indonesia Update Files
 
 on:
   schedule:
-    - cron: '0 0,8,16 * * *'
+    - cron: '10 0,8,16 * * *'
   workflow_dispatch:
 
 permissions:
@@ -19,21 +19,19 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Install dependencies
         run: python -m pip install --upgrade pip requests
-      - name: Run TV-Indonesia collector
+      - name: Run collector
         run: python BugsfreeMain/TV-Indonesia.py
       - name: Commit and push changes
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add LiveTV/Indonesia/LiveTV.m3u LiveTV/Indonesia/LiveTV.txt LiveTV/Indonesia/LiveTV.json LiveTV/Indonesia/LiveTV
-          git commit -m "TV-Indonesia Update files - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" || exit 0
+          git diff --cached --quiet || git commit -m "Update Indonesia TV files"
           git pull --rebase origin main
           git push

@@ -1,29 +1,29 @@
 name: Update Indexes
 
 on:
-  workflow_call:  # Makes this workflow reusable
+  workflow_call:
+
+permissions:
+  contents: write
 
 jobs:
   update-indexes:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # Ensures push permissions
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Generate Indexes
+          python-version: '3.11'
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip requests
+      - name: Generate indexes
         run: python generate_indexes.py
-
-      - name: Commit and Push Indexes
+      - name: Commit and push indexes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add LiveTV/index.json Movies/index.json
-          git commit -m "Update LiveTV and Movies index files" || echo "No changes to commit"
-          git pull --rebase origin main  # Fetch and rebase remote changes
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add LiveTV/index.json Movies/index.json SpecialLinks/index.json
+          git diff --cached --quiet || git commit -m "Update collection index files"
+          git pull --rebase origin main
           git push

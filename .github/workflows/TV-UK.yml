@@ -2,7 +2,7 @@ name: TV-UK Update Files
 
 on:
   schedule:
-    - cron: '0 0,8,16 * * *'
+    - cron: '25 0,8,16 * * *'
   workflow_dispatch:
 
 permissions:
@@ -16,29 +16,22 @@ jobs:
   update-files:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: python -m pip install --upgrade pip requests
-
-      - name: Run TV-UK collector
+      - name: Run collector
         run: python BugsfreeMain/TV-UK.py
-
       - name: Commit and push changes
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add LiveTV/UK/LiveTV.m3u LiveTV/UK/LiveTV.txt LiveTV/UK/LiveTV.json LiveTV/UK/LiveTV
-          git diff --cached --quiet || git commit -m "TV-UK update $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git diff --cached --quiet || git commit -m "Update UK TV files"
           git pull --rebase origin main
           git push

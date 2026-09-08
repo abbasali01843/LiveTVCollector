@@ -1,3 +1,5 @@
+import os
+import tempfile
 import unittest
 
 from BugsfreeCore.collector import Collector, normalize_url
@@ -43,6 +45,21 @@ class CollectorTests(unittest.TestCase):
         url = "https://EXAMPLE.com:443/live/a.m3u8?utm_source=test&token=abc"
         normalized = normalize_url(url)
         self.assertEqual(normalized, "https://example.com:443/live/a.m3u8?token=abc")
+
+    def test_export_file_prefix_and_playlist_escaping(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            collector = Collector(country="X", base_dir=tmp, file_prefix="Movies")
+            collector.add('Na"me\nInjected', "https://example.com/v.m3u8",
+                          'Gr"oup', "https://example.com/l.png", "src")
+            collector.export()
+            out = os.path.join(tmp, "X")
+            for name in ("Movies.json", "Movies", "Movies.m3u", "Movies.txt"):
+                self.assertTrue(os.path.exists(os.path.join(out, name)), name)
+            m3u = open(os.path.join(out, "Movies.m3u"), encoding="utf-8").read()
+            lines = m3u.splitlines()
+            self.assertEqual(len(lines), 3)  # no injected extra lines
+            self.assertIn('group-title="Gr&quot;oup"', lines[1])
+            self.assertTrue(lines[1].endswith(',Na"me Injected'))
 
 
 if __name__ == "__main__":

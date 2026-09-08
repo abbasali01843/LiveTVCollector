@@ -8,7 +8,7 @@ SOURCES = [
 
 
 def main():
-    collector = Collector(country="SecretWorld", base_dir="Movies", check_links=True, max_workers=32, timeout=8)
+    collector = Collector(country="SecretWorld", base_dir="Movies", file_prefix="Movies", check_links=True, max_workers=32, timeout=8)
     collector.process_sources(SOURCES)
     collector.export()
     print(f"SecretWorld collection complete: {len(collector.channels)} active entries")
