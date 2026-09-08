@@ -34,3 +34,6 @@ jobs:
 
       - name: Run core tests
         run: python -m unittest discover -s BugsfreeCore/tests -p 'test_*.py' -v
+
+      - name: Run validator tests
+        run: python -m unittest discover -s BugsfreeStreams/tests -p 'test_*.py' -v
