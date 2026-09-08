@@ -168,9 +168,10 @@
     </footer>
 
     <script>
-        const GITHUB_IO = 'https://abbasali01843.github.io/LiveTVCollector/';
-        const baseUrl = window.location.hostname.includes('github.io') ? GITHUB_IO : '/';
-        const rawBaseUrl = 'https://raw.githubusercontent.com/abbasali01843/LiveTVCollector/main/';
+        // Load data from wherever this page is hosted (local preview, GitHub Pages, etc.)
+        // `new URL('.', ...)` resolves to the directory containing index.html and always ends with '/'.
+        const baseUrl = new URL('.', window.location.href).href;
+        const rawBaseUrl = baseUrl;
 
         function loadLocal(key, fallback) {
             try { return JSON.parse(localStorage.getItem(key)) || fallback; }
