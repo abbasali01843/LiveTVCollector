@@ -100,6 +100,9 @@ class ValidatorTests(unittest.TestCase):
         )
 
         class HlsSession(FakeSession):
+            def __init__(self):
+                super().__init__(head_response=requests.RequestException())
+
             def get(self, url, *args, **kwargs):
                 self.get_calls += 1
                 if url.endswith("master.m3u8"):
