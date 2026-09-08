@@ -33,8 +33,8 @@ jobs:
 
       - name: Commit health report
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add BugsfreeStreams/Output/health.json
-          git commit -m "Update unified stream health report" || echo "No health report changes"
+          git diff --cached --quiet || git commit -m "Update unified stream health report"
           git push
