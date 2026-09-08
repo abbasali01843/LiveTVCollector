@@ -1,183 +1,156 @@
 # LiveTVCollector
 
-A GitHub repository that automatically collects, filters, and exports live TV streaming links for Country/Category wise using GitHub Actions. This project fetches M3U playlists from multiple sources, removes duplicates, verifies active links, and exports them into various formats under the `LiveTV/Country Name/` directory.
-# 📊 Project Stats
-[![GitHub forks](https://img.shields.io/github/forks/bugsfreeweb/LiveTVCollector?logo=forks&style=plastic)](https://github.com/bugsfreeweb/LiveTVCollector/network) [![GitHub stars](https://img.shields.io/github/stars/bugsfreeweb/LiveTVCollector)](https://github.com/bugsfreeweb/LiveTVCollector/stargazers) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
-![GitHub issues](https://img.shields.io/github/issues/bugsfreeweb/LiveTVCollector)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/bugsfreeweb/LiveTVCollector)
+Automated collection, normalization, health checking, and export of publicly available live-TV stream metadata.
 
-## Online Useable Tools:
+> This repository aggregates publicly available stream links. It does not host or transmit video content. Use only sources and streams you are legally permitted to access.
 
-<a href="https://buddytv.vercel.app" target="_blank"><img src="https://buddytv.vercel.app/img/logo.png" style="width:auto; height:60px" alt="BuddyTv"></a>
-<a href="https://m3ulinkchecker.vercel.app" target="_blank"><img src="https://m3ulinkchecker.vercel.app/img/logo.png" style="width:auto; height:60px" alt="M3U Checker"></a>
-<a href="https://circletv.vercel.app" target="_blank"><img src="https://circletv.vercel.app/img/logo.png" style="width:auto; height:60px" alt="CircleTV player"></a>
-<a href="https://bugsfreeweb.github.io/iptv" target="_blank"><img src="https://bugsfreeweb.github.io/iptv/img/logo.png" style="width:auto; height:60px" alt="IPTV player"></a>
-<a href="https://m3ulinkeditor.vercel.app" target="_blank"><img src="https://m3ulinkeditor.vercel.app/img/logo.png" style="width:auto; height:60px" alt="M3U Editor"></a>
-<a href="https://bugsfreeweb.github.io/WebIPTV" target="_blank"><img src="https://bugsfreeweb.github.io/iptv/img/logo.png" style="width:auto; height:60px" alt="Web IPTV"></a>
-<a href="https://bugsfreetv.vercel.app" target="_blank"><img src="https://bugsfreetv.vercel.app/img/logo.png" style="width:auto; height:60px" alt="Web IPTV Player"></a>
+## Architecture
 
-
-## Features
-
-- **Automated Updates**: Runs every 8 hours (approximately 05:30, 13:30, 21:30 IST) via GitHub Actions.
-- **Large Source Handling**: Processes large M3U files efficiently with streaming to minimize memory usage.
-- **Active Link Verification**: Checks links for availability using concurrent requests (50 workers).
-- **Duplicate Removal**: Ensures no duplicate streams (based on URL) are included.
-- **HTML Source Parsing**: Extracts streaming URLs from HTML pages, filtering out non-stream links (e.g., Telegram, GitHub).
-- **Multiple Export Formats**:
-  - `LiveTV.m3u`: Standard M3U playlist.
-  - `LiveTV.txt`: Human-readable text format with detailed channel info.
-  - `LiveTV.json`: Structured JSON with channel metadata.
-  - `LiveTV`: Custom JSON format without extension, designed for easy integration.
-
-## Exported File Formats
-
-### `LiveTV.m3u`
-Standard M3U playlist format:
-```
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/VQVr4Nk.png" group-title="Entertainment",Adventure TV
-http://109.233.89.170/Adventure_HD/index.m3u8
+```text
+Country / category sources
+        ↓
+BugsfreeCore/collector.py
+  M3U · JSON · HTML · M3U8/MPD references
+        ↓
+Normalized channel records
+        ↓
+BugsfreeStreams/validator.py
+  redirects · HLS · DASH · media · health scoring
+        ↓
+Deduplication + active-stream filtering
+        ↓
+JSON · M3U · TXT · app-ready datasets
 ```
 
-### `LiveTV.txt`
-Readable text format:
-```
-Group: Entertainment
-Name: Adventure TV
-URL: http://109.233.89.170/Adventure_HD/index.m3u8
-Logo: https://i.imgur.com/VQVr4Nk.png
-Source: https://example.com/source.m3u
---------------------------------------------------
-```
+## Core components
 
-### `LiveTV.json`
-Structured JSON with timestamp:
-```json
-{
-  "date": "2025-03-25 13:30:00",
-  "channels": {
-    "Entertainment": [
-      {
-        "name": "Adventure TV",
-        "logo": "https://i.imgur.com/VQVr4Nk.png",
-        "group": "Entertainment",
-        "source": "https://example.com/source.m3u",
-        "url": "http://109.233.89.170/Adventure_HD/index.m3u8"
-      }
-    ]
-  }
-}
-```
+### Unified collector
 
-### `LiveTV` (Custom Format)
-Custom JSON list without extension:
-```json
-[
-  {
-    "name": "Adventure TV",
-    "type": "Entertainment",
-    "url": "http://109.233.89.170/Adventure_HD/index.m3u8",
-    "img": "https://i.imgur.com/VQVr4Nk.png"
-  }
-]
-```
+`BugsfreeCore/collector.py` is shared by the country/category collectors. It normalizes URLs and channel metadata, supports M3U/JSON/HTML sources, detects common stream protocols, removes duplicates, and writes the standard country exports.
 
-## Setup Instructions
+Collectors live under `BugsfreeMain/` and use the same core instead of maintaining separate implementations of the parser and validator.
 
-### Prerequisites
-- A GitHub account and repository (`bugsfreeweb/LiveTVCollector`).
-- No local setup required; everything runs via GitHub Actions.
+### Unified health validator
 
-### Steps
-1. **Clone or Fork**:
-   ```bash
-   git clone https://github.com/bugsfreeweb/LiveTVCollector.git
-   cd LiveTVCollector
-   ```
+`BugsfreeStreams/validator.py` scans the generated `LiveTV/*/LiveTV.json` datasets and performs concurrent health checks. It handles redirects and recognizes HLS (`.m3u8`), DASH (`.mpd`), and direct media URLs.
 
-2. **Customize Sources** (Optional):
-   - Edit `BugsfreeMain/Country Name.py` to update the `source_urls` list with additional CountryName-specific M3U sources.
+Health results are written to:
 
-3. **Push Changes**:
-   ```bash
-   git add .
-   git commit -m "Initial setup or source update"
-   git push origin main
-   ```
+- `BugsfreeStreams/Output/health.json` — detailed stream health data.
+- `BugsfreeStreams/Output/active.json` — active streams across countries.
+- `BugsfreeStreams/Output/active.m3u` — active streams as a standard playlist.
+- `BugsfreeStreams/Output/countries/<country>.json` — active streams for one country.
+- `BugsfreeStreams/Output/countries/<country>.m3u` — country playlist.
+- `BugsfreeStreams/Output/countries.json` — country-level summary.
+- `BugsfreeStreams/Output/manifest.json` — machine-readable output manifest.
 
-4. **Verify Workflow**:
-   - Go to the "Actions" tab in your GitHub repository.
-   - The workflow "Country Name LiveTV Files" runs every 8 hours or can be triggered manually.
+`generate_indexes.py` also enriches `LiveTV/index.json` with health summaries when health data is available.
 
-## How It Works
+## Standard country exports
 
-1. **Source Fetching**:
-   - Streams M3U files and parses HTML for streaming URLs.
-   - Uses `requests` with streaming to handle large files.
+Each collector normally writes these files under `LiveTV/<Country>/`:
 
-2. **Processing**:
-   - Removes duplicates based on stream URLs.
-   - Verifies link activity with concurrent HEAD/GET requests (5-second timeout).
+- `LiveTV.json` — structured channel data.
+- `LiveTV.m3u` — standard M3U playlist.
+- `LiveTV.txt` — readable channel listing.
+- `LiveTV` — extensionless JSON export for clients that expect the historical format.
 
-3. **Exporting**:
-   - Saves active, unique channels to four files in `LiveTV/Country Name/`.
+## Supported source formats
 
-4. **Automation**:
-   - GitHub Actions runs `BugsfreeMain/Country Name.py` every 8 hours (UTC: 00:00, 08:00, 16:00 ≈ IST: 05:30, 13:30, 21:30).
-   - Commits and pushes changes automatically using `GITHUB_TOKEN`.
+The shared collector can consume:
 
-## Dependencies
+- M3U / M3U8 playlists
+- JSON channel lists
+- HTML pages containing stream URLs
+- HLS references
+- DASH/MPD references
+- common direct-media URLs
 
-Managed by GitHub Actions:
-- `requests`: For fetching M3U and HTML content.
-- `pytz`: For Mumbai timezone timestamps.
-- `beautifulsoup4`: For HTML parsing.
+Source-specific collectors define their public source URLs in `BugsfreeMain/`.
 
-Installed in the workflow:
+## GitHub Actions
+
+The repository uses GitHub Actions for collection, validation, indexing, and quality checks.
+
+### Unified stream health
+
+`.github/workflows/health-validator.yml` runs the unified validator on a twice-daily schedule and supports manual execution. It uses the `collector-main` concurrency group so generated-data writers do not intentionally run against each other at the same time.
+
+### Repository quality
+
+`.github/workflows/quality.yml` runs on pushes, pull requests, and manual execution. It compiles the Python sources and runs both the collector and validator unit tests.
+
+### Special collection
+
+`SpecialCollection.js` can consume additional public/legal M3U or JSON sources supplied through the `SPECIAL_M3U_URLS` GitHub Actions secret. The scheduled workflow is safe when that secret is absent and simply skips the collection.
+
+### Movies VOD
+
+The optional VOD collector uses the same shared collector infrastructure. Additional source URLs can be supplied through `MOVIES_VOD_SOURCES`. Only sources that are publicly available and legally usable should be configured.
+
+## Local development
+
+Requirements:
+
+- Python 3.11+
+- Node.js 20+ only for the optional SpecialCollection workflow
+- Python dependency: `requests`
+
+Install Python dependencies:
+
 ```bash
-pip install requests pytz beautifulsoup4
+python -m pip install -r requirements.txt
 ```
 
-## Troubleshooting
+Run the quality checks:
 
-- **Empty Files**: Check the Actions logs for errors:
-  - "Error fetching [url]": Source might be down or inaccessible.
-  - "No channels parsed": Verify source format (`#EXTINF:` followed by URL).
-  - "Active channels after filtering: 0": Links may be timing out; increase `timeout` in `check_link_active`.
+```bash
+python -m compileall -q BugsfreeCore BugsfreeMain BugsfreeStreams
+python -m unittest discover -s BugsfreeCore/tests -p 'test_*.py' -v
+python -m unittest discover -s BugsfreeStreams/tests -p 'test_*.py' -v
+```
 
-- **Permissions Error**: Ensure `permissions: contents: write` is in `Country Name.yml`.
+Run a collector directly:
 
-- **Logs**: View detailed logs in the "Actions" tab to diagnose issues.
+```bash
+python BugsfreeMain/TV-Bangladesh.py
+```
+
+Run the unified health validator after country datasets have been generated:
+
+```bash
+python BugsfreeStreams/validator.py
+python generate_indexes.py
+```
+
+## Adding or updating sources
+
+Add or replace source URLs in the relevant collector under `BugsfreeMain/`. Prefer stable, public, legal sources. Avoid putting credentials, private URLs, access tokens, or other secrets in tracked files.
+
+For sources that need credentials or private configuration, use GitHub Actions secrets and keep the tracked configuration empty of sensitive values.
+
+## Data quality notes
+
+A reachable HTTP URL is not automatically a playable stream. The validator therefore treats HLS and DASH manifests differently from ordinary HTTP endpoints and assigns a health score/status based on the probe result.
+
+Transient network failures can occur because of rate limits, geo restrictions, source outages, or upstream changes. Generated health data should therefore be treated as a point-in-time snapshot rather than a permanent guarantee.
 
 ## Contributing
 
-Feel free to:
-- Add more Country Name-specific sources to `BugsfreeMain/CountryName.py`.
-- Suggest improvements via issues or pull requests.
+Useful contributions include:
+
+- adding reliable public/legal sources;
+- improving parser compatibility;
+- improving stream-health detection;
+- adding tests for new source formats;
+- improving app/client export compatibility.
+
+Please avoid committing credentials or private stream URLs.
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE) (add a `LICENSE` file if desired).
+This project is released under the MIT License. See `LICENSE`.
 
 ## Disclaimer
 
-This project is intended solely for educational and research purposes. It aggregates publicly available streaming links from various sources on the internet for convenience and does not host, distribute, or provide any streaming content itself. The maintainers of this repository are not affiliated with the content providers or the streams listed in the exported files.
-
-- **Usage Responsibility**: Users are responsible for ensuring their use of the streaming links complies with local laws and regulations, including copyright and intellectual property rights.
-- **No Warranty**: The links provided are sourced from third-party repositories and may become unavailable or change without notice. This project offers no guarantee regarding the availability, quality, or legality of the streams.
-- **Content Ownership**: All streaming content belongs to its respective owners, and this project does not claim ownership or endorse any specific content.
-
-By using this repository or its generated files, you acknowledge and agree to these terms.
-
-## Usage Policy
-- Personal Use Only: These files are intended for personal, non-commercial use.
-- No Redistribution for Profit: Do not redistribute or sell these files for commercial purposes.
-- Respect Source Terms: Adhere to the terms of service of the original stream providers.
-- Attribution: If you share or use this data, please credit bugsfreeweb/LiveTVCollector.
-- Modification: Feel free to modify the files for personal use, but do not misrepresent them as official or endorsed content.
-
-## Donate the project
-- DOGE: <b>DEtH2yFUjjUEBUyd3scjs38X7S1Z7ee7zD</b>
-- BTC Lightening: <b>bugsfree@speed.app</b>
-- SOL: <b>bugsfree.sol</b>
+This project is an aggregation and research utility. It does not host, transmit, or claim ownership of third-party streaming content. Stream availability, authorization, copyright status, and terms of use belong to the respective source/provider. Users are responsible for complying with applicable law and source terms.
