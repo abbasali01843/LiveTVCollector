@@ -20,14 +20,18 @@ import requests
 
 LOG = logging.getLogger(__name__)
 DEFAULT_LOGO = "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
-HEADERS = {"User-Agent": "LiveTVCollector/2.1 (+https://github.com/abbasali01843/LiveTVCollector)"}
+HEADERS = {"User-Agent": "LiveTVCollector/2.2 (+https://github.com/abbasali01843/LiveTVCollector)"}
+
 
 class _LinkParser(HTMLParser):
     def __init__(self):
-        super().__init__(); self.links: list[str] = []
+        super().__init__()
+        self.links: list[str] = []
+
     def handle_starttag(self, tag, attrs):
         if tag.lower() == "a":
             self.links.extend(v for k, v in attrs if k.lower() == "href" and v)
+
 
 def normalize_url(url: str) -> str:
     url = url.strip()
@@ -38,20 +42,28 @@ def normalize_url(url: str) -> str:
              if k.lower() not in {"utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"}]
     return urlunparse((p.scheme.lower(), p.netloc.lower(), p.path, p.params, urlencode(query), ""))
 
+
 class Collector:
     def __init__(self, country: str, base_dir: str = "LiveTV", check_links: bool = False,
                  max_workers: int = 20, timeout: float = 8):
-        self.country = country; self.output_dir = os.path.join(base_dir, country)
-        self.check_links = check_links; self.max_workers = max_workers; self.timeout = timeout
-        self.channels: list[dict] = []; self._seen: set[str] = set(); self._lock = threading.Lock()
+        self.country = country
+        self.output_dir = os.path.join(base_dir, country)
+        self.check_links = check_links
+        self.max_workers = max_workers
+        self.timeout = timeout
+        self.channels: list[dict] = []
+        self._seen: set[str] = set()
+        self._lock = threading.Lock()
         os.makedirs(self.output_dir, exist_ok=True)
 
     def fetch(self, url: str) -> tuple[str, str]:
         try:
             r = requests.get(url, headers=HEADERS, timeout=self.timeout, allow_redirects=True)
-            r.raise_for_status(); return r.text, r.url
+            r.raise_for_status()
+            return r.text, r.url
         except requests.RequestException as exc:
-            LOG.warning("Fetch failed: %s (%s)", url, exc); return "", url
+            LOG.warning("Fetch failed: %s (%s)", url, exc)
+            return "", url
 
     @staticmethod
     def _attrs(extinf: str) -> dict:
@@ -60,92 +72,136 @@ class Collector:
     def add(self, name: str, url: str, group: str = "Uncategorized", logo: str = DEFAULT_LOGO,
             source: str = "", extra: dict | None = None):
         url = normalize_url(url)
-        if not re.match(r"^https?://", url, re.I): return
+        if not re.match(r"^https?://", url, re.I):
+            return
         with self._lock:
-            if url in self._seen: return
+            if url in self._seen:
+                return
             self._seen.add(url)
             item = {"name": name.strip() or "Unnamed Channel", "url": url,
                     "group": group.strip() or "Uncategorized", "logo": logo or DEFAULT_LOGO,
                     "country": self.country, "source": source}
-            if extra: item.update(extra)
+            if extra:
+                item.update(extra)
             self.channels.append(item)
 
     def parse_m3u(self, text: str, source: str):
         pending = None
         for raw in text.splitlines():
             line = raw.strip()
-            if not line: continue
+            if not line:
+                continue
             if line.startswith("#EXTINF:"):
                 attrs = self._attrs(line)
                 name = line.split(",", 1)[1].strip() if "," in line else "Unnamed Channel"
                 pending = (name, attrs.get("group-title", "Uncategorized"), attrs.get("tvg-logo", DEFAULT_LOGO), attrs)
             elif line.lower().startswith(("http://", "https://")) and pending:
                 name, group, logo, attrs = pending
-                self.add(name, line, group, logo, source, {"attributes": attrs, "type": self.detect_type(line)})
+                self.add(name, line, group, logo, source,
+                         {"attributes": attrs, "type": self.detect_type(line)})
                 pending = None
 
     def parse_json(self, text: str, source: str):
-        try: data = json.loads(text)
-        except (json.JSONDecodeError, TypeError): return False
+        try:
+            data = json.loads(text)
+        except (json.JSONDecodeError, TypeError):
+            return False
         if isinstance(data, dict):
             for key in ("channels", "items", "data", "streams", "results"):
-                if isinstance(data.get(key), list): data = data[key]; break
-        if not isinstance(data, list): return False
+                if isinstance(data.get(key), list):
+                    data = data[key]
+                    break
+        if not isinstance(data, list):
+            return False
         found = False
         for item in data:
-            if not isinstance(item, dict): continue
+            if not isinstance(item, dict):
+                continue
             url = item.get("url") or item.get("stream_url") or item.get("streamUrl") or item.get("link") or item.get("stream")
-            if not isinstance(url, str): continue
+            if not isinstance(url, str):
+                continue
             self.add(str(item.get("name") or item.get("title") or item.get("channel") or "Unnamed Channel"), url,
                      str(item.get("group") or item.get("group-title") or item.get("category") or "Uncategorized"),
-                     str(item.get("logo") or item.get("img") or item.get("tvg-logo") or item.get("image") or DEFAULT_LOGO), source,
-                     {"type": self.detect_type(url)})
+                     str(item.get("logo") or item.get("img") or item.get("tvg-logo") or item.get("image") or DEFAULT_LOGO),
+                     source, {"type": self.detect_type(url)})
             found = True
         return found
 
     def parse_html(self, text: str, source: str):
-        parser = _LinkParser(); parser.feed(text)
+        parser = _LinkParser()
+        parser.feed(text)
         for href in parser.links:
-            url = urljoin(source, href); low = url.lower(); path = urlparse(url).path.lower()
-            if any(x in low for x in ("telegram", "login", "signup")): continue
+            url = urljoin(source, href)
+            low = url.lower()
+            path = urlparse(url).path.lower()
+            if any(x in low for x in ("telegram", "login", "signup")):
+                continue
             if path.endswith((".m3u", ".m3u8", ".mpd", ".mp4", ".ts")) or any(x in low for x in ("playlist", "stream")):
-                self.add(os.path.basename(path) or "Stream", url, "Uncategorized", DEFAULT_LOGO, source, {"type": self.detect_type(url)})
+                self.add(os.path.basename(path) or "Stream", url, "Uncategorized", DEFAULT_LOGO, source,
+                         {"type": self.detect_type(url)})
 
     @staticmethod
     def detect_type(url: str) -> str:
         path = urlparse(url).path.lower()
-        if path.endswith(".m3u8"): return "hls"
-        if path.endswith(".mpd"): return "dash"
-        if path.endswith((".mp4", ".m4v", ".ts", ".mkv", ".webm")): return "media"
+        if path.endswith(".m3u8"):
+            return "hls"
+        if path.endswith(".mpd"):
+            return "dash"
+        if path.endswith((".mp4", ".m4v", ".ts", ".mkv", ".webm")):
+            return "media"
         return "unknown"
 
     def process_sources(self, sources: list[str]):
         for source in sources:
             text, final_url = self.fetch(source)
-            if not text: continue
-            lower = final_url.lower().split("?", 1)[0]; parsed = False
-            if lower.endswith(".json") or text.lstrip().startswith(("{", "[")): parsed = self.parse_json(text, final_url)
-            if not parsed and "#EXTINF" in text[:30000]: self.parse_m3u(text, final_url); parsed = True
-            if not parsed and lower.endswith((".html", ".htm")): self.parse_html(text, final_url)
-            elif not parsed: self.parse_m3u(text, final_url)
-        if self.check_links: self.validate()
+            if not text:
+                continue
+            lower = final_url.lower().split("?", 1)[0]
+            parsed = False
+            if lower.endswith(".json") or text.lstrip().startswith(("{", "[")):
+                parsed = self.parse_json(text, final_url)
+            if not parsed and "#EXTINF" in text[:30000]:
+                self.parse_m3u(text, final_url)
+                parsed = True
+            if not parsed and lower.endswith((".html", ".htm")):
+                self.parse_html(text, final_url)
+            elif not parsed:
+                self.parse_m3u(text, final_url)
+        if self.check_links:
+            self.validate()
         return self.channels
 
     @staticmethod
     def _check(url: str, timeout: float):
         try:
             r = requests.head(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
-            if r.status_code < 400: return True, r.url, r.status_code, (r.headers.get("content-type") or "")
-        except requests.RequestException: pass
+            if r.status_code < 400:
+                ct = (r.headers.get("content-type") or "").lower()
+                return True, r.url, r.status_code, ct
+        except requests.RequestException:
+            pass
+
         try:
             with requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True, stream=True) as r:
-                if r.status_code >= 400: return False, r.url, r.status_code, (r.headers.get("content-type") or "")
                 ct = (r.headers.get("content-type") or "").lower()
+                if r.status_code >= 400:
+                    return False, r.url, r.status_code, ct
                 if url.lower().split("?", 1)[0].endswith(".m3u8"):
-                    sample = next(r.iter_lines(), b"")
-                    return b"#EXTM3U" in sample.upper() or "mpegurl" in ct, r.url, r.status_code, ct
+                    sample_lines = []
+                    for line in r.iter_lines(decode_unicode=False):
+                        if line:
+                            sample_lines.append(line[:4096])
+                        if len(sample_lines) >= 12:
+                            break
+                    manifest = b"\n".join(sample_lines).upper()
+                    return b"#EXTM3U" in manifest or "mpegurl" in ct, r.url, r.status_code, ct
+                if url.lower().split("?", 1)[0].endswith(".mpd"):
+                    chunk = next(r.iter_content(chunk_size=16384), b"")
+                    valid = b"<MPD" in chunk or b":MPD" in chunk
+                    return valid or "dash" in ct, r.url, r.status_code, ct
                 return True, r.url, r.status_code, ct
-        except requests.RequestException: return False, url, 0, ""
+        except requests.RequestException:
+            return False, url, 0, ""
 
     def validate(self):
         kept = []
@@ -156,19 +212,30 @@ class Collector:
                 try:
                     ok, final_url, status, ct = future.result()
                     if ok:
-                        ch["url"] = normalize_url(final_url); ch["status"] = "active"; ch["http_status"] = status
-                        ch["content_type"] = ct; kept.append(ch)
-                except Exception as exc: LOG.debug("Validation error for %s: %s", ch["url"], exc)
-        self.channels = kept; return kept
+                        ch["url"] = normalize_url(final_url)
+                        ch["status"] = "active"
+                        ch["http_status"] = status
+                        ch["content_type"] = ct
+                        kept.append(ch)
+                except Exception as exc:
+                    LOG.debug("Validation error for %s: %s", ch["url"], exc)
+        self.channels = kept
+        return kept
 
     def export(self):
-        grouped = defaultdict(list); now = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-        for ch in self.channels: grouped[ch["group"]].append(ch)
+        grouped = defaultdict(list)
+        now = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+        for ch in self.channels:
+            grouped[ch["group"]].append(ch)
         payload = {"updated": now, "country": self.country, "count": len(self.channels), "channels": dict(grouped)}
-        with open(os.path.join(self.output_dir, "LiveTV.json"), "w", encoding="utf-8") as f: json.dump(payload, f, ensure_ascii=False, indent=2)
-        with open(os.path.join(self.output_dir, "LiveTV"), "w", encoding="utf-8") as f: json.dump(self.channels, f, ensure_ascii=False, indent=2)
+        with open(os.path.join(self.output_dir, "LiveTV.json"), "w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, indent=2)
+        with open(os.path.join(self.output_dir, "LiveTV"), "w", encoding="utf-8") as f:
+            json.dump(self.channels, f, ensure_ascii=False, indent=2)
         with open(os.path.join(self.output_dir, "LiveTV.m3u"), "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
-            for ch in self.channels: f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}\n{ch["url"]}\n')
+            for ch in self.channels:
+                f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="{ch["group"]}",{ch["name"]}\n{ch["url"]}\n')
         with open(os.path.join(self.output_dir, "LiveTV.txt"), "w", encoding="utf-8") as f:
-            for ch in self.channels: f.write(f'{ch["name"]} | {ch["group"]} | {ch["url"]}\n')
+            for ch in self.channels:
+                f.write(f'{ch["name"]} | {ch["group"]} | {ch["url"]}\n')
