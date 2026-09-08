@@ -2,39 +2,37 @@ name: Special Collection M3U Links
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: collector-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   collect-m3u:
     runs-on: ubuntu-latest
-
     steps:
-      # Checkout the repository
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      # Set up Node.js
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
-      # Install dependencies
-      - name: Install dependencies
-        run: npm install undici m3u8-parser js-yaml p-limit
-
-      # Run the M3U collection script
-      - name: Run M3U collection script
+      - name: Run special collection
+        env:
+          SPECIAL_M3U_URLS: ${{ secrets.SPECIAL_M3U_URLS }}
         run: node SpecialCollection.js
 
-      # Commit and push the generated files
-      - name: Commit and push changes
+      - name: Commit and push generated links
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add SpecialLinks/
-          git commit -m "Update SpecialLinks files with active M3U links (grouped by category)" || echo "No changes to commit"
+          git diff --cached --quiet || git commit -m "Update SpecialLinks collection"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
