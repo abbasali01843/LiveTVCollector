@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import concurrent.futures
 import json
+import threading
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -13,9 +14,22 @@ import requests
 ROOT = Path("LiveTV")
 OUT = Path("BugsfreeStreams/Output")
 TIMEOUT = 6
+HEAD_TIMEOUT = 4
 WORKERS = 32
-HEADERS = {"User-Agent": "LiveTVCollector-Health/1.5"}
+HEADERS = {"User-Agent": "LiveTVCollector-Health/1.6", "Accept": "*/*"}
 TRACKING_PARAMS = {"utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"}
+TRANSIENT_STATUSES = {408, 425, 429, 500, 502, 503, 504}
+_thread_local = threading.local()
+
+
+def session() -> requests.Session:
+    """Reuse HTTP connections independently in each worker thread."""
+    value = getattr(_thread_local, "session", None)
+    if value is None:
+        value = requests.Session()
+        value.headers.update(HEADERS)
+        _thread_local.session = value
+    return value
 
 
 def normalize_url(url: str) -> str:
@@ -23,9 +37,14 @@ def normalize_url(url: str) -> str:
     p = urlparse(url)
     if not p.scheme or not p.netloc:
         return url
-    query = [(k, v) for k, v in parse_qsl(p.query, keep_blank_values=True)
-             if k.lower() not in TRACKING_PARAMS]
-    return urlunparse((p.scheme.lower(), p.netloc.lower(), p.path, p.params, urlencode(query), ""))
+    query = [
+        (k, v)
+        for k, v in parse_qsl(p.query, keep_blank_values=True)
+        if k.lower() not in TRACKING_PARAMS
+    ]
+    return urlunparse(
+        (p.scheme.lower(), p.netloc.lower(), p.path, p.params, urlencode(query), "")
+    )
 
 
 def protocol(url: str, content_type: str = "") -> str:
@@ -40,7 +59,12 @@ def protocol(url: str, content_type: str = "") -> str:
     return "unknown"
 
 
-def score(status: str, proto: str, redirected: bool = False, segment_ok: bool | None = None) -> int:
+def score(
+    status: str,
+    proto: str,
+    redirected: bool = False,
+    segment_ok: bool | None = None,
+) -> int:
     if status == "active":
         value = 100 if proto in {"hls", "dash", "media"} else 80
         if segment_ok is False:
@@ -56,14 +80,16 @@ def score(status: str, proto: str, redirected: bool = False, segment_ok: bool | 
 
 
 def probe_hls(response) -> tuple[bool, str | None]:
+    """Validate the playlist header and return a sample child/segment URI."""
     try:
         lines = []
         for raw in response.iter_lines():
             if raw:
                 lines.append(raw)
-            if len(lines) >= 40:
+            if len(lines) >= 64:
                 break
-        if b"#EXTM3U" not in b"\n".join(lines).upper():
+        blob = b"\n".join(lines).upper()
+        if b"#EXTM3U" not in blob:
             return False, None
         for raw in lines:
             line = raw.decode("utf-8", errors="ignore").strip()
@@ -75,78 +101,136 @@ def probe_hls(response) -> tuple[bool, str | None]:
 
 
 def probe_segment(url: str) -> bool:
+    """Read a small amount of the sample URI so reachability means data, not only 200."""
     if not url:
         return False
     try:
-        with requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True, stream=True) as r:
-            return r.status_code < 400 and bool(next(r.iter_content(chunk_size=2048), b""))
+        with session().get(url, timeout=TIMEOUT, allow_redirects=True, stream=True) as r:
+            if r.status_code >= 400:
+                return False
+            chunk = next(r.iter_content(chunk_size=2048), b"")
+            return bool(chunk)
     except requests.RequestException:
         return False
+
+
+def probe_hls_sample(url: str, depth: int = 0) -> bool:
+    """Validate either a media segment or one nested HLS playlist."""
+    if not url:
+        return False
+    if depth > 1:
+        return probe_segment(url)
+    try:
+        with session().get(url, timeout=TIMEOUT, allow_redirects=True, stream=True) as r:
+            if r.status_code >= 400:
+                return False
+            proto = protocol(r.url, r.headers.get("content-type", ""))
+            if proto != "hls":
+                return bool(next(r.iter_content(chunk_size=2048), b""))
+            ok, child = probe_hls(r)
+            if not ok:
+                return False
+            if child:
+                return probe_hls_sample(child, depth + 1)
+            return True
+    except requests.RequestException:
+        return False
+
+
+def _apply_response(result: dict, response) -> None:
+    result.update(
+        http_status=response.status_code,
+        final_url=normalize_url(response.url),
+        redirected=normalize_url(response.url) != result["url"],
+        protocol=protocol(response.url, response.headers.get("content-type", "")),
+    )
+
+
+def _get_once(url: str):
+    return session().get(url, timeout=TIMEOUT, allow_redirects=True, stream=True)
 
 
 def probe(channel: dict) -> dict:
     url = normalize_url(channel.get("url", ""))
     result = {
-        "name": channel.get("name", "Unnamed Channel"), "url": url,
-        "country": channel.get("country", ""), "group": channel.get("group", "Uncategorized"),
-        "logo": channel.get("logo", ""), "source": channel.get("source", ""),
-        "status": "unknown", "protocol": protocol(url), "http_status": None,
-        "final_url": url, "redirected": False, "score": 0,
+        "name": channel.get("name", "Unnamed Channel"),
+        "url": url,
+        "country": channel.get("country", ""),
+        "group": channel.get("group", "Uncategorized"),
+        "logo": channel.get("logo", ""),
+        "source": channel.get("source", ""),
+        "status": "unknown",
+        "protocol": protocol(url),
+        "http_status": None,
+        "final_url": url,
+        "redirected": False,
+        "score": 0,
     }
     if not url.startswith(("http://", "https://")):
         result["status"] = "invalid"
         return result
+
+    # HEAD is cheap, but many streaming hosts reject it. A timeout must also fall
+    # through to GET rather than immediately classifying a reachable stream as dead.
     try:
-        r = requests.head(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True)
-        result.update(
-            http_status=r.status_code,
-            final_url=normalize_url(r.url),
-            redirected=normalize_url(r.url) != url,
-            protocol=protocol(r.url, r.headers.get("content-type", "")),
-        )
+        r = session().head(url, timeout=HEAD_TIMEOUT, allow_redirects=True)
+        _apply_response(result, r)
         if r.status_code in (401, 403, 451):
             result["status"] = "geo_or_restricted"
             result["score"] = score(result["status"], result["protocol"])
             return result
-        if 200 <= r.status_code < 400 and result["protocol"] not in {"hls", "dash"}:
+        if 200 <= r.status_code < 400 and result["protocol"] not in {"hls", "dash", "media"}:
             result["status"] = "active"
             result["score"] = score("active", result["protocol"], result["redirected"])
             return result
-    except requests.Timeout:
-        result["status"] = "timeout"
-        result["score"] = score("timeout", result["protocol"])
-        return result
     except requests.RequestException:
         pass
-    try:
-        with requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True, stream=True) as r:
-            result.update(
-                http_status=r.status_code,
-                final_url=normalize_url(r.url),
-                redirected=normalize_url(r.url) != url,
-                protocol=protocol(r.url, r.headers.get("content-type", "")),
-            )
-            if r.status_code in (401, 403, 451):
-                result["status"] = "geo_or_restricted"
-            elif 200 <= r.status_code < 400:
-                if result["protocol"] == "hls":
-                    ok, segment = probe_hls(r)
-                    result.update(manifest_ok=ok, sample_segment=segment)
-                    result["segment_ok"] = probe_segment(segment) if ok and segment else None
-                    result["status"] = "active" if ok and result["segment_ok"] is not False else "unknown"
-                elif result["protocol"] == "dash":
-                    chunk = next(r.iter_content(chunk_size=16384), b"")
-                    result["manifest_ok"] = b"<MPD" in chunk or b":MPD" in chunk
-                    result["status"] = "active" if result["manifest_ok"] else "unknown"
+
+    # GET is authoritative for HLS/DASH and is the fallback for HEAD failures.
+    for attempt in range(2):
+        try:
+            with _get_once(url) as r:
+                _apply_response(result, r)
+                if r.status_code in (401, 403, 451):
+                    result["status"] = "geo_or_restricted"
+                elif r.status_code in TRANSIENT_STATUSES and attempt == 0:
+                    continue
+                elif 200 <= r.status_code < 400:
+                    if result["protocol"] == "hls":
+                        ok, sample = probe_hls(r)
+                        result.update(manifest_ok=ok, sample_segment=sample)
+                        result["segment_ok"] = probe_hls_sample(sample) if ok and sample else None
+                        if not ok:
+                            result["status"] = "unknown"
+                        elif sample:
+                            result["status"] = "active" if result["segment_ok"] else "unknown"
+                        else:
+                            # A valid master/media playlist without a sample URI is
+                            # useful but cannot be fully stream-probed.
+                            result["status"] = "active"
+                    elif result["protocol"] == "dash":
+                        chunk = next(r.iter_content(chunk_size=65536), b"")
+                        text = chunk.decode("utf-8", errors="ignore").lstrip("\ufeff \t\r\n")
+                        result["manifest_ok"] = "<MPD" in text.upper()
+                        result["status"] = "active" if result["manifest_ok"] else "unknown"
+                    else:
+                        content_type = r.headers.get("content-type", "").lower()
+                        chunk = next(r.iter_content(chunk_size=2048), b"")
+                        looks_html = "text/html" in content_type or chunk.lstrip().lower().startswith((b"<!doctype html", b"<html"))
+                        result["status"] = "unknown" if looks_html or not chunk else "active"
                 else:
-                    result["status"] = "active"
-            else:
-                result["status"] = "down"
-    except requests.Timeout:
-        result["status"] = "timeout"
-    except requests.RequestException:
-        result["status"] = "down"
-    result["score"] = score(result["status"], result["protocol"], result["redirected"], result.get("segment_ok"))
+                    result["status"] = "down"
+                break
+        except requests.Timeout:
+            if attempt == 0:
+                continue
+            result["status"] = "timeout"
+        except requests.RequestException:
+            result["status"] = "down"
+
+    result["score"] = score(
+        result["status"], result["protocol"], result["redirected"], result.get("segment_ok")
+    )
     return result
 
 
@@ -184,6 +268,27 @@ def compact_channel(item: dict) -> dict:
     }
 
 
+def _safe_country_name(country: str, used: set[str]) -> str:
+    base = "".join(c if c.isalnum() or c in "-_" else "_" for c in country).strip("_") or "Unknown"
+    name = base
+    index = 2
+    while name in used:
+        name = f"{base}_{index}"
+        index += 1
+    used.add(name)
+    return name
+
+
+def _write_m3u(path: Path, channels: list[dict]) -> None:
+    with path.open("w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n")
+        for ch in channels:
+            logo = ch["logo"].replace("\\", "\\\\").replace('"', "&quot;")
+            group = ch["group"].replace("\\", "\\\\").replace('"', "&quot;")
+            name = ch["name"].replace("\n", " ").replace("\r", " ")
+            f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{name}\n{ch["url"]}\n')
+
+
 def write_app_exports(results: list[dict], checked_at: str) -> None:
     active = [x for x in results if x["status"] == "active"]
     OUT.mkdir(parents=True, exist_ok=True)
@@ -192,13 +297,7 @@ def write_app_exports(results: list[dict], checked_at: str) -> None:
         json.dumps({"version": 1, "updated": checked_at, "count": len(compact_active), "channels": compact_active}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    with (OUT / "active.m3u").open("w", encoding="utf-8") as f:
-        f.write("#EXTM3U\n")
-        for ch in compact_active:
-            logo = ch["logo"].replace('"', "&quot;")
-            group = ch["group"].replace('"', "&quot;")
-            name = ch["name"].replace("\n", " ").replace("\r", " ")
-            f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{name}\n{ch["url"]}\n')
+    _write_m3u(OUT / "active.m3u", compact_active)
 
     by_country = defaultdict(list)
     for item in results:
@@ -206,29 +305,29 @@ def write_app_exports(results: list[dict], checked_at: str) -> None:
     countries = {}
     country_dir = OUT / "countries"
     country_dir.mkdir(parents=True, exist_ok=True)
+    used_names: set[str] = set()
     for country, items in sorted(by_country.items()):
         counts = defaultdict(int)
         for item in items:
             counts[item.get("status", "unknown")] += 1
         country_active = [compact_channel(x) for x in items if x.get("status") == "active"]
         summary = {
-            "total": len(items), "active": counts["active"], "geo_or_restricted": counts["geo_or_restricted"],
-            "down": counts["down"], "timeout": counts["timeout"], "unknown": counts["unknown"], "invalid": counts["invalid"],
+            "total": len(items),
+            "active": counts["active"],
+            "geo_or_restricted": counts["geo_or_restricted"],
+            "down": counts["down"],
+            "timeout": counts["timeout"],
+            "unknown": counts["unknown"],
+            "invalid": counts["invalid"],
             "average_score": round(sum(x.get("score", 0) for x in items) / len(items), 2) if items else 0,
         }
         countries[country] = summary
-        safe_name = "".join(c if c.isalnum() or c in "-_" else "_" for c in country).strip("_") or "Unknown"
+        safe_name = _safe_country_name(country, used_names)
         (country_dir / f"{safe_name}.json").write_text(
             json.dumps({"version": 1, "updated": checked_at, "country": country, "count": len(country_active), "health": summary, "channels": country_active}, ensure_ascii=False, indent=2),
             encoding="utf-8",
         )
-        with (country_dir / f"{safe_name}.m3u").open("w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
-            for ch in country_active:
-                logo = ch["logo"].replace('"', "&quot;")
-                group = ch["group"].replace('"', "&quot;")
-                name = ch["name"].replace("\n", " ").replace("\r", " ")
-                f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{name}\n{ch["url"]}\n')
+        _write_m3u(country_dir / f"{safe_name}.m3u", country_active)
     (OUT / "countries.json").write_text(
         json.dumps({"version": 1, "updated": checked_at, "countries": countries}, ensure_ascii=False, indent=2),
         encoding="utf-8",
