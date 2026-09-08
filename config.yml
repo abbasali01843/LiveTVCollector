@@ -1,22 +1,14 @@
-# config.yml
+# Configuration for SpecialCollection.
+#
+# IMPORTANT: source URLs must not be stored in this tracked file.
+# Supply them through the GitHub Actions secret SPECIAL_M3U_URLS as a
+# newline- or comma-separated list of public/legal M3U/M3U8/JSON URLs.
 settings:
-  concurrency: 50  # High concurrency for faster processing
-  fetchTimeout: 3000  # Timeout for fetching M3U files
-  linkCheckTimeout: 2000  # Timeout for checking link activity
-  batchSize: 100  # Number of links to check in a single batch
-  outputDirPrefix: SpecialLinks  # Base name for output directories/files
-  channelsPerFile: 2000  # Maximum number of channels per file
+  concurrency: 24
+  fetchTimeout: 8000
+  linkCheckTimeout: 5000
+  batchSize: 100
+  outputDirPrefix: SpecialLinks
+  channelsPerFile: 2000
 
-urls:
-#- http://bt.618453.xyz:80/get.php?username=kamuranaslan@@&password=4548548541@@&type=m3u_plus
-#- http://magiz.net:8080/get.php?username=paul&password=paul&type=m3u&output=ts
-#- http://nocable.cc:8080/get.php?username=michellebrath@hotmail.com&password=dmNeFwzj6v&type=m3u_plus
-#- http://op.web24.live:8080/get.php?username=recycle_n24&password=network24_selfrestream&type=m3u_plus
-#- http://fortv.cc:8080/get.php?username=3017851038&password=JACKWES2001@GMAIL.COM&type=m3u
-- http://fortv.cc:8080/get.php?username=futrellconsulting@gmail.com&password=9u3djjNr02&type=m3u_plus
-#- http://hardcoremedia.xyz/get.php?username=ymgiaxkw&password=5Hr5ZQuVfU&type=m3u
-#- http://vipvodle.top:8080/get.php?username=VOD2121741705273004&password=841cd28c1f31&type=m3u
-#- http://fastream.xyz:8080/get.php?username=82526697&password=23082022&type=m3u&output=mpegts
-#- http://live.iptvtotaal.com:8000/get.php?username=513463512215&password=814362424133&type=m3u&output=mpegts
-
-# Add more URLs here (up to 100)
+urls: []
