@@ -1,9 +1,83 @@
-[
-  "Bollywood",
-  "Hollywood",
-  "Private",
-  "SecretWorld",
-  "VOD",
-  "WorldCollection",
-  "Worldwide"
-]
+{
+  "updated": "2026-09-08T14:54:56Z",
+  "count": 7,
+  "items": [
+    {
+      "name": "Bollywood",
+      "count": 1,
+      "path": "Bollywood",
+      "files": [
+        "Movies",
+        "Movies.json",
+        "Movies.m3u",
+        "Movies.txt"
+      ]
+    },
+    {
+      "name": "Hollywood",
+      "count": 584,
+      "path": "Hollywood",
+      "files": [
+        "Movies",
+        "Movies.json",
+        "Movies.m3u",
+        "Movies.txt"
+      ]
+    },
+    {
+      "name": "Private",
+      "count": 26525,
+      "path": "Private",
+      "files": [
+        "Movies",
+        "Movies.json",
+        "Movies.m3u",
+        "Movies.txt"
+      ]
+    },
+    {
+      "name": "SecretWorld",
+      "count": 12322,
+      "path": "SecretWorld",
+      "files": [
+        "Movies",
+        "Movies.json",
+        "Movies.m3u",
+        "Movies.txt"
+      ]
+    },
+    {
+      "name": "VOD",
+      "count": 0,
+      "path": "VOD",
+      "files": [
+        "Movies",
+        "Movies.json",
+        "Movies.m3u",
+        "Movies.txt"
+      ]
+    },
+    {
+      "name": "WorldCollection",
+      "count": 24,
+      "path": "WorldCollection",
+      "files": [
+        "Movies",
+        "Movies.json",
+        "Movies.m3u",
+        "Movies.txt"
+      ]
+    },
+    {
+      "name": "Worldwide",
+      "count": 653,
+      "path": "Worldwide",
+      "files": [
+        "Movies",
+        "Movies.json",
+        "Movies.m3u",
+        "Movies.txt"
+      ]
+    }
+  ]
+}

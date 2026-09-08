@@ -1,32 +1,644 @@
-[
-  "Arabic",
-  "Bahrain",
-  "Bangladesh",
-  "Brazil",
-  "Canada",
-  "China",
-  "Collection",
-  "Egypt",
-  "France",
-  "India",
-  "Indonesia",
-  "Israel",
-  "Italy",
-  "Malaysia",
-  "Mexico",
-  "Mixed",
-  "Nepal",
-  "Pakistan",
-  "Peru",
-  "Portugal",
-  "Russia",
-  "Spain",
-  "SpecialExcess",
-  "Thailand",
-  "Turkey",
-  "UK",
-  "USA",
-  "Venezuela",
-  "Vietnam",
-  "Worldwide"
-]
+{
+  "updated": "2026-09-08T14:54:55Z",
+  "count": 30,
+  "items": [
+    {
+      "name": "Arabic",
+      "count": 356,
+      "path": "Arabic",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 171,
+        "active": 135,
+        "geo_or_restricted": 15,
+        "down": 19,
+        "timeout": 1,
+        "unknown": 1,
+        "invalid": 0,
+        "average_score": 81.2,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Bahrain",
+      "count": 4,
+      "path": "Bahrain",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ]
+    },
+    {
+      "name": "Bangladesh",
+      "count": 1665,
+      "path": "Bangladesh",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 1562,
+        "active": 621,
+        "geo_or_restricted": 144,
+        "down": 771,
+        "timeout": 16,
+        "unknown": 10,
+        "invalid": 0,
+        "average_score": 42.13,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Brazil",
+      "count": 551,
+      "path": "Brazil",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 123,
+        "active": 116,
+        "geo_or_restricted": 2,
+        "down": 4,
+        "timeout": 1,
+        "unknown": 0,
+        "invalid": 0,
+        "average_score": 90.53,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Canada",
+      "count": 259,
+      "path": "Canada",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 155,
+        "active": 144,
+        "geo_or_restricted": 1,
+        "down": 9,
+        "timeout": 1,
+        "unknown": 0,
+        "invalid": 0,
+        "average_score": 90.45,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "China",
+      "count": 2277,
+      "path": "China",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 2185,
+        "active": 858,
+        "geo_or_restricted": 115,
+        "down": 586,
+        "timeout": 603,
+        "unknown": 23,
+        "invalid": 0,
+        "average_score": 42.83,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Collection",
+      "count": 377,
+      "path": "Collection",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 339,
+        "active": 149,
+        "geo_or_restricted": 11,
+        "down": 7,
+        "timeout": 172,
+        "unknown": 0,
+        "invalid": 0,
+        "average_score": 49.01,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Egypt",
+      "count": 189,
+      "path": "Egypt",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 45,
+        "active": 12,
+        "geo_or_restricted": 11,
+        "down": 18,
+        "timeout": 0,
+        "unknown": 4,
+        "invalid": 0,
+        "average_score": 34.0,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "France",
+      "count": 215,
+      "path": "France",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 156,
+        "active": 122,
+        "geo_or_restricted": 27,
+        "down": 5,
+        "timeout": 2,
+        "unknown": 0,
+        "invalid": 0,
+        "average_score": 80.42,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "India",
+      "count": 749,
+      "path": "India",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 617,
+        "active": 374,
+        "geo_or_restricted": 17,
+        "down": 96,
+        "timeout": 104,
+        "unknown": 26,
+        "invalid": 0,
+        "average_score": 63.57,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Indonesia",
+      "count": 5477,
+      "path": "Indonesia",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 5073,
+        "active": 1399,
+        "geo_or_restricted": 695,
+        "down": 2523,
+        "timeout": 278,
+        "unknown": 178,
+        "invalid": 0,
+        "average_score": 30.0,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Israel",
+      "count": 1786,
+      "path": "Israel",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 1686,
+        "active": 768,
+        "geo_or_restricted": 173,
+        "down": 523,
+        "timeout": 215,
+        "unknown": 7,
+        "invalid": 0,
+        "average_score": 42.24,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Italy",
+      "count": 911,
+      "path": "Italy",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 706,
+        "active": 213,
+        "geo_or_restricted": 425,
+        "down": 48,
+        "timeout": 14,
+        "unknown": 6,
+        "invalid": 0,
+        "average_score": 44.84,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Malaysia",
+      "count": 20,
+      "path": "Malaysia",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 10,
+        "active": 1,
+        "geo_or_restricted": 3,
+        "down": 1,
+        "timeout": 5,
+        "unknown": 0,
+        "invalid": 0,
+        "average_score": 20.0,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Mexico",
+      "count": 313,
+      "path": "Mexico",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 147,
+        "active": 114,
+        "geo_or_restricted": 9,
+        "down": 20,
+        "timeout": 3,
+        "unknown": 1,
+        "invalid": 0,
+        "average_score": 79.08,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Mixed",
+      "count": 2413,
+      "path": "Mixed",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 607,
+        "active": 327,
+        "geo_or_restricted": 174,
+        "down": 76,
+        "timeout": 26,
+        "unknown": 4,
+        "invalid": 0,
+        "average_score": 59.34,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Nepal",
+      "count": 21,
+      "path": "Nepal",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 11,
+        "active": 9,
+        "geo_or_restricted": 1,
+        "down": 0,
+        "timeout": 1,
+        "unknown": 0,
+        "invalid": 0,
+        "average_score": 85.0,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Pakistan",
+      "count": 103,
+      "path": "Pakistan",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 78,
+        "active": 31,
+        "geo_or_restricted": 0,
+        "down": 5,
+        "timeout": 42,
+        "unknown": 0,
+        "invalid": 0,
+        "average_score": 45.13,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Peru",
+      "count": 422,
+      "path": "Peru",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 347,
+        "active": 244,
+        "geo_or_restricted": 26,
+        "down": 55,
+        "timeout": 15,
+        "unknown": 7,
+        "invalid": 0,
+        "average_score": 72.59,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Portugal",
+      "count": 1350,
+      "path": "Portugal",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 1276,
+        "active": 1113,
+        "geo_or_restricted": 29,
+        "down": 99,
+        "timeout": 29,
+        "unknown": 6,
+        "invalid": 0,
+        "average_score": 86.43,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Russia",
+      "count": 2366,
+      "path": "Russia",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 2237,
+        "active": 1169,
+        "geo_or_restricted": 95,
+        "down": 550,
+        "timeout": 382,
+        "unknown": 41,
+        "invalid": 0,
+        "average_score": 54.26,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Spain",
+      "count": 9190,
+      "path": "Spain",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 9190,
+        "active": 3417,
+        "geo_or_restricted": 851,
+        "down": 3613,
+        "timeout": 1072,
+        "unknown": 237,
+        "invalid": 0,
+        "average_score": 40.74,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "SpecialExcess",
+      "count": 0,
+      "path": "SpecialExcess",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ]
+    },
+    {
+      "name": "Thailand",
+      "count": 204,
+      "path": "Thailand",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 151,
+        "active": 61,
+        "geo_or_restricted": 65,
+        "down": 10,
+        "timeout": 9,
+        "unknown": 6,
+        "invalid": 0,
+        "average_score": 51.03,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Turkey",
+      "count": 5168,
+      "path": "Turkey",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 5081,
+        "active": 178,
+        "geo_or_restricted": 28,
+        "down": 4141,
+        "timeout": 723,
+        "unknown": 11,
+        "invalid": 0,
+        "average_score": 4.86,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "UK",
+      "count": 311,
+      "path": "UK",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 208,
+        "active": 140,
+        "geo_or_restricted": 49,
+        "down": 8,
+        "timeout": 6,
+        "unknown": 5,
+        "invalid": 0,
+        "average_score": 71.83,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "USA",
+      "count": 5656,
+      "path": "USA",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 4996,
+        "active": 3071,
+        "geo_or_restricted": 131,
+        "down": 1490,
+        "timeout": 232,
+        "unknown": 72,
+        "invalid": 0,
+        "average_score": 57.35,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Venezuela",
+      "count": 131,
+      "path": "Venezuela",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 64,
+        "active": 40,
+        "geo_or_restricted": 2,
+        "down": 17,
+        "timeout": 3,
+        "unknown": 2,
+        "invalid": 0,
+        "average_score": 64.14,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Vietnam",
+      "count": 212,
+      "path": "Vietnam",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 204,
+        "active": 81,
+        "geo_or_restricted": 53,
+        "down": 62,
+        "timeout": 7,
+        "unknown": 1,
+        "invalid": 0,
+        "average_score": 44.83,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    },
+    {
+      "name": "Worldwide",
+      "count": 1979,
+      "path": "Worldwide",
+      "files": [
+        "LiveTV",
+        "LiveTV.json",
+        "LiveTV.m3u",
+        "LiveTV.txt"
+      ],
+      "health": {
+        "checked": 1302,
+        "active": 377,
+        "geo_or_restricted": 73,
+        "down": 59,
+        "timeout": 783,
+        "unknown": 10,
+        "invalid": 0,
+        "average_score": 36.47,
+        "checked_at": "2026-09-08T14:54:48Z"
+      }
+    }
+  ]
+}
