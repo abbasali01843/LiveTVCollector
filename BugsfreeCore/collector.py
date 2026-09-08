@@ -171,41 +171,6 @@ class Collector:
             self.validate()
         return self.channels
 
-    @staticmethod
-    def _probe_hls_segment(response, manifest_url: str, timeout: float) -> tuple[bool, str]:
-        lines = []
-        for raw in response.iter_lines(decode_unicode=True):
-            line = (raw or "").strip()
-            if line and not line.startswith("#"):
-                lines.append(line)
-                if len(lines) >= 1:
-                    break
-        if not lines:
-            return True, ""
-        segment_url = urljoin(manifest_url, lines[0])
-        try:
-            with requests.get(segment_url, headers=HEADERS, timeout=timeout, allow_redirects=True,
-                              stream=True, headers_extra=None) as segment:
-                if segment.status_code >= 400:
-                    return False, segment_url
-                chunk = next(segment.iter_content(chunk_size=2048), b"")
-                if not chunk:
-                    return False, segment_url
-                return True, segment_url
-        except TypeError:
-            # Compatibility fallback for requests versions that reject the extra kwarg above.
-            try:
-                with requests.get(segment_url, headers=HEADERS, timeout=timeout, allow_redirects=True,
-                                  stream=True) as segment:
-                    if segment.status_code >= 400:
-                        return False, segment_url
-                    chunk = next(segment.iter_content(chunk_size=2048), b"")
-                    return bool(chunk), segment_url
-            except requests.RequestException:
-                return False, segment_url
-        except requests.RequestException:
-            return False, segment_url
-
     @classmethod
     def _check(cls, url: str, timeout: float):
         try:
@@ -254,8 +219,6 @@ class Collector:
         manifest = b"\n".join(sample_lines).upper()
         if not (b"#EXTM3U" in manifest or "mpegurl" in ct):
             return False, r.url, r.status_code, ct
-        # A manifest-only success is useful, but probe one media/child playlist
-        # when an ordinary URI is present to catch stale HLS manifests.
         segment = next((x.decode("utf-8", "ignore").strip() for x in sample_lines
                         if not x.startswith(b"#") and x.strip()), "")
         if not segment:
