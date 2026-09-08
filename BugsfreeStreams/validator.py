@@ -13,7 +13,7 @@ ROOT = Path("LiveTV")
 OUT = Path("BugsfreeStreams/Output")
 TIMEOUT = 6
 WORKERS = 32
-HEADERS = {"User-Agent": "LiveTVCollector-Health/1.1"}
+HEADERS = {"User-Agent": "LiveTVCollector-Health/1.2"}
 
 
 def protocol(url: str, content_type: str = "") -> str:
@@ -28,9 +28,11 @@ def protocol(url: str, content_type: str = "") -> str:
     return "unknown"
 
 
-def score(status: str, proto: str, redirected: bool = False) -> int:
+def score(status: str, proto: str, redirected: bool = False, segment_ok: bool | None = None) -> int:
     if status == "active":
         value = 100 if proto in {"hls", "dash", "media"} else 80
+        if segment_ok is False:
+            value -= 35
         return max(0, value - (5 if redirected else 0))
     if status == "geo_or_restricted": return 25
     if status == "timeout": return 10
@@ -38,18 +40,34 @@ def score(status: str, proto: str, redirected: bool = False) -> int:
     return 15
 
 
-def probe_hls(url: str, response) -> tuple[bool, str | None]:
+def probe_hls(response) -> tuple[bool, str | None]:
     try:
-        sample = b"\n".join(list(response.iter_lines())[:40])
+        lines = []
+        for raw in response.iter_lines():
+            if raw:
+                lines.append(raw)
+            if len(lines) >= 40:
+                break
+        sample = b"\n".join(lines)
         if b"#EXTM3U" not in sample.upper():
             return False, None
-        for raw in sample.splitlines():
+        for raw in lines:
             line = raw.decode("utf-8", errors="ignore").strip()
-            if not line or line.startswith("#"): continue
-            return True, urljoin(response.url, line)
+            if line and not line.startswith("#"):
+                return True, urljoin(response.url, line)
         return True, None
     except requests.RequestException:
         return False, None
+
+
+def probe_segment(url: str) -> bool:
+    try:
+        with requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True, stream=True) as r:
+            if r.status_code >= 400:
+                return False
+            return bool(next(r.iter_content(chunk_size=2048), b""))
+    except requests.RequestException:
+        return False
 
 
 def probe(channel: dict) -> dict:
@@ -61,38 +79,55 @@ def probe(channel: dict) -> dict:
         "http_status": None, "final_url": url, "redirected": False, "score": 0,
     }
     if not url.startswith(("http://", "https://")):
-        result["status"] = "invalid"; result["score"] = 0; return result
+        result["status"] = "invalid"; return result
+
     try:
         r = requests.head(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True)
         result["http_status"] = r.status_code; result["final_url"] = r.url
         result["redirected"] = r.url != url
         result["protocol"] = protocol(r.url, r.headers.get("content-type", ""))
-        if 200 <= r.status_code < 400 and result["protocol"] != "hls":
-            result["status"] = "active"; result["score"] = score(result["status"], result["protocol"], result["redirected"]); return result
+        if 200 <= r.status_code < 400 and result["protocol"] not in {"hls", "dash"}:
+            result["status"] = "active"
+            result["score"] = score(result["status"], result["protocol"], result["redirected"])
+            return result
+        if r.status_code in (401, 403, 451):
+            result["status"] = "geo_or_restricted"
+            result["score"] = score(result["status"], result["protocol"])
+            return result
+    except requests.Timeout:
+        result["status"] = "timeout"
+        result["score"] = score(result["status"], result["protocol"])
+        return result
     except requests.RequestException:
         pass
+
     try:
         with requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True, stream=True) as r:
             result["http_status"] = r.status_code; result["final_url"] = r.url
             result["redirected"] = r.url != url
             result["protocol"] = protocol(r.url, r.headers.get("content-type", ""))
-            if 200 <= r.status_code < 400:
+            if r.status_code in (401, 403, 451):
+                result["status"] = "geo_or_restricted"
+            elif 200 <= r.status_code < 400:
                 if result["protocol"] == "hls":
-                    ok, segment = probe_hls(r.url, r)
+                    ok, segment = probe_hls(r)
                     result["manifest_ok"] = ok
                     result["sample_segment"] = segment
-                    result["status"] = "active" if ok else "unknown"
+                    result["segment_ok"] = probe_segment(segment) if ok and segment else None
+                    result["status"] = "active" if ok and result["segment_ok"] is not False else "unknown"
+                elif result["protocol"] == "dash":
+                    chunk = next(r.iter_content(chunk_size=16384), b"")
+                    result["manifest_ok"] = b"<MPD" in chunk or b":MPD" in chunk
+                    result["status"] = "active" if result["manifest_ok"] else "unknown"
                 else:
                     result["status"] = "active"
-            elif r.status_code in (401, 403, 451):
-                result["status"] = "geo_or_restricted"
             else:
                 result["status"] = "down"
     except requests.Timeout:
         result["status"] = "timeout"
     except requests.RequestException:
         result["status"] = "down"
-    result["score"] = score(result["status"], result["protocol"], result["redirected"])
+    result["score"] = score(result["status"], result["protocol"], result["redirected"], result.get("segment_ok"))
     return result
 
 
