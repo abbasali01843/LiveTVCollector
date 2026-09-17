@@ -1,0 +1,557 @@
+{
+  "updated": "2026-09-08T16:47:51Z",
+  "count": 67,
+  "total_entries": 45488,
+  "items": [
+    {
+      "name": "24_7_CHANNELS",
+      "count": 1862,
+      "path": "24_7_CHANNELS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "4K_PACKAGE",
+      "count": 4,
+      "path": "4K_PACKAGE",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "ABC_LOCAL_NETWORKS",
+      "count": 108,
+      "path": "ABC_LOCAL_NETWORKS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "ADULTS_ONLY",
+      "count": 176,
+      "path": "ADULTS_ONLY",
+      "countries": [
+        "Unknown"
+      ],
+      "content_warning": "adult-only-18+"
+    },
+    {
+      "name": "AFRICA",
+      "count": 2,
+      "path": "AFRICA",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "AHL___OHL___WHL___ECHL___QMJHL",
+      "count": 193,
+      "path": "AHL___OHL___WHL___ECHL___QMJHL",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "ALBANIA",
+      "count": 61,
+      "path": "ALBANIA",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "ARABIC",
+      "count": 116,
+      "path": "ARABIC",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "AUSTRIA_SWISS_",
+      "count": 621,
+      "path": "AUSTRIA_SWISS_",
+      "countries": [
+        "Germany"
+      ]
+    },
+    {
+      "name": "BANGLADESH",
+      "count": 84,
+      "path": "BANGLADESH",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "BEIN_SPORTS",
+      "count": 13,
+      "path": "BEIN_SPORTS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "CARIBBEAN",
+      "count": 313,
+      "path": "CARIBBEAN",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "CARLS_RACING_PACKAGE",
+      "count": 11,
+      "path": "CARLS_RACING_PACKAGE",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "CBS_LOCAL_NETWORKS",
+      "count": 136,
+      "path": "CBS_LOCAL_NETWORKS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "CHILE",
+      "count": 57,
+      "path": "CHILE",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "COLOMBIA",
+      "count": 79,
+      "path": "COLOMBIA",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "CRICKET",
+      "count": 28,
+      "path": "CRICKET",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "DENMARK",
+      "count": 32,
+      "path": "DENMARK",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "DOMINICAN_REPUBLIC",
+      "count": 64,
+      "path": "DOMINICAN_REPUBLIC",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "ECUADOR",
+      "count": 46,
+      "path": "ECUADOR",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "ENTERTAINMENT",
+      "count": 168,
+      "path": "ENTERTAINMENT",
+      "countries": [
+        "UK",
+        "USA"
+      ]
+    },
+    {
+      "name": "ESPN_PLUS",
+      "count": 56,
+      "path": "ESPN_PLUS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "EX_YU",
+      "count": 125,
+      "path": "EX_YU",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "FOX_LOCAL_NETWORKS",
+      "count": 124,
+      "path": "FOX_LOCAL_NETWORKS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "FRENCH",
+      "count": 8,
+      "path": "FRENCH",
+      "countries": [
+        "Canada"
+      ]
+    },
+    {
+      "name": "GOLF___TENNIS",
+      "count": 29,
+      "path": "GOLF___TENNIS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "GREECE",
+      "count": 11,
+      "path": "GREECE",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "General",
+      "count": 1034,
+      "path": "General",
+      "countries": [
+        "Argentina",
+        "Brazil",
+        "Canada",
+        "France",
+        "Germany",
+        "India",
+        "Italy",
+        "Korea",
+        "Mexico",
+        "Netherlands",
+        "Russia",
+        "Spain",
+        "Sweden"
+      ]
+    },
+    {
+      "name": "INTERNATIONAL_SPORTS",
+      "count": 9,
+      "path": "INTERNATIONAL_SPORTS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "ISRAEL",
+      "count": 13,
+      "path": "ISRAEL",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "KIDS",
+      "count": 7,
+      "path": "KIDS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "LATINO",
+      "count": 229,
+      "path": "LATINO",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "LATINO_LOCAL_NETWORKS",
+      "count": 128,
+      "path": "LATINO_LOCAL_NETWORKS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "LOCAL_NETWORKS",
+      "count": 177,
+      "path": "LOCAL_NETWORKS",
+      "countries": [
+        "USA"
+      ]
+    },
+    {
+      "name": "LOW_BANDWIDTH_CHANNELS",
+      "count": 48,
+      "path": "LOW_BANDWIDTH_CHANNELS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "MILB",
+      "count": 1,
+      "path": "MILB",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "MLB_PACKAGE",
+      "count": 31,
+      "path": "MLB_PACKAGE",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "MOVIE_NETWORKS",
+      "count": 99,
+      "path": "MOVIE_NETWORKS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "MUSIC_CHOICE___DASH_RADIO",
+      "count": 16,
+      "path": "MUSIC_CHOICE___DASH_RADIO",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "NBA___WNBA_PACKAGE",
+      "count": 43,
+      "path": "NBA___WNBA_PACKAGE",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "NBC_LOCAL_NETWORKS",
+      "count": 201,
+      "path": "NBC_LOCAL_NETWORKS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "NCAA_PACKAGE",
+      "count": 268,
+      "path": "NCAA_PACKAGE",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "NEWS_WEATHER",
+      "count": 48,
+      "path": "NEWS_WEATHER",
+      "countries": [
+        "USA"
+      ]
+    },
+    {
+      "name": "NFL_PACKAGE",
+      "count": 9,
+      "path": "NFL_PACKAGE",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "NHL_PACKAGE",
+      "count": 45,
+      "path": "NHL_PACKAGE",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "OLYMPIC_GAMES_MILANO_CORTINA_2026",
+      "count": 8,
+      "path": "OLYMPIC_GAMES_MILANO_CORTINA_2026",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "PARAMOUNT_PLUS",
+      "count": 33,
+      "path": "PARAMOUNT_PLUS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "PEACOCK",
+      "count": 12,
+      "path": "PEACOCK",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "PERU",
+      "count": 13,
+      "path": "PERU",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "PHILIPPINES",
+      "count": 14,
+      "path": "PHILIPPINES",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "PLEX",
+      "count": 54,
+      "path": "PLEX",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "PLUTO",
+      "count": 4,
+      "path": "PLUTO",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "POLAND",
+      "count": 31,
+      "path": "POLAND",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "PORTUGAL",
+      "count": 110,
+      "path": "PORTUGAL",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "PPV_EVENTS",
+      "count": 49,
+      "path": "PPV_EVENTS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "PPV_REPLAYS",
+      "count": 2,
+      "path": "PPV_REPLAYS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "PUERTO_RICO",
+      "count": 12,
+      "path": "PUERTO_RICO",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "RELIGIOUS",
+      "count": 1,
+      "path": "RELIGIOUS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "ROMANIA",
+      "count": 7,
+      "path": "ROMANIA",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "Radio_stations",
+      "count": 9,
+      "path": "Radio_stations",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "SAMSUNG",
+      "count": 69,
+      "path": "SAMSUNG",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "SETUP___TUTORIALS",
+      "count": 7,
+      "path": "SETUP___TUTORIALS",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "SOCCER___FUTBOL_PACKAGE",
+      "count": 80,
+      "path": "SOCCER___FUTBOL_PACKAGE",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "SPORTS_NETWORKS",
+      "count": 104,
+      "path": "SPORTS_NETWORKS",
+      "countries": [
+        "USA"
+      ]
+    },
+    {
+      "name": "UFL__XFL_USFL_",
+      "count": 1,
+      "path": "UFL__XFL_USFL_",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "URBAN",
+      "count": 4,
+      "path": "URBAN",
+      "countries": [
+        "Unknown"
+      ]
+    },
+    {
+      "name": "Unknown",
+      "count": 37931,
+      "path": "Unknown",
+      "countries": [
+        "Unknown"
+      ]
+    }
+  ]
+}

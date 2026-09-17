@@ -2,7 +2,7 @@ name: TV-Venezuela Update Files
 
 on:
   schedule:
-    - cron: '0 0,8,16 * * *'
+    - cron: '27 0,8,16 * * *'
   workflow_dispatch:
 
 permissions:
@@ -29,8 +29,9 @@ jobs:
         run: python BugsfreeMain/TV-Venezuela.py
       - name: Commit and push changes
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add LiveTV/Venezuela/LiveTV.m3u LiveTV/Venezuela/LiveTV.txt LiveTV/Venezuela/LiveTV.json LiveTV/Venezuela/LiveTV
-          git commit -m "Update Venezuela TV files" || exit 0
+          git diff --cached --quiet || git commit -m "Update Venezuela TV files"
+          git pull --rebase origin main
           git push

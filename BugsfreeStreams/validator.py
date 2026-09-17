@@ -150,11 +150,20 @@ def write_app_exports(results,checked_at):
  for country,items in sorted(by.items()):
   c=Counter(x.get("status","unknown") for x in items);summary={"total":len(items),"active":c["active"],"geo_or_restricted":c["geo_or_restricted"],"down":c["down"],"timeout":c["timeout"],"unknown":c["unknown"],"invalid":c["invalid"],"average_score":round(sum(x.get("score",0) for x in items)/len(items),2) if items else 0};countries[country]=summary;safe=_safe(country,used);rows=[compact_channel(x) for x in items if x.get("status")=="active"];(cd/f"{safe}.json").write_text(json.dumps({"version":1,"updated":checked_at,"country":country,"count":len(rows),"health":summary,"channels":rows},ensure_ascii=False,indent=2),encoding="utf-8");_write_m3u(cd/f"{safe}.m3u",rows)
  (OUT/"countries.json").write_text(json.dumps({"version":1,"updated":checked_at,"countries":countries},ensure_ascii=False,indent=2),encoding="utf-8");(OUT/"manifest.json").write_text(json.dumps({"version":1,"updated":checked_at,"endpoints":{"all_active_json":"active.json","all_active_m3u":"active.m3u","country_summary":"countries.json","country_directory":"countries/","full_health":"health.json"}},ensure_ascii=False,indent=2),encoding="utf-8")
+def country_health(all_channels,results):
+ by_url={r["url"]:r for r in results};stats={};scores={}
+ for ch in all_channels:
+  r=by_url.get(normalize_url(ch.get("url","")))
+  if r is None:continue
+  c=str(ch.get("country") or r.get("country") or "Unknown")
+  e=stats.setdefault(c,{"total":0,"active":0,"geo_or_restricted":0,"down":0,"timeout":0,"unknown":0,"invalid":0})
+  e["total"]+=1;st=r.get("status","unknown");e[st if st in e else "unknown"]+=1;scores.setdefault(c,[]).append(r.get("score",0) if isinstance(r.get("score",0),(int,float)) else 0)
+ return {c:{**e,"average_score":round(sum(scores[c])/len(scores[c]),2) if scores[c] else 0} for c,e in sorted(stats.items())}
 def main():
- unique={}
- for ch in load_channels():
+ all_channels=load_channels();unique={}
+ for ch in all_channels:
   u=normalize_url(ch.get("url",""))
   if u and u not in unique:row=dict(ch);row["url"]=u;unique[u]=row
  with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:results=list(pool.map(probe,unique.values()))
- checked=datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00","Z");summary=Counter(x["status"] for x in results);payload={"updated":checked,"total_unique_streams":len(results),"summary":dict(summary),"active_streams":summary["active"],"average_score":round(sum(x["score"] for x in results)/len(results),2) if results else 0,"streams":results};OUT.mkdir(parents=True,exist_ok=True);(OUT/"health.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8");write_app_exports(results,checked);print(f"Validated {len(results)} unique streams: {dict(summary)}")
+ checked=datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00","Z");summary=Counter(x["status"] for x in results);payload={"updated":checked,"total_unique_streams":len(results),"summary":dict(summary),"active_streams":summary["active"],"average_score":round(sum(x["score"] for x in results)/len(results),2) if results else 0,"country_health":country_health(all_channels,results),"streams":results};OUT.mkdir(parents=True,exist_ok=True);(OUT/"health.json").write_text(json.dumps(payload,ensure_ascii=False,indent=2),encoding="utf-8");write_app_exports(results,checked);print(f"Validated {len(results)} unique streams: {dict(summary)}")
 if __name__=="__main__":main()

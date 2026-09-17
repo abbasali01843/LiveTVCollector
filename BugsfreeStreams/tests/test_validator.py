@@ -29,6 +29,9 @@ class FakeResponse:
     def iter_lines(self):
         yield from self._lines
 
+    def close(self):
+        return None
+
 
 class FakeSession:
     def __init__(self, head_response=None, get_response=None):
@@ -71,12 +74,33 @@ class ValidatorTests(unittest.TestCase):
         self.assertEqual(validator.score("timeout", "unknown"), 10)
         self.assertEqual(validator.score("down", "hls"), 0)
 
+    def test_country_health_attributes_shared_urls_to_every_country(self):
+        all_channels = [
+            {"name": "A", "url": "https://example.com/shared.m3u8", "country": "Bahrain"},
+            {"name": "B", "url": "https://example.com/shared.m3u8", "country": "India"},
+            {"name": "C", "url": "https://example.com/down.m3u8", "country": "Bahrain"},
+        ]
+        results = [
+            {"name": "A", "url": "https://example.com/shared.m3u8",
+             "country": "Bahrain", "status": "active", "protocol": "hls", "score": 100},
+            {"name": "C", "url": "https://example.com/down.m3u8",
+             "country": "Bahrain", "status": "down", "protocol": "hls", "score": 0},
+        ]
+        health = validator.country_health(all_channels, results)
+        self.assertEqual(health["Bahrain"]["total"], 2)
+        self.assertEqual(health["Bahrain"]["active"], 1)
+        self.assertEqual(health["Bahrain"]["down"], 1)
+        self.assertEqual(health["India"]["total"], 1)
+        self.assertEqual(health["India"]["active"], 1)
+        self.assertEqual(health["India"]["average_score"], 100)
+
     def test_head_timeout_falls_back_to_get(self):
         fake = FakeSession(
             head_response=requests.Timeout(),
             get_response=FakeResponse(),
         )
-        with patch.object(validator, "session", return_value=fake):
+        with patch.object(validator, "session", return_value=fake), \
+                patch.object(validator, "RETRIES", 0):
             result = validator.probe({"name": "Video", "url": "https://example.com/video.mp4"})
         self.assertEqual(result["status"], "active")
         self.assertEqual(fake.head_calls, 1)

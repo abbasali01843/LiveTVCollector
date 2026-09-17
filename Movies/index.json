@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T14:54:56Z",
+  "updated": "2026-09-08T16:47:51Z",
   "count": 7,
   "items": [
     {
@@ -33,7 +33,8 @@
         "Movies.json",
         "Movies.m3u",
         "Movies.txt"
-      ]
+      ],
+      "content_warning": "adult-only-18+"
     },
     {
       "name": "SecretWorld",

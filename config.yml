@@ -1,4 +1,4 @@
-# Configuration for SpecialCollection.
+# Configuration for SpecialCollection.js (read at startup, dependency-free).
 #
 # IMPORTANT: source URLs must not be stored in this tracked file.
 # Supply them through the GitHub Actions secret SPECIAL_M3U_URLS as a

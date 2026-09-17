@@ -1,8 +1,8 @@
-name: Movies-Bollywood
+name: Movies-Bollywood Update Files
 
 on:
   schedule:
-    - cron: "0 0,8,16 * * *"
+    - cron: '30 0,8,16 * * *'
   workflow_dispatch:
 
 permissions:
@@ -13,23 +13,25 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  collect:
+  update-files:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-          cache: pip
+          python-version: '3.11'
       - name: Install dependencies
         run: python -m pip install --upgrade pip requests
-      - name: Collect Bollywood movies
+      - name: Run collector
         run: python BugsfreeMain/Movies-Bollywood.py
-      - name: Commit generated files
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Movies/Bollywood/
-          git diff --cached --quiet || git commit -m "Update Bollywood movie collection"
+          git add Movies/Bollywood/Movies.m3u Movies/Bollywood/Movies.txt Movies/Bollywood/Movies.json Movies/Bollywood/Movies
+          git diff --cached --quiet || git commit -m "Update Bollywood movie files"
+          git pull --rebase origin main
           git push

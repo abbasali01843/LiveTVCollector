@@ -29,10 +29,19 @@ jobs:
           SPECIAL_M3U_URLS: ${{ secrets.SPECIAL_M3U_URLS }}
         run: node SpecialCollection.js
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Refresh SpecialLinks index
+        run: python -c "import generate_indexes; generate_indexes.generate_special_index()"
+
       - name: Commit and push generated links
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add SpecialLinks/
           git diff --cached --quiet || git commit -m "Update SpecialLinks collection"
+          git pull --rebase origin main
           git push
