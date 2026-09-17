@@ -32,13 +32,13 @@
   {
     "name": "LA RED",
     "type": "NACIONAL",
-    "url": "https://ds5i0a12qngha.cloudfront.net/ts:abr.m3u8",
+    "url": "http://38.226.49.253:8000/play/a08f/index.m3u8",
     "img": "https://i.ibb.co/VNdDky3/la-red.png"
   },
   {
     "name": "MEGA 2",
     "type": "NACIONAL",
-    "url": "http://lamtv.site:8080/27116808/zs2Bbc7Zu5/137380.ts",
+    "url": "http://181.119.93.83:8000/play/a15j",
     "img": "https://static.wikia.nocookie.net/tvcable/images/c/c4/Logomega2.png/revision/latest?cb=20240327172424&path-prefix=es"
   },
   {
@@ -68,7 +68,7 @@
   {
     "name": "CANAL 13C",
     "type": "NACIONAL",
-    "url": "http://181.119.93.83:8000/play/a1no/index.m3u8",
+    "url": "http://38.44.109.41:8003/play/a0f1/index.m3u8",
     "img": "https://e7.pngegg.com/pngimages/264/658/png-clipart-canal-13-logo-13c-television-chilevision-others-television-text.png"
   },
   {
@@ -138,42 +138,6 @@
     "img": "https://www.radiovidacurico.cl/wp-content/uploads/2016/04/log-menu.png"
   },
   {
-    "name": "13 Internacional",
-    "type": "NACIONAL",
-    "url": "https://redirector.dps.live/hls/13intav/playlist.m3u8?PlaylistM3UCL",
-    "img": "https://cdn.m3u.cl/logo/1685_13_Internacional.png"
-  },
-  {
-    "name": "13 Cocina",
-    "type": "NACIONAL",
-    "url": "https://redirector.dps.live/hls/13cocina/playlist.m3u8?PlaylistM3UCL",
-    "img": "https://cdn.m3u.cl/logo/1683_13_Cocina.png"
-  },
-  {
-    "name": "13 Pop",
-    "type": "NACIONAL",
-    "url": "https://redirector.dps.live/hls/13pop/playlist.m3u8?PlaylistM3UC",
-    "img": "https://cdn.m3u.cl/logo/1033_13_Pop.png"
-  },
-  {
-    "name": "CANAL 13 FESTIVALES",
-    "type": "NACIONAL",
-    "url": "https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTowo87mrhzwoe77DwRiHJud3e_OEVw19MUCQ&s"
-  },
-  {
-    "name": "CANAL 13 REALITIES",
-    "type": "NACIONAL",
-    "url": "https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Ol9uqNLFr1M8nkkpOlnkQ7O9u0QwqHOPQw&s"
-  },
-  {
-    "name": "CANAL 13 TELESERIES",
-    "type": "NACIONAL",
-    "url": "https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKXPKA1lKIXYGWJ9EGYBOFdf7pp8DTsi1cbUq7iOBGSMsJbKSqMfCGr4PXcjiXcnYfFEM&usqp=CAU"
-  },
-  {
     "name": "TV Chile",
     "type": "NACIONAL",
     "url": "https://mdstrm.com/live-stream-playlist/533adcc949386ce765657d7c.m3u8",
@@ -200,13 +164,13 @@
   {
     "name": "TNT SPORTS PREMIUM 1",
     "type": "DEPORTES",
-    "url": "http://45.181.122.46:8090/play/a00i",
+    "url": "http://181.176.155.7:8090/play/a1xk/index.m3u8",
     "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMDQxX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778952907209"
   },
   {
     "name": "TNT SPORTS PREMIUM 2",
     "type": "DEPORTES",
-    "url": "http://38.224.175.2:8000/play/a0rb/index.m3u8",
+    "url": "http://181.119.93.83:8000/play/a155",
     "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMDQxX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778952907209"
   },
   {
@@ -219,6 +183,12 @@
     "name": "TNT SPORTS PREMIUM 5",
     "type": "DEPORTES",
     "url": "http://38.226.49.253:8000/play/a06f/index.m3u8",
+    "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMDQxX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778952907209"
+  },
+  {
+    "name": "TNT SPORTS PREMIUM 6",
+    "type": "DEPORTES",
+    "url": "http://190.60.59.67:8000/play/a0ey",
     "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMDQxX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778952907209"
   },
   {
@@ -242,7 +212,7 @@
   {
     "name": "ESPN PREMIUM CH",
     "type": "DEPORTES",
-    "url": "http://45.181.122.46:8090/play/a015",
+    "url": "http://190.60.59.67:8000/play/a0fh",
     "img": "https://spotlight-cl.cdn.telefonica.com/customer/v1/source?image=http%3A%2F%2Fmedia.cdn.telefonica.com%2Fstoragearea0%2FIMAGES%2F00%2F11%2F00%2F11002400_AD584A58C7FE9D78.png&height=60&resize=RATIO&format=PNG"
   },
   {
@@ -302,13 +272,13 @@
   {
     "name": "FOX SPORTS",
     "type": "DEPORTES",
-    "url": "http://138.59.227.20:8000/play/a085/index.m3u8",
+    "url": "http://158.172.155.130:8000/play/a09x/index.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/5/54/Fox_Sports_Argentina_2026.webp"
   },
   {
     "name": "FOX SPORTS 2",
     "type": "DEPORTES",
-    "url": "http://138.59.227.20:8000/play/a09b/index.m3u8",
+    "url": "http://158.172.155.130:8000/play/a0dt/index.m3u8",
     "img": "https://static.wikia.nocookie.net/logopedia/images/7/70/Fox_Sports_2_2026.png/revision/latest/scale-to-width-down/250?cb=20260204193820"
   },
   {
@@ -320,13 +290,13 @@
   {
     "name": "FOX DEPORTES",
     "type": "DEPORTES",
-    "url": "http://45.5.118.152:8000/play/a08d/index.m3u8",
+    "url": "http://168.228.44.241:9997/play/a054/index.m3u8",
     "img": "https://e7.pngegg.com/pngimages/809/867/png-clipart-fox-broadcasting-company-television-channel-logo-television-show-fox-logo-television-angle.png"
   },
   {
     "name": "FOX +",
     "type": "DEPORTES",
-    "url": "http://181.78.192.238:8000/play/a2hi/index.m3u8",
+    "url": "http://168.228.44.241:9997/play/a052/index.m3u8",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsg5Mhyv1ic0vowNu8DKcxwKvF0HrFRD2iqQ&s"
   },
   {
@@ -360,12 +330,6 @@
     "img": "https://static.wikia.nocookie.net/logopedia/images/5/56/ClaroSports2.png/revision/latest?cb=20180803141855"
   },
   {
-    "name": "TVC DEPORTES",
-    "type": "DEPORTES",
-    "url": "http://38.226.49.253:8000/play/a0gf/index.m3u8",
-    "img": "https://static.wikia.nocookie.net/liga-mx/images/2/2b/TVCDep16Logo.png/revision/latest?cb=20160715002021&path-prefix=es"
-  },
-  {
     "name": "TUDN DEPORTES",
     "type": "DEPORTES",
     "url": "http://45.5.118.152:8000/play/a08f/index.m3u8",
@@ -376,6 +340,12 @@
     "type": "DEPORTES",
     "url": "http://38.68.134.207/live/ry6utrh/s.m3u8",
     "img": "https://play-lh.googleusercontent.com/LrKhAmJSa0KFePlYazYYK26ugL2acifv9aGjXWqbMbZ5PAuM_Fo3iwsrbFN6UXyYCaM"
+  },
+  {
+    "name": "TELEMUNDO DEPORTES",
+    "type": "DEPORTES",
+    "url": "http://168.228.44.241:9997/play/a07g/index.m3u8",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Telemundo_Deportes_Logo.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original"
   },
   {
     "name": "BEIN SPORTS",
@@ -398,37 +368,19 @@
   {
     "name": "DIRECTV SPORTS",
     "type": "DEPORTES",
-    "url": "http://38.224.175.2:8000/play/a09o/index.m3u8",
-    "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTI0X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778970916476"
-  },
-  {
-    "name": "DIRECTV SPORTS",
-    "type": "DEPORTES",
-    "url": "http://38.19.16.151:8000/play/a0a4",
+    "url": "http://181.119.93.83:8000/play/a15f",
     "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTI0X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778970916476"
   },
   {
     "name": "DIRECTV SPORTS 2",
     "type": "DEPORTES",
-    "url": "http://38.224.175.2:8000/play/a066/index.m3u8",
-    "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTI4X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778968513757"
-  },
-  {
-    "name": "DIRECTV SPORTS 2",
-    "type": "DEPORTES",
-    "url": "http://38.19.16.151:8000/play/a0a5",
+    "url": "http://181.119.93.83:8000/play/a15g",
     "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTI4X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778968513757"
   },
   {
     "name": "DIRECTV SPORTS +",
     "type": "DEPORTES",
-    "url": "http://cdn-abc.xyz:2086/CanalesVen/NF8sq6nCEq/3485",
-    "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTM5X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778453799857"
-  },
-  {
-    "name": "DIRECTV SPORTS +",
-    "type": "DEPORTES",
-    "url": "http://38.224.175.2:8000/play/a011/index.m3u8",
+    "url": "http://181.119.93.83:8000/play/a15h",
     "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTM5X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778453799857"
   },
   {
@@ -440,8 +392,14 @@
   {
     "name": "AZTECA DEPORTES",
     "type": "DEPORTES",
-    "url": "http://45.167.1.138:8000/play/a01c",
+    "url": "http://200.115.96.66:4000/play/a00h/index.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Aztecadeporteslogo.png"
+  },
+  {
+    "name": "TVC DEPORTES",
+    "type": "DEPORTES",
+    "url": "http://200.115.96.66:4000/play/a005/index.m3u8",
+    "img": "https://static.wikia.nocookie.net/liga-mx/images/2/2b/TVCDep16Logo.png/revision/latest?cb=20160715002021&path-prefix=es"
   },
   {
     "name": "AYM SPORTS",
@@ -464,7 +422,7 @@
   {
     "name": "MOVISTAR DEPORTES",
     "type": "DEPORTES",
-    "url": "http://38.19.16.151:8000/play/a09c",
+    "url": "http://181.119.93.83:8000/play/a14s",
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Movistar_Deportes.svg/960px-Movistar_Deportes.svg.png"
   },
   {
@@ -486,12 +444,6 @@
     "img": "https://newyorktennismagazine.com/wp-content/uploads/2020/03/TennisChannel-logo_0.png"
   },
   {
-    "name": "NBA",
-    "type": "DEPORTES",
-    "url": "http://189.148.49.233:8000/play/a05r/index.m3u8u",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYMKHGeDkGIrrpwyUmTU3pVORNfUGE6JtR7A&s"
-  },
-  {
     "name": "GOLF CHANNEL",
     "type": "DEPORTES",
     "url": "http://45.5.116.228:8000/play/a0h1/index.m3u8",
@@ -508,6 +460,60 @@
     "type": "DEPORTES",
     "url": "https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist_1920x1080.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/4/41/UFC_Network.png"
+  },
+  {
+    "name": "RALLY TV",
+    "type": "DEPORTES",
+    "url": "https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8",
+    "img": "https://static-resources.redbull.tv/images/smarttv/rallytv/logos/logo-dark.svg"
+  },
+  {
+    "name": "TNT SPORTS PREMIUM 3",
+    "type": "Uncategorized",
+    "url": "http://179.1.199.50:9000/play/a05i/index.m3u8",
+    "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMDQxX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1778952907209"
+  },
+  {
+    "name": "PUTERA PERLIS MULTIMEDIA",
+    "type": "Uncategorized",
+    "url": "http://youtube",
+    "img": "https://lh4.ggpht.com/f-zQdGn5dAUEybjbCJ94QTfabrzijJBNcADcaWn5dCoA3isCWrnN7-Pj0C73wSCbmHQ=w300"
+  },
+  {
+    "name": "BRUNEI AUDIO🇧🇳",
+    "type": "Uncategorized",
+    "url": "http://youtube.com",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Radio_Televisyen_Brunei.svg/1200px-Radio_Televisyen_Brunei.svg.png"
+  },
+  {
+    "name": "Unnamed Channel",
+    "type": "Uncategorized",
+    "url": "https://linearjitp-playback.astro.com.my/dash-wv/linear/5093/default_ott.mpd",
+    "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
+  },
+  {
+    "name": "Unnamed Channel",
+    "type": "Uncategorized",
+    "url": "https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/out/v1/ca3534bfe4f148298b36719204d108e0/cenc.mpd",
+    "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
+  },
+  {
+    "name": "Falastini TV (1080p)",
+    "type": "Uncategorized",
+    "url": "https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8",
+    "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
+  },
+  {
+    "name": "Palestine Edu (1080p)",
+    "type": "Uncategorized",
+    "url": "https://pbc.furrera.ps/PalestineEDU/index.m3u8",
+    "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
+  },
+  {
+    "name": "Korean Central Television / Đài Truyền Hình Trung uơng Triều Tiên (KCTV)",
+    "type": "Uncategorized",
+    "url": "https://kctv.koryofront.org/stream/index.m3u8",
+    "img": "https://i.imgur.com/p02AEOF.png"
   },
   {
     "name": "A3S",
@@ -542,7 +548,7 @@
   {
     "name": "AZCINEMA",
     "type": "CINE Y SERIES",
-    "url": "http://190.108.90.142:8000/play/a018/index.m3u8",
+    "url": "http://201.174.175.3:8000/play/a0y9/index.m3u88",
     "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x180/Y2gwMTAwMDAwMDAwMDgxX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x180.png?timestamp=1778915725134"
   },
   {
@@ -566,7 +572,7 @@
   {
     "name": "CINE PREMIUM",
     "type": "CINE Y SERIES",
-    "url": "http://190.60.39.195:8000/play/a00n/index.m3u8",
+    "url": "http://181.78.8.199:8000/play/a09q/index.m3u8",
     "img": "https://timnetworks.tv/wp-content/uploads/2022/10/CINE-PREMIUM.png"
   },
   {
@@ -584,20 +590,8 @@
   {
     "name": "CINE LATINO",
     "type": "CINE Y SERIES",
-    "url": "http://45.162.193.35/CINELATINO_HD/index.m3u8",
+    "url": "http://45.5.117.187:8000/play/a059/index.m3u8",
     "img": "https://yt3.googleusercontent.com/NKN8usqtQbTO_GNLIgyHfU1MYfBnxkirUKXkpJER1ALWrp8HoeSKJt1MwdU-pshOCwvTsAwYAA=s900-c-k-c0x00ffffff-no-rj"
-  },
-  {
-    "name": "CINE PLATINO",
-    "type": "CINE Y SERIES",
-    "url": "http://cdn-abc.xyz:2086/CanalesVen/NF8sq6nCEq/110899",
-    "img": "https://static.wikia.nocookie.net/logopedia/images/b/b7/Cinema_Platino_%282025%29.png/revision/latest/scale-to-width-down/608?cb=20251024020326"
-  },
-  {
-    "name": "CINE PLATINO 2",
-    "type": "CINE Y SERIES",
-    "url": "http://cdn-abc.xyz:2086/CanalesVen/NF8sq6nCEq/110900",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzD4emqgS1SF5n1m49ShGyW5jwzM1lF9JqtvVrrLAQyqHmKn4yjD6_tdUD&s=10"
   },
   {
     "name": "CINE MEXICANO",
@@ -620,7 +614,7 @@
   {
     "name": "HBO 2",
     "type": "CINE Y SERIES",
-    "url": "http://177.10.184.193:8000/play/a0gh/index.m3u8",
+    "url": "http://38.44.109.41:8003/play/a0hi/index.m3u8",
     "img": "https://i.ibb.co/Rhmnzgk/hbo-2.png"
   },
   {
@@ -720,6 +714,12 @@
     "img": "https://www.fmh.la/images/team/logo_rewind.png"
   },
   {
+    "name": "TODO CINE",
+    "type": "CINE Y SERIES",
+    "url": "http://168.228.44.241:9997/play/a03n/index.m3u8",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSedOIhw6vDnI16olnjST2eki5sOpc3fm-hAGnQeq1PNw&s=10"
+  },
+  {
     "name": "PARAMOUNT",
     "type": "CINE Y SERIES",
     "url": "http://181.224.200.5:2277/play/a0df/index.m3u8",
@@ -764,7 +764,7 @@
   {
     "name": "SONY MOVIES",
     "type": "CINE Y SERIES",
-    "url": "http://177.10.184.193:8000/play/a0d4/index.m3u8",
+    "url": "http://181.78.8.199:8000/play/a0k7/index.m3u8",
     "img": "https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/638e5a17d1ffff3784898822_sonymovies.png"
   },
   {
@@ -818,37 +818,37 @@
   {
     "name": "UNIVERSAL TV",
     "type": "CINE Y SERIES",
-    "url": "http://45.173.201.51:4000/play/a0hp/index.m3u8",
+    "url": "http://38.226.49.253:8000/play/a077/index.m3u8",
     "img": "https://i.pinimg.com/564x/b9/e1/b5/b9e1b5ed78238f8700fdc1704287ba37.jpg"
   },
   {
     "name": "UNIVERSAL CINEMA",
     "type": "CINE Y SERIES",
-    "url": "http://177.10.184.193:8000/play/a0a9/index.m3u8",
+    "url": "http://201.216.147.90:8729/play/a0pc",
     "img": "https://www.vertvcable.com/wp-content/uploads/2022/07/universalcrime.jpg"
   },
   {
     "name": "UNIVERSAL COMEDY",
     "type": "CINE Y SERIES",
-    "url": "http://177.10.184.193:8000/play/a09x/index.m3u8",
+    "url": "http://201.216.147.90:8729/play/a0ct",
     "img": "https://thafd.bing.com/th/id/OIP.tQO5QH8KZO3CGvXhdxj63QHaEE?rs=1&pid=ImgDetMain"
   },
   {
     "name": "UNIVERSAL CRIME",
     "type": "CINE Y SERIES",
-    "url": "http://177.10.184.193:8000/play/a09w/index.m3u8",
+    "url": "http://201.216.147.90:8729/play/a0cs",
     "img": "http://puntoz.xyz/LOGOS/universalcrimeB.png"
   },
   {
     "name": "UNIVERSAL PREMIER",
     "type": "CINE Y SERIES",
-    "url": "http://177.10.184.193:8000/play/a09u/index.m3u8",
+    "url": "http://168.228.44.241:9997/play/a011/index.m3u8",
     "img": "https://www.universalplus.com/assets/logo_premiere_hero.png"
   },
   {
     "name": "UNIVERSAL REALITIE",
     "type": "CINE Y SERIES",
-    "url": "http://177.10.184.193:8000/play/a09v/index.m3u8",
+    "url": "http://168.228.44.241:9997/play/a01x/index.m3u8",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfp1yzahmtFF9JfJg9-WzKnM7T9H918o_3dg&s"
   },
   {
@@ -860,7 +860,7 @@
   {
     "name": "WESTERN",
     "type": "CINE Y SERIES",
-    "url": "http://45.173.201.51:4000/play/a0lp/index.m3u8",
+    "url": "https://jmp2.uk/stvp-ES2300005G7",
     "img": "https://www.shutterstock.com/shutterstock/photos/256794835/display_1500/stock-vector-western-logo-256794835.jpg"
   },
   {
@@ -870,7 +870,13 @@
     "img": "https://www.shutterstock.com/shutterstock/photos/256794835/display_1500/stock-vector-western-logo-256794835.jpg"
   },
   {
-    "name": "Grjngo",
+    "name": "Grjngo 1",
+    "type": "CINE Y SERIES",
+    "url": "https://jmp2.uk/stvp-ESBC2700002LO",
+    "img": "https://tse1.mm.bing.net/th/id/OIP.cz3dWFe5nyXVR46GXjNdegHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "name": "Grjngo 2",
     "type": "CINE Y SERIES",
     "url": "https://amogonetworx-grjngo-2-eu.plex.wurl.tv/2000.m3u8",
     "img": "https://tse1.mm.bing.net/th/id/OIP.cz3dWFe5nyXVR46GXjNdegHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
@@ -1000,6 +1006,12 @@
     "type": "INFANTILES",
     "url": "http://38.44.109.41:8003/play/a027/index.m3u8",
     "img": "https://d18o29lhcg4kda.cloudfront.net/fit-in/360x139/Y2gwMTAwMDAwMDAwNDIxX2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x139.png?timestamp=1778916858834"
+  },
+  {
+    "name": "ANIMASH",
+    "type": "INFANTILES",
+    "url": "http://181.78.121.15:8000/play/a00h/index.m3u8",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxEiEVQ2M1nlWE9LVjqMX51J9esTHJAIG44Llb0SVT4pUVTUc4FZjy0VY&s=10"
   },
   {
     "name": "ANIMAL PLANE",
@@ -1194,10 +1206,10 @@
     "img": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/f18cc7982a918da38a3b8e47c4ab6295.jpg"
   },
   {
-    "name": "format=auto,quality=85,width=480,height=720/catalog/crunchyroll/f18cc7982a918da38a3b8e47c4ab6295.jpg\" group-title=\"24/7\", COPS",
+    "name": "BOB ESPONJA",
     "type": "24/7",
-    "url": "https://rightsboosterltd-cops-1-es.rakuten.wurl.tv/playlist.m3u8",
-    "img": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=480,height=720/catalog/crunchyroll/f18cc7982a918da38a3b8e47c4ab6295.jpg"
+    "url": "https://jmp2.uk/plu-6254598f5083f800076d8563.m3u8",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZsjoC0iJgkzFnB2InWCL097jI9rdxNtwXnhSSPSG6Eg&s=10"
   },
   {
     "name": "1000_QL80_.jpg\" group-title=\"24/7\", CSI MIAMI",
@@ -1214,13 +1226,13 @@
   {
     "name": "EL CHAVO",
     "type": "24/7",
-    "url": "http://miotv.cc:8080/RESTREAMCRUEL/T7464747/400767",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8",
     "img": "https://m.media-amazon.com/images/M/MV5BNmRkZmIxMmYtMjY5Ny00MzA3LWI1MmYtZDg3MjBhZDFlZTY5XkEyXkFqcGc@._V1_.jpg"
   },
   {
     "name": "DRAGON BALL Z",
     "type": "24/7",
-    "url": "http://lamtv.site:8080/27116808/zs2Bbc7Zu5/160081.ts",
+    "url": "https://live20.bozztv.com/giatv/giatv-dball/dball/playlist.m3u8",
     "img": "https://m.media-amazon.com/images/S/pv-target-images/c9295bf92a8c87f865116be60daa6a31509823c8c11da3fcbc5a6dc589ff9da2.jpg"
   },
   {
@@ -1266,46 +1278,10 @@
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
-    "name": "PUTERA PERLIS MULTIMEDIA",
-    "type": "Uncategorized",
-    "url": "http://youtube",
-    "img": "https://lh4.ggpht.com/f-zQdGn5dAUEybjbCJ94QTfabrzijJBNcADcaWn5dCoA3isCWrnN7-Pj0C73wSCbmHQ=w300"
-  },
-  {
-    "name": "BRUNEI AUDIO🇧🇳",
-    "type": "Uncategorized",
-    "url": "http://youtube.com",
-    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Radio_Televisyen_Brunei.svg/1200px-Radio_Televisyen_Brunei.svg.png"
-  },
-  {
-    "name": "Unnamed Channel",
-    "type": "Uncategorized",
-    "url": "https://linearjitp-playback.astro.com.my/dash-wv/linear/5093/default_ott.mpd",
+    "name": "group-title=\"CANALES ADULTOS\", BRAZZERS",
+    "type": "CANALES ADULTOS",
+    "url": "http://200.115.120.1:8000/play/ca98/index.m3u8",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
-  },
-  {
-    "name": "Unnamed Channel",
-    "type": "Uncategorized",
-    "url": "https://a77aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/zuf794yutz/out/v1/ca3534bfe4f148298b36719204d108e0/cenc.mpd",
-    "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
-  },
-  {
-    "name": "Falastini TV (1080p)",
-    "type": "Uncategorized",
-    "url": "https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8",
-    "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
-  },
-  {
-    "name": "Palestine Edu (1080p)",
-    "type": "Uncategorized",
-    "url": "https://pbc.furrera.ps/PalestineEDU/index.m3u8",
-    "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
-  },
-  {
-    "name": "Korean Central Television / Đài Truyền Hình Trung uơng Triều Tiên (KCTV)",
-    "type": "Uncategorized",
-    "url": "https://kctv.koryofront.org/stream/index.m3u8",
-    "img": "https://i.imgur.com/p02AEOF.png"
   },
   {
     "name": "HITZ FM",

@@ -356,7 +356,7 @@
   {
     "name": "Феникс+Кино",
     "type": "Кино",
-    "url": "https://jekalich.github.io/smtk/channels/feniks-plus-kino.m3u8",
+    "url": "https://cdn.kinolar.workers.dev/FENIXKINO_HD/mono.m3u8?key=halvatv",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -398,7 +398,7 @@
   {
     "name": "Любимое кино",
     "type": "Кино",
-    "url": "https://jekalich.github.io/smtk/channels/lubimoe-kino.m3u8",
+    "url": "http://31.210.208.171:8080/lubimoe_kino/index.m3u8?token=+W2MSER",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -446,19 +446,19 @@
   {
     "name": "Trash",
     "type": "Кино",
-    "url": "https://jekalich.github.io/smtk/channels/trashtv.m3u8",
+    "url": "https://cdn.kinolar.workers.dev/Trash_HD/mono.m3u8?key=halvatv",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
     "name": "Start Air",
     "type": "Кино",
-    "url": "http://185.78.112.47:8077/start_air/index.m3u8",
+    "url": "https://cdn.kinolar.workers.dev/STARTAIRHD/mono.m3u8?key=halvatv",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
     "name": "Start World",
     "type": "Кино",
-    "url": "http://185.78.112.47:8077/start_world/index.m3u8",
+    "url": "https://cdn.kinolar.workers.dev/STARTWORLDHD/mono.m3u8?key=halvatv",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -470,13 +470,13 @@
   {
     "name": "Сапфир",
     "type": "Кино",
-    "url": "https://jekalich.github.io/smtk/channels/sapfir.m3u8",
+    "url": "https://cdn.kinolar.workers.dev/NatGeoWildHD/mono.m3u8?key=halvatv",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
     "name": "TV XXI",
     "type": "Кино",
-    "url": "https://jekalich.github.io/smtk/channels/tvxxi.m3u8",
+    "url": "https://cdn.kinolar.workers.dev/TV21_HD_Kino/mono.m3u8?key=halvatv",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -554,7 +554,7 @@
   {
     "name": "Тайна",
     "type": "Кино",
-    "url": "https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=NVwxDN1NuMlH4QpEgIErsw&e=2088807299&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=9c-SLgimzzuZKJfdgLViNQ&e=2089584817&scheme=https",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -1550,7 +1550,7 @@
   {
     "name": "National Geographic HD",
     "type": "Познавательные",
-    "url": "https://bl.rutube.ru/livestream/2619fc295c16585ef018041d88f14db0/index.m3u8?s=QuzH4z3NbUPiJLrDVIIzHg&e=2088807298&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/2619fc295c16585ef018041d88f14db0/index.m3u8?s=-5rAzbyRG5UWWbNnf9cYrQ&e=2089584816&scheme=https",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -1838,7 +1838,7 @@
   {
     "name": "Загородный International",
     "type": "Познавательные",
-    "url": "https://bl.rutube.ru/livestream/406973c72e9d0449feef05ef7811ad01/index.m3u8?s=2Ajdfj-SYAfuBuIvCy5dxw&e=2088807299&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/406973c72e9d0449feef05ef7811ad01/index.m3u8?s=cJOMbEhZtasJ9RWJL4KR2g&e=2089584816&scheme=https",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -1952,7 +1952,7 @@
   {
     "name": "TLC",
     "type": "Женские",
-    "url": "https://bl.rutube.ru/livestream/7c3d1a4cc0b4dff1176aa2dbb0b90000/index.m3u8?s=yYAn9KpuPuQtod8eXQe_fA&e=2088807298&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/7c3d1a4cc0b4dff1176aa2dbb0b90000/index.m3u8?s=oHi53Us6-Q3hkO_JFXR8aQ&e=2089584816&scheme=https",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2036,7 +2036,7 @@
   {
     "name": "НТВ HD",
     "type": "Россия",
-    "url": "https://edge02d.mediavitrina.ru/hls-livef5/ntv_msk/index.m3u8?token=v2.tIhK9IGIaB1QrdewqpG7eaMfDz30txbBukpgSNClVZw.pYxeGNmfkQhDWyQmmeu1T8PuB6iZLz61qzURiVe4bxI.1789414690.c74813aaeeda8ce5582781448b2c7d2b",
+    "url": "https://edge04p.mediavitrina.ru/hls-livef6/ntv_msk/index.m3u8?token=v2.OQ1wGsfUrp8QuhwaKxWY0GTO_IBPyeeQmmAp4v3pES0.Kz6EnQqnqt4_MMEaW6c6vmrpkMuHFCvf4MTPWxNdSUQ.1790185088.1dc6b5ff78c506f86df2c9812b7ca173",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2048,7 +2048,7 @@
   {
     "name": "ТВЦ HD",
     "type": "Россия",
-    "url": "https://edge03p.mediavitrina.ru/hls-livef5/tvc/index.m3u8?token=v2.JcHQZ1gAwk8B9biC-7nax_-jYfC-Eh5C7771m1pnxXs.sKUGZZXyqd8ZEdfaYDErKVldjWVJLmS_oQ5Mx4Rocsw.1789414691.b28c13858f68585fa2cdd1ac6122e65c",
+    "url": "https://edge03p.mediavitrina.ru/hls-livef6/tvc/index.m3u8?token=v2.3LtP5YqrxgeHSgQtafhgeeVPGK1t5wjhSk9EBOBHulg.h5NIdTKlv3nGf0Dwd1cueoHzYtjFiG5dHrDAcuSYNfg.1790185089.afc14a9a355753b2de7a0ba05086684d",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2060,7 +2060,7 @@
   {
     "name": "Пятый канал HD",
     "type": "Россия",
-    "url": "https://edge04p.mediavitrina.ru/hls-livef7/5tv/index.m3u8?token=v2.sEdAn4cLUBSm-kDumqRxHqfLDpRRqJ0Ag8NDeqFKzek.8qv2c5YtAKVxAym7UUmZzhEAO_A9ts0QYUzy7tvDbnE.1789414690.2a727862551220a36180c89f9154d65e",
+    "url": "https://edge02r.mediavitrina.ru/hls-livef7/5tv/index.m3u8?token=v2.xkrQjo9bYLr5R-wcljtOZtP_9agRJKSZhjLR_t-ztMU.NVDOLX7Pf31DSKAZjz5S8ta_cx_qV2yDlNhvfJyChYg.1790185089.8898335a7eb1f02b2e28df4f9c632db3",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2072,7 +2072,7 @@
   {
     "name": "Рен ТВ HD",
     "type": "Россия",
-    "url": "https://edge04p.mediavitrina.ru/hls-livef6/ren-tv/index.m3u8?token=v2.bmSIYF6XB5_Bh6n7boaV_t9xZa17lwgAijg7RH3piRw.2ytrXHgnCEz4CJ5b4gAicQ7aXu6slA6b0QDyxhWl8MM.1789414691.9bae776d503e1309aba848a07603a308",
+    "url": "https://edge02p.mediavitrina.ru/hls-livef6/ren-tv/index.m3u8?token=v2.a4nGyBWpY6d-e35RW80JesBvhnwO317Wsisb5ZyKBUk.eiEFfMZgiRm_Ru8UzpJcnawxUbTOjy7osQGIwC27nIg.1790185089.5191ea0168237a52465d59dcd3348a04",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2084,7 +2084,7 @@
   {
     "name": "СТС HD",
     "type": "Россия",
-    "url": "https://edge01d.mediavitrina.ru/hls-livef5/ctc/index.m3u8?token=v2.DVSWkUeDsG8fdrXvnf28OJs4Cb9cp1ZcJZ8IA0qR4u8.BxE02LRHSaHxlx8DytkeIPebkszo6KqpFN9HUsUp3yQ.1789414691.c5085ffc3c2a9a6258601a90263854b5",
+    "url": "https://edge04p.mediavitrina.ru/hls-livef5/ctc/index.m3u8?token=v2._SW1s_Qt-_-2tZ_iv_nVFB1hxRwn5Ev-Kn2r7d5RlMQ._e4-mot8e864MDcvm1M5g1Nuxuvx0zGRmQ0-BgW1RXw.1790185090.186d3b629e58c00cf7b9402cc3ee2567",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2102,7 +2102,7 @@
   {
     "name": "ТНТ HD",
     "type": "Россия",
-    "url": "https://edge01r.mediavitrina.ru/hls-livef8/tnt/index.m3u8?token=v2.Y4wUiwzlbk4ye8uhfyEe1u6vWnRWN8f4FDDVWqTdcDI.89Pd-6ztwoFp2tbcfOqDyzovB40eP3iwSdpLAMEFa8U.1789414692.c81aca1b5c4fe2eefe4e33590dc46ca2",
+    "url": "https://edge02d.mediavitrina.ru/hls-livef7/tnt/index.m3u8?token=v2.TEVEGasnDZrTyr_wdvi1SRGrmNfI_uEHuZ9KOFRfdKs.MXr_9osZgmLSuq8YsNA3F8a-NZ1dckqkNQi2AzeIt80.1790185091.068290be892c6d38fc93f7980aa06be5",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2114,7 +2114,7 @@
   {
     "name": "ТНТ4 HD",
     "type": "Россия",
-    "url": "https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=9WyZpbI0-cu1wOPn-3ItQw&e=2088807292&scheme=https",
+    "url": "https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=fBUhwgB3AUU3GDrPPpR_WA&e=2089584809&scheme=https",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2126,7 +2126,7 @@
   {
     "name": "Пятница! HD",
     "type": "Россия",
-    "url": "https://edge02p.mediavitrina.ru/hls-livef8/friday/index.m3u8?token=v2.HIGpzRRanXd4YqfmEyUhnFEKWcO4xNAhbE19ESkauyY.e3nkQsvluMce870D-FNlaYnnjv2fw_8TftUWD1d85y0.1789414692.2759580feb00687f5f8f3038bd9c4135",
+    "url": "https://edge04p.mediavitrina.ru/hls-livef7/friday/index.m3u8?token=v2.f3PAjcID057bJHEAEGtXgQGh6cP4P6Vepe2GAcqk1o0.guXpT_YH8r7dI6_QGcOnNKjGSWkqXdlzrPwfrTT4Ljg.1790185090.606d0ea9c85f4bbce36dc9122acb5b2d",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2144,7 +2144,7 @@
   {
     "name": "ТВ3 HD",
     "type": "Россия",
-    "url": "https://edge01p.mediavitrina.ru/hls-livef8/tv3/index.m3u8?token=v2.IxapsFNEI49SorxosNYzcJYdR-LdlgoPjun3wUgNjwo.OE2s-BSvpABXI8XLP2GDbkAskhVLIC2UbQ0bhmRprjk.1789414691.c3ea3581ec142c3e2bafddcbb4a55e65",
+    "url": "https://edge01d.mediavitrina.ru/hls-livef7/tv3/index.m3u8?token=v2.QM8PL5dTfZOqx0SGVanI_9kj1OLQF4_Qr7Kp-DpmbWY.1yBApmVbKw8cHtM5UTHYruscWb2_STeRI9hbkVgC7wA.1790185090.604bfad64877f38fe6ed2d4b01e5b51a",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2192,7 +2192,7 @@
   {
     "name": "Домашний HD",
     "type": "Россия",
-    "url": "https://edge01r.mediavitrina.ru/hls-livef5/ctc-dom/index.m3u8?token=v2.FhOwanPD2CMQWG8KsLTPmLgBmzZwE8G6BbkdAi41jEQ.q6Py77lSpFYrklC1jTB15aszI1BJKcCY8NyY-wpGtkQ.1789414691.2e41b554157e39693b50e70bdda1ccf3",
+    "url": "https://edge02d.mediavitrina.ru/hls-livef6/ctc-dom/index.m3u8?token=v2.QEr3Xa_Ja9oKlbRVFcnhlowISYNHKxvvuUdBir-FG40.FgiHUZqZpHodWS843_rhSnvtxndgRZV8TBg_2QRN2RE.1790185090.a623a5359d9f42bdfc27b17950c32e33",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2210,7 +2210,7 @@
   {
     "name": "ОТР",
     "type": "Россия",
-    "url": "https://edge03p.mediavitrina.ru/hls-livef5/otr_0/index.m3u8?token=v2.bJbAxEN39maaXA9PkYby4YAdAfo-e9Dq-RsXW_Ejb6s.WhsMRroodk5LVAhrbj_crlyYTterSkEM3SfKduyKzWQ.1789414690.7e84d47b27a5f6fc0c9157f08d8159b7",
+    "url": "https://edge03p.mediavitrina.ru/hls-livef6/otr_0/index.m3u8?token=v2.ndghDjhH5Wf7Ajyn9VMKtc7OvsOVcO8f4h9rBLo8k88.hHqvb29Jmd_5dSuayDQZ86r5h4d3ITpkGXQMYLISUm4.1790185089.b5654bc818f2a9b378649c8f60d0d5ab",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2408,7 +2408,7 @@
   {
     "name": "Матч! HD",
     "type": "Спорт",
-    "url": "https://edge01r.mediavitrina.ru/hls-livef5/matchtv/index.m3u8?token=v2.zxvuuyp-7JdQoV_8FlfUHc1cupAqSSj7sBFOtUrEw0Y.dbMbalcR8C6kDdcbnzwn2vzHUXAGPucGi3rZcbyYJdE.1789414690.7d57c19c1f9062f0f8aac2e9de581ef5",
+    "url": "https://edge02p.mediavitrina.ru/hls-livef5/matchtv/index.m3u8?token=v2.fhff9z9y7hj3gJOA6gls4336eK0Cb7PGM6D7Dt2BdDk.TlO-QePjpVlGqaSjSTSUhJLq4QuDLOu3YhhUYXTRR_I.1790185088.1e212a288a6485e5db91e6477984b660",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -2468,13 +2468,13 @@
   {
     "name": "KHL",
     "type": "Спорт",
-    "url": "https://s70378.cdn.ngenix.net/kxl/1/index.m3u8",
+    "url": "http://185.221.213.254/live/stream112.php?q=h0c5Eyuek0CppzJQmzPiyBmI9DfhNnGVuNxzdYNOfd9ssyKJuQoiDQFde-j43g82-q9myyPj9vU8CEkveLvUY7mvnC-xHCg7rkdauzU1fa4",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
     "name": "KHL Prime",
     "type": "Спорт",
-    "url": "http://45.145.32.13:20440/khl_prime/index.m3u8?token=test",
+    "url": "http://185.221.213.254/live/stream112.php?q=h0c5Eyuek0CppzJQmzPiyBmI9DfhNnGVuNxzdYNOfd-NZXVzxn-5nG-V_i8HN8fOZx0VVrw2gi5Ds2NfL_Ss8T4qgA8R4jMAoSfdVZct9eA",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
@@ -11058,12 +11058,6 @@
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {
-    "name": "RT en Espanol (1080p)",
-    "type": "Uncategorized",
-    "url": "http://179.60.51.134:8888/RT/index.m3u8",
-    "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
-  },
-  {
     "name": "RT en Espanol (720p)",
     "type": "Uncategorized",
     "url": "https://live-evg10.tv360.bitel.com.pe/bitel/rt/playlist.m3u8",
@@ -13371,6 +13365,12 @@
     "name": "National Geographic (1080p)",
     "type": "Uncategorized",
     "url": "http://dtv.vol.net.ua/National_Geographic-HD/index.m3u8",
+    "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
+  },
+  {
+    "name": "FashionTV (1080p)",
+    "type": "Uncategorized",
+    "url": "http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8",
     "img": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png"
   },
   {

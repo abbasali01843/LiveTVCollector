@@ -1778,7 +1778,7 @@
   {
     "name": "Disney Jr. Latin America (1080p)",
     "type": "Animation;Kids",
-    "url": "http://177.234.249.178:8888/DISNEY-JR/index.m3u8",
+    "url": "http://190.14.10.19:16000/play/a02d/index.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"
   },
   {
@@ -1804,12 +1804,6 @@
     "type": "Kids",
     "url": "https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8",
     "img": "https://gia.tv/streams/pptv/211465.png"
-  },
-  {
-    "name": "Nick Jr. Latin America (1080p)",
-    "type": "Kids",
-    "url": "http://177.234.249.178:8888/NICK-JR/index.m3u8",
-    "img": "https://i.imgur.com/KT4tdQs.png"
   },
   {
     "name": "El Sonorense (1080p) [Not 24/7]",

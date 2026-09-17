@@ -158,7 +158,7 @@
   {
     "name": "Canal C del Zulia (1080p)",
     "type": "General",
-    "url": "https://calm-forest-3478.cristianbracho904.workers.dev/master.m3u8",
+    "url": "https://calm-forest-3478.cristianbracho904.workers.dev/live/index.m3u8",
     "img": "https://i.imgur.com/ew44KOZ.png"
   },
   {
@@ -300,9 +300,9 @@
     "img": "https://i.imgur.com/NMI2Wed.png"
   },
   {
-    "name": "Venevision (720p)",
+    "name": "Venevision (576p)",
     "type": "General",
-    "url": "http://177.234.249.178:8888/VENEVISION/index.m3u8",
+    "url": "http://181.78.8.199:8000/play/a0if/index.m3u8",
     "img": "https://i.imgur.com/gm1m8hW.png"
   },
   {
@@ -734,7 +734,7 @@
   {
     "name": "Disney Jr. Latin America (1080p)",
     "type": "Animation;Kids",
-    "url": "http://177.234.249.178:8888/DISNEY-JR/index.m3u8",
+    "url": "http://190.14.10.19:16000/play/a02d/index.m3u8",
     "img": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg"
   },
   {

@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-08 09:02:18",
+  "date": "2026-09-17 18:37:13",
   "channels": {
     "Series": [
       {
@@ -385,11 +385,11 @@
         "url": "https://jmp2.uk/plu-622f498d119b4c000719c0b7.m3u8"
       },
       {
-        "name": "Magna Vision (1080p)",
+        "name": "Magnavision TV (720p)",
         "logo": "https://i.imgur.com/mUHixbi.png",
         "group": "Entertainment",
         "source": "https://iptv-org.github.io/iptv/countries/uk.m3u",
-        "url": "https://j78dpa3edq5r-hls-live.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4/playlist.m3u8"
+        "url": "https://manatv.akamaized.net/120723/smil:magnavision.smil/playlist.m3u8"
       },
       {
         "name": "Mystery TV (1080p)",
@@ -755,11 +755,11 @@
         "url": "https://faithworldtv.abs.tv/1826926230/index.m3u8"
       },
       {
-        "name": "GOD TV (396p)",
+        "name": "GOD TV (576p)",
         "logo": "https://i.imgur.com/hW4g2oe.png",
         "group": "Religious",
         "source": "https://iptv-org.github.io/iptv/countries/uk.m3u",
-        "url": "https://d1msejlow1t3l4.cloudfront.net/211125/godtv/chunks.m3u8"
+        "url": "https://fl-dvr.iptvcdn.tv/chid_1/playlist.m3u8"
       },
       {
         "name": "IBC Bakthi (1080p)",
@@ -879,6 +879,13 @@
         "group": "Religious",
         "source": "https://iptv-org.github.io/iptv/countries/uk.m3u",
         "url": "https://sscsott.com/srt/noortvuk/index.m3u8"
+      },
+      {
+        "name": "Panjab TV (576p)",
+        "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/10000/10000/skychb1041.png",
+        "group": "Religious",
+        "source": "https://iptv-org.github.io/iptv/countries/uk.m3u",
+        "url": "https://panjabtv.akamaized.net/panjabtv/panjabtvhlsout/playlist.m3u8"
       },
       {
         "name": "Safeer TV (1080p)",
@@ -1235,6 +1242,13 @@
         "group": "Lifestyle",
         "source": "https://iptv-org.github.io/iptv/countries/uk.m3u",
         "url": "https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8"
+      },
+      {
+        "name": "BBC Lifestyle Asia (720p)",
+        "logo": "https://i.imgur.com/9mzJJ3y.png",
+        "group": "Lifestyle",
+        "source": "https://iptv-org.github.io/iptv/countries/uk.m3u",
+        "url": "http://58.8.186.128:10003/bysid/2333"
       },
       {
         "name": "Hobby Maker (720p)",
@@ -1780,13 +1794,6 @@
         "group": "Sports",
         "source": "https://iptv-org.github.io/iptv/countries/uk.m3u",
         "url": "https://jmp2.uk/plu-655b7cbb2c46f300086f0afa.m3u8"
-      },
-      {
-        "name": "Sky Sports Cricket HD (1080p)",
-        "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1302.png",
-        "group": "Sports",
-        "source": "https://iptv-org.github.io/iptv/countries/uk.m3u",
-        "url": "https://xemzi.short.gy/2000006"
       },
       {
         "name": "Strongman (720p)",

@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-08 08:15:51",
+  "date": "2026-09-17 18:29:21",
   "channels": {
     "News": [
       {
@@ -46,7 +46,7 @@
       },
       {
         "name": "ABN News (1080p)",
-        "logo": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "logo": "https://i.imgur.com/R7BThkR.jpeg",
         "group": "News",
         "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
         "url": "http://115.42.65.142:9981/stream/channelid/966869781"
@@ -309,7 +309,7 @@
       },
       {
         "name": "Pashto 1 (1080p)",
-        "logo": "https://i.imgur.com/QB9xOSZ.png",
+        "logo": "https://i.imgur.com/tUsLDRe.png",
         "group": "Entertainment",
         "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
         "url": "http://103.250.28.74:8000/play/a00t/index.m3u8"
@@ -628,7 +628,7 @@
       },
       {
         "name": "Ten Sports Pakistan",
-        "logo": "https://i.imgur.com/nnqpYNm.png",
+        "logo": "https://i.imgur.com/7qS6TcE.png",
         "group": "Sports",
         "source": "https://iptv-org.github.io/iptv/countries/pk.m3u",
         "url": "http://121.91.61.106:8000/play/a04h/index.m3u8"
