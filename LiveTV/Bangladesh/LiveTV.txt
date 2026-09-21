@@ -1,8 +1,4 @@
 Welcome to PlayZ TV | Welcome to PlayZ TV | New App | https://playztv.pages.dev/promo/master.m3u8
-India In Action - Table Tennis - 21 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026 | Live Event | https://sonydaimenew.akamaized.net/hls/live/2037139/AG_Strea2009/ENG/std_lrh-800300010.m3u8?hdnea=exp%3D1790029451~acl%3D%2F%2A~id%3D13842219406925840526592307234069~hmac%3D590e5421244b4150f1e6c246df6b82d51bca8bd637590e190703fa8791908ddd
-India In Action - Table Tennis - 21 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026 | Live Event | https://sonydaimenew.akamaized.net/hls/live/2022322/AG_Strea2009/TAM/std_lrh-800300010.m3u8?hdnea=exp%3D1790029451~acl%3D%2F%2A~id%3D13842219406925840526592307234069~hmac%3D590e5421244b4150f1e6c246df6b82d51bca8bd637590e190703fa8791908ddd
-India In Action - Table Tennis - 21 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026 | Live Event | https://sonydaimenew.akamaized.net/hls/live/2022320/AG_Strea2009/TEL/std_lrh-800300010.m3u8?hdnea=exp%3D1790029451~acl%3D%2F%2A~id%3D13842219406925840526592307234069~hmac%3D590e5421244b4150f1e6c246df6b82d51bca8bd637590e190703fa8791908ddd
-India In Action - Table Tennis - 21 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026 | Live Event | https://sonydaimenew.akamaized.net/hls/live/2037140/AG_Strea2009/KAN/std_lrh-800300010.m3u8?hdnea=exp%3D1790029451~acl%3D%2F%2A~id%3D13842219406925840526592307234069~hmac%3D590e5421244b4150f1e6c246df6b82d51bca8bd637590e190703fa8791908ddd
 Ekushey TV | Akash Go | http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
 Deepto TV | Akash Go | https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 Deshe Bideshe | BANGLA | https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
@@ -80,45 +76,45 @@ w_300,q_85/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.web
 w_300,q_85/1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp",[BD] Discovery Kids | [LIVE] BDIX ♛ | https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_kids/playlist.m3u8
 w_300,q_85/ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp",[BD] POGO | [LIVE] BDIX ♛ | https://bldcmprod-cdn.toffeelive.com/cdn/live/pogo_sd/playlist.m3u8
 w_300,q_85/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",[BD] Sony YAY | [LIVE] BDIX ♛ | https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyyay/playlist.m3u8
-Star Sports 1 | Sports | https://cdn8.zohanayaan.com:1686/hls/star1in.m3u8?md5=1xk3x3sWDj1LVAOq3xmAVQ&expires=1789991426
-Star Sports 1 Hindi | Sports | https://cdn3.zohanayaan.com:1686/hls/starhindi.m3u8?md5=3KJ7Wdtz19c8Du2EF6y76Q&expires=1789991426
-PTV Sports | Sports | https://cdn5.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=Py-9P1X0gPtVT0CMi86AlQ&expires=1789991426
-Willow HD | Sports | https://cdn2.zohanayaan.com:1686/hls/willowusa.m3u8?md5=TwIc_D40QnlW7BJA8gFxsw&expires=1789991426
-Willow HD 2 | Sports | https://cdn10.zohanayaan.com:1686/hls/willowextra.m3u8?md5=PxLU_L61x__OWT73f2DXTA&expires=1789991427
-Ten Sports | Sports | https://cdn6.zohanayaan.com:1686/hls/tenspk.m3u8?md5=uIyH879esSoMuOQXqQggtw&expires=1789991427
-A Sports HD | Sports | https://cdn9.zohanayaan.com:1686/hls/asportshd.m3u8?md5=4j8CEsz_VtFhRyXqw50TUA&expires=1789991427
-Sky Sports Cricket | Sports | https://cdn4.zohanayaan.com:1686/hls/skyscric.m3u8?md5=ErKTLbxTbAn5y717mXyopg&expires=1789991427
-Sky Sports Main Event | Sports | https://cdn10.zohanayaan.com:1686/hls/skysme.m3u8?md5=uRqbgXhNfQ_EImDSw4PzVQ&expires=1789991427
-TNT 1 | Sports | https://cdn1.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=dSlRfQsOsAwzWUktXmXWOg&expires=1789991427
-TNT 2 | Sports | https://cdn4.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=Ni3AqugucwIDu4FbRifPYw&expires=1789991428
-TNT 3 | Sports | https://cdn3.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=_bCGK1IWAtlOx2RUTmqcag&expires=1789991428
-TNT 4 | Sports | https://cdn3.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=KgdVMAK4quiUrWXuRoaUiw&expires=1789991428
-Sky Sport Nz 1 | Sports | https://cdn10.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=vhP4hCEm3GAMGNF2rnpQrA&expires=1789991428
-Sky Sport Nz 2 | Sports | https://cdn2.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=rUcK70evbblLCtKU26t-xw&expires=1789991428
-Sky Sport Nz 3 | Sports | https://cdn8.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=hzDsWgHUlv8esOBSTnB3HA&expires=1789991428
-Sky Sport Nz 4 | Sports | https://cdn10.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=3i7oSHAV25CM9cPRIJmKFg&expires=1789991428
-Sky Sport Nz 5 | Sports | https://cdn6.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=Y7uI6ABAy22-QFLBR2_5jw&expires=1789991428
-Sky Sport 6 Nz | Sports | https://cdn2.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=HwklCzdmElpI5j8fJnd8JA&expires=1789991429
-Sky Sport Nz 7 | Sports | https://cdn5.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=mrQFeT69fF-KPj0PcYHnIQ&expires=1789991429
-Sky Sport Nz 8 | Sports | https://cdn3.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=uEai8p8OE85ceDYIRV_JBA&expires=1789991429
-Sky Sport Nz 9 | Sports | https://cdn2.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=4mK_qcijBF9EAcAEwV2EdA&expires=1789991429
-Sky Sports Action | Sports | https://cdn2.zohanayaan.com:1686/hls/skysact.m3u8?md5=rJnqbcZQ_5kMMduMBfdMSA&expires=1789991429
-Sky Sports Golf | Sports | https://cdn8.zohanayaan.com:1686/hls/skysgol.m3u8?md5=BaEu6oI9ma6PDTTUIHSm0Q&expires=1789991429
-Sky Sports Premier League | Sports | https://cdn9.zohanayaan.com:1686/hls/skysprem.m3u8?md5=0M5OEWLKvAwpKRBBDaVjJA&expires=1789991429
-Sky Sports Football | Sports | https://cdn6.zohanayaan.com:1686/hls/skysfott.m3u8?md5=wK13-Xn7D0CS7_JPMdwk6Q&expires=1789991430
-Sky Sports Plus | Sports | https://cdn2.zohanayaan.com:1686/hls/skysare.m3u8?md5=8UnoVdDcqnsBZsq8AyQkUg&expires=1789991430
-Sky Sports F1 | Sports | https://cdn1.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=ewSyY2TCroRXlJS9Jr7GAQ&expires=1789991430
-LaLiGA | Sports | https://cdn2.zohanayaan.com:1686/hls/laligauk.m3u8?md5=GiZAlbLRZFQqRvethZhcrQ&expires=1789991430
-Premier Sports 1 | Sports | https://cdn5.zohanayaan.com:1686/hls/premieruk.m3u8?md5=qL5OPNBQ4Wvyrl5_fw7CQw&expires=1789991430
-Premier Sports 2 | Sports | https://cdn2.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=qvBI9X6uDfddOjgv6-ITzQ&expires=1789991430
-Super Football | Sports | https://cdn9.zohanayaan.com:1686/hls/superfotball.m3u8?md5=iSKIJkFcH20KdS4lm1CFLw&expires=1789991430
-Super Premier League | Sports | https://cdn5.zohanayaan.com:1686/hls/superpremier.m3u8?md5=yZypHacp8u9OGzwi4h_08A&expires=1789991431
-Astro Cricket | Sports | https://cdn3.zohanayaan.com:1686/hls/fox501.m3u8?md5=01KZzk-ye8SrxVDwpXeDRQ&expires=1789991431
-ESPN 1 | Sports | https://cdn2.zohanayaan.com:1686/hls/espnusa.m3u8?md5=hEzxEdJjTyoRFS2U1gvwkQ&expires=1789991431
-ESPN 2 | Sports | https://cdn10.zohanayaan.com:1686/hls/espn2.m3u8?md5=GPzgEA3g2G_eWFsH5rTyEA&expires=1789991431
-Sky Sports Mix | Sports | https://cdn9.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=nzjIBGFCpv2DOPlLa-R8nQ&expires=1789991431
-Sky Sports Tennis | Sports | https://cdn7.zohanayaan.com:1686/hls/skystennis.m3u8?md5=Wnws8Y5aLJZy8-s40fahmw&expires=1789991431
-Sony Sports3 | Sports | https://cdn9.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=SNBFEIVb-vx5BYjNoTTnAg&expires=1789991432
+Star Sports 1 | Sports | https://cdn6.zohanayaan.com:1686/hls/star1in.m3u8?md5=Kn_6lTiAyKC6dPFq05boUQ&expires=1790013034
+Star Sports 1 Hindi | Sports | https://cdn3.zohanayaan.com:1686/hls/starhindi.m3u8?md5=7Ir3ubrrXlS0AUYvTkQhMg&expires=1790013034
+PTV Sports | Sports | https://cdn10.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=X0QAA7a2xG9XePHxUYKPmg&expires=1790013034
+Willow HD | Sports | https://cdn7.zohanayaan.com:1686/hls/willowusa.m3u8?md5=fGu6uUA651qnKPoSfPndaw&expires=1790013034
+Willow HD 2 | Sports | https://cdn4.zohanayaan.com:1686/hls/willowextra.m3u8?md5=r5toUuBCTRZ3WJr1YL1V1w&expires=1790013035
+Ten Sports | Sports | https://cdn5.zohanayaan.com:1686/hls/tenspk.m3u8?md5=KJG_es26CoUlbuBmUrlWHQ&expires=1790013035
+A Sports HD | Sports | https://cdn3.zohanayaan.com:1686/hls/asportshd.m3u8?md5=jRQVcKVcL2wwkAqsJfldsA&expires=1790013035
+Sky Sports Cricket | Sports | https://cdn5.zohanayaan.com:1686/hls/skyscric.m3u8?md5=xuysHgYEg9eQNamUhatB9Q&expires=1790013035
+Sky Sports Main Event | Sports | https://cdn2.zohanayaan.com:1686/hls/skysme.m3u8?md5=gzcRmqxwE-wwPcZP7rpSDA&expires=1790013035
+TNT 1 | Sports | https://cdn8.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=uXdak6dop4Mg4wObAu_UEw&expires=1790013036
+TNT 2 | Sports | https://cdn10.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=6xPjlb2Z74of5NZ4NXZX1g&expires=1790013036
+TNT 3 | Sports | https://cdn9.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=LX3xdVS03whsxuo33PU9gg&expires=1790013036
+TNT 4 | Sports | https://cdn2.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=ows99UrpLSHanoaoQybzMw&expires=1790013036
+Sky Sport Nz 1 | Sports | https://cdn5.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=2svTZkoMUxrnF1PaPa-Zdg&expires=1790013036
+Sky Sport Nz 2 | Sports | https://cdn7.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=GFaRn7dwDL_tEG_2oNk2bQ&expires=1790013036
+Sky Sport Nz 3 | Sports | https://cdn2.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=W35U1EtCN5hBR4G2gIqi1w&expires=1790013037
+Sky Sport Nz 4 | Sports | https://cdn2.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=e2GdDk46zvgnFz94_uvXwA&expires=1790013037
+Sky Sport Nz 5 | Sports | https://cdn10.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=xZ-gpLUntO446eZtcjuJlg&expires=1790013037
+Sky Sport 6 Nz | Sports | https://cdn1.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=4nbALflNuCjoP_uDDTTsVw&expires=1790013037
+Sky Sport Nz 7 | Sports | https://cdn4.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=wFTQOeYLG5m4-hpi3uSM7w&expires=1790013037
+Sky Sport Nz 8 | Sports | https://cdn2.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=3JXaA16iJxEXXh2i-5WtVg&expires=1790013037
+Sky Sport Nz 9 | Sports | https://cdn1.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=Pbtn7zyhPv6-urrCMgpbMg&expires=1790013037
+Sky Sports Action | Sports | https://cdn1.zohanayaan.com:1686/hls/skysact.m3u8?md5=f1WUDwgEpeedDQcPiDKp3w&expires=1790013037
+Sky Sports Golf | Sports | https://cdn6.zohanayaan.com:1686/hls/skysgol.m3u8?md5=brTh_2qN_3ZcnRLaegmFaA&expires=1790013038
+Sky Sports Premier League | Sports | https://cdn7.zohanayaan.com:1686/hls/skysprem.m3u8?md5=c-oT7Cdjku8vzXVMK8jVVg&expires=1790013038
+Sky Sports Football | Sports | https://cdn8.zohanayaan.com:1686/hls/skysfott.m3u8?md5=_RtxEclzMgFrQwrG27hmzg&expires=1790013038
+Sky Sports Plus | Sports | https://cdn3.zohanayaan.com:1686/hls/skysare.m3u8?md5=xbP6Nz5r_dY4tBIxcRy2sA&expires=1790013038
+Sky Sports F1 | Sports | https://cdn4.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=Y9WuvpfIOUXug-u37QotgQ&expires=1790013038
+LaLiGA | Sports | https://cdn8.zohanayaan.com:1686/hls/laligauk.m3u8?md5=O_4uhUZbLiHI1TdXFsIOpg&expires=1790013038
+Premier Sports 1 | Sports | https://cdn10.zohanayaan.com:1686/hls/premieruk.m3u8?md5=y402itHFs8VkslSGEiDBrw&expires=1790013038
+Premier Sports 2 | Sports | https://cdn6.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=LyVYed01fHjzyj_HkMfxag&expires=1790013038
+Super Football | Sports | https://cdn9.zohanayaan.com:1686/hls/superfotball.m3u8?md5=6vescFpyoNWgsFwh9Y-_FQ&expires=1790013039
+Super Premier League | Sports | https://cdn2.zohanayaan.com:1686/hls/superpremier.m3u8?md5=cP0ZFIh3A00gkq3-EVqwIw&expires=1790013039
+Astro Cricket | Sports | https://cdn10.zohanayaan.com:1686/hls/fox501.m3u8?md5=kk-6U-aRMuwQxQ62bAXc3A&expires=1790013039
+ESPN 1 | Sports | https://cdn5.zohanayaan.com:1686/hls/espnusa.m3u8?md5=faw-bTFEXeDKK3MpQZjKKw&expires=1790013039
+ESPN 2 | Sports | https://cdn6.zohanayaan.com:1686/hls/espn2.m3u8?md5=66w6prg9-DmV7zo2LPLAww&expires=1790013039
+Sky Sports Mix | Sports | https://cdn10.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=YhnYzNb-oKo9xYUcMnJyEQ&expires=1790013039
+Sky Sports Tennis | Sports | https://cdn6.zohanayaan.com:1686/hls/skystennis.m3u8?md5=UfPEai8x3ECQ_MiyepMzkA&expires=1790013039
+Sony Sports3 | Sports | https://cdn6.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=4rSuVVoANJDo_8aIFHY9dg&expires=1790013040
 Unite8 Sports 1 | Sports | https://tvsen6.aynaott.com/superlaliga/index.m3u8?e=1784102509&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=b6e220b27addbd7e852fe6671bff5738
 Unite8 Sports 2 | Sports | https://tvsen7.aynaott.com/Sports1/index.m3u8?e=1784102510&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&ip=52.157.32.49&token=3d148447575a06fa99eb4be6e5d9a318
 FIFA+ | Sports | https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8
@@ -341,66 +337,59 @@ BT Sports 2 | Cricket | https://tvsen6.aynaott.com/btSport2/index.m3u8?e=1784102
 Willow TV | Cricket | https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=a9cdf8d7d3bacb7c8aea83611a6c3906
 PTV Sports | Cricket | https://tvsen7.aynaott.com/zY3hJ7pQ2vM5gD8s/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&ip=52.157.32.49&token=b75669e4aa0dd58c602b637ab66af304
 Deshi TV (720p) | Unknown | https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
+My TV | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
+ATN Music (360p) | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 Ananda TV | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
 Channel S | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
-My TV | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
 Gazi TV | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
 Boishakhi TV | Unknown | https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
-Maasranga TV (720p) | Unknown | http://tvsen5.aynascope.net/maasrangatv/index.m3u8
 RTV (720p) | Unknown | http://tvsen5.aynascope.net/RtvHD/index.m3u8
+Maasranga TV (720p) | Unknown | http://tvsen5.aynascope.net/maasrangatv/index.m3u8
+RTV (720p) | Unknown | https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8
 Duronto TV (720p) | Unknown | https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
-Nexus TV (576p) | Unknown | https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
-Maasranga TV (720p) | Unknown | https://tvsen5.aynaott.com/maasrangatv/index.m3u8
 RTV (720p) | Unknown | https://tvsen5.aynaott.com/RtvHD/index.m3u8
+Maasranga TV (720p) | Unknown | https://tvsen5.aynaott.com/maasrangatv/index.m3u8
 NTV (720p) | Unknown | https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
+Nexus TV (576p) | Unknown | https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
 Star Jalsha HD | Star Jalsha | http://premiumtvs.space/live/YqXTywueEV/damp2purchase/198.ts
 Sananda TV | Indian Bangla | https://live.sanandatelevision.in/sananda/index.m3u8
+ATN News | Bangladesh | https://tvsen6.aynaott.com/da6WMXAk/index.m3u8
+Ananda TV | Bangladesh | https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 Sananda TV | Indian Bangla | http://27.124.71.27/Zee_Bangla/tracks-v1a1/mono.m3u8
 Sony 8 | Indian Bangla | https://stream.ottplus.live/live/sony_aath_abr/index.m3u8
-Ananda TV | Bangladesh | https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 Boishakhi TV | Bangladesh | https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/index.m3u8
-ATN News | Bangladesh | https://tvsen6.aynaott.com/da6WMXAk/index.m3u8
-CTVN AKD Plus | Indian Bangla | https://live.legitpro.co.in/ctvnakdplus/index.m3u8
-BTV Chattogram | Bangladesh | https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8
-Desh TV | Bangladesh | https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8
-Ekattor TV | Bangladesh | https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8
-Channel I | Bangladesh | https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
-Ekhon TV | Bangladesh | https://tvsen6.aynaott.com/fbgZV3X17hwWcyfZ4pdb/index.m3u8
 Bein Sports Extra 2 | Sports | https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
-Horse & Country | Sports | https://hncfree-samsungau.amagi.tv/playlist.m3u8
-MTRSPT | Sports | https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8
+BTV Chattogram | Bangladesh | https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8
+Bijoy TV | Bangladesh | https://stream.ottplus.live/live/bijoy_tv_abr/live/bijoy_tv_720/chunks.m3u8
 RTV | Bangladesh | http://tvsen5.aynascope.net/RtvHD/tracks-v1a1/mono.ts.m3u8
-Pardesi TV | India | http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
+Desh TV | Bangladesh | https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8
+NTV | Bangladesh | https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8
+Horse & Country | Sports | https://hncfree-samsungau.amagi.tv/playlist.m3u8
+Sony TV HD | India | http://premimum.online:80/live/jen12345/jen54321/98854.ts
+MTRSPT | Sports | https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8
 My TV | Bangladesh | https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8
 Star Sports 2 HD | Sports | http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8
-Sony TV HD | India | http://premimum.online:80/live/jen12345/jen54321/98854.ts
-Willow Extra | Sports | http://27.124.71.27/Willow_Extra/index.m3u8
-Bijoy TV | Bangladesh | https://stream.ottplus.live/live/bijoy_tv_abr/live/bijoy_tv_720/chunks.m3u8
-Ekushe ETV | Bangladesh | https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8
-Global TV | Bangladesh | https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8
+Pardesi TV | India | http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
 Star Sports 1 Hindi HD | Sports | http://41.205.93.154/STARSPORTS1/index.m3u8
-Hindi Hits HD | Music | http://146.59.253.52:8080/hindihitshd/index.m3u8
-A Sports | Sports | https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
-SA TV | Bangladesh | https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8
-Mohona TV | Bangladesh | https://stream.ottplus.live/live/mohona_tv_abr/index.m3u8
 Trace Sport | Sports | https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-News 21 HD | Bangladesh | http://103.190.133.68:1935/news21live/live/chunklist_w54225199.m3u8
+Mohona TV | Bangladesh | https://stream.ottplus.live/live/mohona_tv_abr/index.m3u8
+Hindi Hits HD | Music | http://146.59.253.52:8080/hindihitshd/index.m3u8
+SA TV | Bangladesh | https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8
 Music TV | Music | http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 Bhojpuri Cinema | India | https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
+Willow Extra | Sports | http://27.124.71.27/Willow_Extra/index.m3u8
+Shemaroo Bollywood | India | https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
 Radio BBC | Radio | https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_vlow_sbr_v1/cfs/bbc_world_service_news_internet.m3u8
 Action Bollywood Movies | Others | https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
-Shemaroo Bollywood | India | https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
 YRF Music | Music | https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
-Sony Sports 5 HD | Sports | https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8
-Sony Sports 2 HD | Sports | https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8
-Digital Fashion | Others | http://115.187.41.216:8080/hls/digitalfashion/index.m3u8
+30A Music | Music | https://30a-tv.com/music.m3u8
 Rongeen TV | Kids | https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
+Sony Sports 5 HD | Sports | https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8
+Digital Fashion | Others | http://115.187.41.216:8080/hls/digitalfashion/index.m3u8
+Sony Sports 2 HD | Sports | https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8
 TNT Music | Music | https://tntm.mediacdn.ru/cdn/tntmusic/playlist.m3u8
-Motu Patlu | Cartoons | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
-Gopal Bhar | Cartoons | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
-Doraemon | Bangla | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
-Hindi Movies | Hindi | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8
 South Movies | Hindi | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
+Hindi Movies | Hindi | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8
 Amar Bangla | Bangla | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 Amar Digital TV | Bangla | http://115.187.41.216:8080/hls/amardigital/index.m3u8
 ASIAN TV | Bangla | https://tvsen6.aynaott.com/pKb5k6NnzxsKpWUs6E8M/index.m3u8
@@ -412,12 +401,14 @@ Bangla+ HD | Bangla | https://live-stream.utkalbongo.com/hls/livebanglatvstream.
 BHI Channel | Bangla | https://server.livelegitpro.in/bhichannel/bhichannel/index.m3u8
 BIJOY TV | Bangla | https://tvsen6.aynaott.com/N8Xbo5vdwVU6sF43RsW0/index.m3u8
 Channel 52 | Bangla | http://str24.l9574.com/503.stream/tracks-v1a1/mono.m3u8
+CHANNEL I | Bangla | https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
 Colors Bangla HD | Bangla | https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8
 Colors Bangla HD (Ads only) | Bangla | https://iptvcable.netlify.app/Altogether-007/Kolkata/ColorsBanglaHD.m3u8
 Discovery Bangla | Bangla | http://202.70.146.135:8000/play/a05z/index.m3u8
 Enter TV | Bangla | https://live1.entertv.com.bd/entertv/tracks-v1a1/mono.m3u8
 Enter10 Bangla HD | Bangla | https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
 G-Serise | Bangla | https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
+GLOBAL TV HD | Bangla | https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8
 iON TV | Bangla | https://app.ncare.live/live-orgin/iontvuk.stream/playlist.m3u8
 Jankhar TV | Bangla | https://dbcanada.sonarbanglatv.com/jhankartv/jtv/index.m3u8
 Khushboo Bangla | Bangla | https://cdn.pishow.tv/ott/live/1473/master.m3u8
@@ -425,7 +416,6 @@ Mohona TV | Bangla | https://tvsen6.aynaott.com/AkyX5dunzju4cpo26dr7/index.m3u8
 MOV | ZB Cinema | Bangla | https://server.zillarbarta.com/ZBCINEMA/index.m3u8
 MOV | ZEE BANGLA CINEMA | Bangla | https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8
 Movie Bangla TV | Bangla | http://alvetv.com/moviebanglatv/8080/index.m3u8
-MU | ATN MUSIC | Bangla | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8
 MU | DHOOM MUSIC Bangla | Bangla | https://cdn.pishow.tv/ott/live/1456/master.m3u8
 MU | ZB Music | Bangla | https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8
 NK TV Bangla | Bangla | https://nktv.smartstream.video/smartstream-us/nkbangla/nkbangla/playlist.m3u8
@@ -442,6 +432,8 @@ Time Televis HD | Bangla | https://app.ncare.live/live-orgin/timetvusa.stream/pl
 US-BD Journal 24 TV | Bangla | http://str24.l9574.com/510.stream/index.m3u8
 Zee Bangla HD | Bangla | https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8
 BD | DBC NEWS HD | Bangla News | https://tvsen6.aynaott.com/pF66Tkz0qFwP2aMMqHyt/index.m3u8
+BD | Ekattor TV | Bangla News | https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8
+BD | EKHON TV | Bangla News | https://tvsen6.aynaott.com/fbgZV3X17hwWcyfZ4pdb/index.m3u8
 BD | Jago News 24 | Bangla News | https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8
 BD | JAMUNA TV | Bangla News | https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8
 BD | NEWS 24 Television | Bangla News | https://tvsen6.aynaott.com/cdgr3tw6WoG7JyRnLbi0/index.m3u8
@@ -755,6 +747,7 @@ Travel XP English EU | Travel | https://travelxp-travelxp-1-eu.rakuten.wurl.tv/3
 Travel XP English NZ | Travel | https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8
 ---Live(DD Sports)--- | Sports | https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8
 ---Live(STAR SPORTS SELECT 2 HD)--- | Sports | http://tvsen7.aynascope.net/ssport2hd/index.m3u8
+--Live(A Sports)-- | Sports | https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
 --Live(beIN SPORTS XTRA)-- | Sports | https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8
 --Live(Euro Sport 1)-- | Sports | http://151.80.18.177:86/Eurosport_HD/index.m3u8
 --Live(Euro Sport 2 HD)-- | Sports | http://151.80.18.177:86/Eurosport_2_HD/index.m3u8
@@ -839,6 +832,8 @@ w_240,q_100/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.we
 0. Disney Channel Latin America | Kids | http://45.166.93.156:9999/play/a0f3/index.m3u8
 0. Disney International HD | Kids | http://202.70.146.135:8000/play/a04p/index.m3u8
 0. Disney Jr. | Kids | http://190.93.224.42/DISNEY-JR/index.m3u8
+0. Doraemon | Kids | https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+0. Gopal Bhar TV | Kids | https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
 0. Just For Laughs Gags | Kids | https://distributionsjustepourrire-justforlaughsgags-1-be.samsung.wurl.tv/playlist.m3u8
 0. Knowledge Network | Kids | https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index.m3u8
 0. Lego Channel | Kids | https://dltiqboxjw21d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evri8jwgwmxus/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=GBBC4300005AL
