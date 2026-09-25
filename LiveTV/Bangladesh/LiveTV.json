@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T03:35:41Z",
+  "updated": "2026-09-25T13:16:07Z",
   "country": "Bangladesh",
   "count": 1698,
   "channels": {
@@ -22,26 +22,65 @@
     "Live Event": [
       {
         "name": "India In Action - Athletics - 25 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026",
-        "url": "https://sonydaimenew.akamaized.net/hls/live/2120307/AG_strea2409/ENG/std_lrh-800300010.m3u8?hdnea=exp%3D1790343400~acl%3D%2F%2A~id%3D93398750920645958298195132066716~hmac%3D293d85e8c0519264167808299b254925af794a9c1be4ae597d8ce23357ce860d",
+        "url": "https://sonydaimenew.akamaized.net/hls/live/2120306/AG_Strea2409/ENG/std_lrh-800300010.m3u8?hdnea=exp%3D1790379807~acl%3D%2F%2A~id%3D55461394537217499746677676737531~hmac%3D07a94103d52bcdc44f153342bc17d324aae1bf276cf1103bb5e8e38d8e8b08af",
         "group": "Live Event",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024696/1790277062998446_AG26_25Sep_Athletics_Womens_Heptathlon_Long_Jump_live_landscape_thumb.jpg",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024761/1790325177849494_athletics_live_india_in_action_landscape_thumb.jpg",
         "country": "Bangladesh",
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
-          "tvg-logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024696/1790277062998446_AG26_25Sep_Athletics_Womens_Heptathlon_Long_Jump_live_landscape_thumb.jpg",
+          "tvg-logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024761/1790325177849494_athletics_live_india_in_action_landscape_thumb.jpg",
           "group-title": "Live Event"
         },
         "type": "hls"
       },
       {
-        "name": "Hong Kong, China vs Oman - 25 Sep 2026 [ENG] - 20th Asian Games Aichi-Nagoya 2026",
-        "url": "https://sonydaimenew.akamaized.net/hls/live/2120302/AG_DXCri2409/ENG/std_lrh-800300010.m3u8?hdnea=exp%3D1790343400~acl%3D%2F%2A~id%3D93398750920645958298195132066716~hmac%3D293d85e8c0519264167808299b254925af794a9c1be4ae597d8ce23357ce860d",
+        "name": "India In Action - Athletics - 25 Sep 2026 [TAM] - 20th Asian Games Aichi-Nagoya 2026",
+        "url": "https://sonydaimenew.akamaized.net/hls/live/2120304/AG_Strea2409/TAM/std_lrh-800300010.m3u8?hdnea=exp%3D1790379807~acl%3D%2F%2A~id%3D55461394537217499746677676737531~hmac%3D07a94103d52bcdc44f153342bc17d324aae1bf276cf1103bb5e8e38d8e8b08af",
         "group": "Live Event",
-        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024653/1790246768445288_AG26_Mens-Cricket-CHINA-vs-OMAN_LIVE_landscape_thumb.jpg",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024761/1790325177849494_athletics_live_india_in_action_landscape_thumb.jpg",
         "country": "Bangladesh",
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
-          "tvg-logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024653/1790246768445288_AG26_Mens-Cricket-CHINA-vs-OMAN_LIVE_landscape_thumb.jpg",
+          "tvg-logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024761/1790325177849494_athletics_live_india_in_action_landscape_thumb.jpg",
+          "group-title": "Live Event"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "India In Action - Athletics - 25 Sep 2026 [TEL] - 20th Asian Games Aichi-Nagoya 2026",
+        "url": "https://sonydaimenew.akamaized.net/hls/live/2120303/AG_Strea2409/TEL/std_lrh-800300010.m3u8?hdnea=exp%3D1790379807~acl%3D%2F%2A~id%3D55461394537217499746677676737531~hmac%3D07a94103d52bcdc44f153342bc17d324aae1bf276cf1103bb5e8e38d8e8b08af",
+        "group": "Live Event",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024761/1790325177849494_athletics_live_india_in_action_landscape_thumb.jpg",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024761/1790325177849494_athletics_live_india_in_action_landscape_thumb.jpg",
+          "group-title": "Live Event"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "India In Action - Athletics - 25 Sep 2026 [KAN] - 20th Asian Games Aichi-Nagoya 2026",
+        "url": "https://sonydaimenew.akamaized.net/hls/live/2120305/AG_Strea2409/KAN/std_lrh-800300010.m3u8?hdnea=exp%3D1790379807~acl%3D%2F%2A~id%3D55461394537217499746677676737531~hmac%3D07a94103d52bcdc44f153342bc17d324aae1bf276cf1103bb5e8e38d8e8b08af",
+        "group": "Live Event",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024761/1790325177849494_athletics_live_india_in_action_landscape_thumb.jpg",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024761/1790325177849494_athletics_live_india_in_action_landscape_thumb.jpg",
+          "group-title": "Live Event"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "Day 1 - Session 1 - 25 Sep 2026 [ENG] - Laver Cup 2026",
+        "url": "https://sonydaimenew.akamaized.net/hls/live/2022322/tennisli2509/ENG/std_lrh-800300010.m3u8?hdnea=exp%3D1790379807~acl%3D%2F%2A~id%3D55461394537217499746677676737531~hmac%3D07a94103d52bcdc44f153342bc17d324aae1bf276cf1103bb5e8e38d8e8b08af",
+        "group": "Live Event",
+        "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000008796/1758201700000410_LaverCup25_Day1_S1_Live_landscape_thumb.jpg",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000008796/1758201700000410_LaverCup25_Day1_S1_Live_landscape_thumb.jpg",
           "group-title": "Live Event"
         },
         "type": "hls"
@@ -712,6 +751,20 @@
         "type": "hls"
       },
       {
+        "name": "Ayna TV",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8",
+        "group": "Bangla",
+        "logo": "https://i.ibb.co.com/5hy7S3wB/Ayna-TV.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-id": "Ayna TV",
+          "tvg-logo": "https://i.ibb.co.com/5hy7S3wB/Ayna-TV.png",
+          "group-title": "Bangla"
+        },
+        "type": "hls"
+      },
+      {
         "name": "BANGLA TV",
         "url": "https://tvsen6.aynaott.com/39ee93nUbCCmm5LsyD4t/index.m3u8",
         "group": "Bangla",
@@ -867,7 +920,7 @@
       },
       {
         "name": "Enter10 Bangla HD",
-        "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8",
+        "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_240p/chunks.m3u8",
         "group": "Bangla",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/0/01/Enterr10_Bangla.jpg",
         "country": "Bangladesh",
@@ -889,6 +942,20 @@
         "attributes": {
           "tvg-id": "G-Serise",
           "tvg-logo": "https://upload.wikimedia.org/wikipedia/en/c/ce/G-Series_Logo.png",
+          "group-title": "Bangla"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "GAZI TV HD",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
+        "group": "Bangla",
+        "logo": "https://static.wikia.nocookie.net/logopedia/images/6/60/Gtvhd.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-id": "GTVHD.bd",
+          "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/6/60/Gtvhd.png",
           "group-title": "Bangla"
         },
         "type": "hls"
@@ -950,20 +1017,6 @@
         "type": "hls"
       },
       {
-        "name": "MOV | ZB Cinema",
-        "url": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8",
-        "group": "Bangla",
-        "logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-id": "ZBCinema.in",
-          "tvg-logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
-          "group-title": "Bangla"
-        },
-        "type": "hls"
-      },
-      {
         "name": "MOV | ZEE BANGLA CINEMA",
         "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8",
         "group": "Bangla",
@@ -992,6 +1045,20 @@
         "type": "hls"
       },
       {
+        "name": "MU | Channel 16",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
+        "group": "Bangla",
+        "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/d/d0/Channel_16_Logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-id": "Channel-16",
+          "tvg-logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/d/d0/Channel_16_Logo.png",
+          "group-title": "Bangla"
+        },
+        "type": "hls"
+      },
+      {
         "name": "MU | DHOOM MUSIC Bangla",
         "url": "https://cdn.pishow.tv/ott/live/1456/master.m3u8",
         "group": "Bangla",
@@ -1001,20 +1068,6 @@
         "attributes": {
           "tvg-id": "dhoommusic.bd",
           "tvg-logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/68/Dhoom_Music_Bangla_logo_%282014%29.png",
-          "group-title": "Bangla"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "MU | ZB Music",
-        "url": "https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8",
-        "group": "Bangla",
-        "logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-id": "ZBMusic.in",
-          "tvg-logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
           "group-title": "Bangla"
         },
         "type": "hls"
@@ -1118,15 +1171,15 @@
         "type": "hls"
       },
       {
-        "name": "Rajdhani TV",
-        "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
+        "name": "Ruposhi Bangla",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
         "group": "Bangla",
-        "logo": "https://rajdhanitv.online/assets/images/logo/1757970614logo%20footer.png",
+        "logo": "https://static.wikia.nocookie.net/logopedia/images/6/65/Ruposhi_Bangla_new.jpeg",
         "country": "Bangladesh",
         "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
         "attributes": {
-          "tvg-id": "Rajdhani TV",
-          "tvg-logo": "https://rajdhanitv.online/assets/images/logo/1757970614logo%20footer.png",
+          "tvg-id": "Rupasi Bangla",
+          "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/6/65/Ruposhi_Bangla_new.jpeg",
           "group-title": "Bangla"
         },
         "type": "hls"
@@ -1155,6 +1208,20 @@
         "attributes": {
           "tvg-id": "starjalsha.in",
           "tvg-logo": "http://openboxv8s.com/india/star_jalsha.png",
+          "group-title": "Bangla"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "TIKANA TV",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/thikanatv.stream/tracks-v1a1/mono.m3u8",
+        "group": "Bangla",
+        "logo": "https://yt3.googleusercontent.com/AbXfwy0BwAB4yjwV4gkMmSZizuTv30M9kZjO7V33LLvpy7CRVxK523zdvnZ3oTMtanUf9tHe=s900-c-k-c0x00ffffff-no-rj",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-id": "TIKANA TV",
+          "tvg-logo": "https://yt3.googleusercontent.com/AbXfwy0BwAB4yjwV4gkMmSZizuTv30M9kZjO7V33LLvpy7CRVxK523zdvnZ3oTMtanUf9tHe=s900-c-k-c0x00ffffff-no-rj",
           "group-title": "Bangla"
         },
         "type": "hls"
@@ -1203,7 +1270,7 @@
         "type": "hls"
       },
       {
-        "name": "T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2)",
+        "name": "T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2)",
         "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
         "group": "Sports",
         "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
@@ -1216,7 +1283,7 @@
         "type": "hls"
       },
       {
-        "name": "T Sports (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3)",
+        "name": "T Sports (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3)",
         "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
         "group": "Sports",
         "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
@@ -1230,7 +1297,7 @@
       },
       {
         "name": "Star Sports 1",
-        "url": "https://cdn7.zohanayaan.com:1686/hls/star1in.m3u8?md5=S3rD4vGsIkVy1PWaAi9X8g&expires=1790304625",
+        "url": "https://cdn9.zohanayaan.com:1686/hls/star1in.m3u8?md5=6uc9sC0G4bxAs4bMa5eZKg&expires=1790343321",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/16-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1243,7 +1310,7 @@
       },
       {
         "name": "Star Sports 1 Hindi",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/starhindi.m3u8?md5=YqvKj1HDbwzW4mKH3b-ykA&expires=1790304625",
+        "url": "https://cdn2.zohanayaan.com:1686/hls/starhindi.m3u8?md5=8_ge5VlsHM8EzUEPpRBkcA&expires=1790343322",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1256,7 +1323,7 @@
       },
       {
         "name": "PTV Sports",
-        "url": "https://cdn7.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=2pOJekxyakm8bsoiL3kIpg&expires=1790304625",
+        "url": "https://cdn1.zohanayaan.com:1686/hls/ptvpk.m3u8?md5=fidOXIhoT3DkpAjVtK8utA&expires=1790343322",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/20-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1269,7 +1336,7 @@
       },
       {
         "name": "Willow HD",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/willowusa.m3u8?md5=u6X1lluup7kTKL_-MCkQIQ&expires=1790304625",
+        "url": "https://cdn7.zohanayaan.com:1686/hls/willowusa.m3u8?md5=58zVlcqPI2QKG4o_YMysEA&expires=1790343322",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/38-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1282,7 +1349,7 @@
       },
       {
         "name": "Willow HD 2",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/willowextra.m3u8?md5=d2hoY10Z2t9FJGwtyetbiw&expires=1790304625",
+        "url": "https://cdn2.zohanayaan.com:1686/hls/willowextra.m3u8?md5=44yok6WBHb75rSAZga-QzQ&expires=1790343323",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/8-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1295,7 +1362,7 @@
       },
       {
         "name": "Ten Sports",
-        "url": "https://cdn4.zohanayaan.com:1686/hls/tenspk.m3u8?md5=AiWTay_A-5WDxchnWZdPNw&expires=1790304625",
+        "url": "https://cdn6.zohanayaan.com:1686/hls/tenspk.m3u8?md5=7zk0uWzZVBM9stjzj69W8g&expires=1790343323",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/10-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1308,7 +1375,7 @@
       },
       {
         "name": "A Sports HD",
-        "url": "https://cdn5.zohanayaan.com:1686/hls/asportshd.m3u8?md5=0PhztU4W-WsCYfr8YGtqzw&expires=1790304625",
+        "url": "https://cdn10.zohanayaan.com:1686/hls/asportshd.m3u8?md5=saO_q0QT6nOUAaqdN8nTIw&expires=1790343323",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/12-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1321,7 +1388,7 @@
       },
       {
         "name": "Sky Sports Cricket",
-        "url": "https://cdn10.zohanayaan.com:1686/hls/skyscric.m3u8?md5=pRt8MrIU6jdWC8ZcbZwiqw&expires=1790304626",
+        "url": "https://cdn8.zohanayaan.com:1686/hls/skyscric.m3u8?md5=ysZ3N240XMyLX9nCGzT4uQ&expires=1790343323",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/9-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1334,7 +1401,7 @@
       },
       {
         "name": "Sky Sports Main Event",
-        "url": "https://cdn10.zohanayaan.com:1686/hls/skysme.m3u8?md5=8qYZO1FDUZql1t0MTEh37Q&expires=1790304626",
+        "url": "https://cdn6.zohanayaan.com:1686/hls/skysme.m3u8?md5=kq5qCxpcUbGVYhfZHixjlA&expires=1790343324",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/18-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1347,7 +1414,7 @@
       },
       {
         "name": "TNT 1",
-        "url": "https://cdn1.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=du_S8wOCahc9jgiY2YNcXg&expires=1790304626",
+        "url": "https://cdn7.zohanayaan.com:1686/hls/bbtsp1.m3u8?md5=g_bjhFewg8mE92pvos8YiA&expires=1790343324",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
         "country": "Bangladesh",
@@ -1360,7 +1427,7 @@
       },
       {
         "name": "TNT 2",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=PAJx0pHmf-dHqCsW7R7hzQ&expires=1790304626",
+        "url": "https://cdn8.zohanayaan.com:1686/hls/bbtsp2.m3u8?md5=FuEHRQNa-wBtvk0X1TUHww&expires=1790343324",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
         "country": "Bangladesh",
@@ -1373,7 +1440,7 @@
       },
       {
         "name": "TNT 3",
-        "url": "https://cdn4.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=_m6k4jsWek-pBNm0sGXkIA&expires=1790304626",
+        "url": "https://cdn4.zohanayaan.com:1686/hls/bbtsp3.m3u8?md5=nN1jnfoPVEfCZwqGpZuMXg&expires=1790343325",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
         "country": "Bangladesh",
@@ -1386,7 +1453,7 @@
       },
       {
         "name": "TNT 4",
-        "url": "https://cdn8.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=2yo3-vHhnfa2KlEmeBFbDw&expires=1790304626",
+        "url": "https://cdn5.zohanayaan.com:1686/hls/bbtespn.m3u8?md5=BFr0bZBxj4pTGw6kOGEnYw&expires=1790343325",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/tnt.png",
         "country": "Bangladesh",
@@ -1399,7 +1466,7 @@
       },
       {
         "name": "Sky Sport Nz 1",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=QBEEOfqfLnRWlsFMwyBf3g&expires=1790304626",
+        "url": "https://cdn10.zohanayaan.com:1686/hls/sky1nz.m3u8?md5=gdON5KXMhrWG-M6-UoCgdg&expires=1790343325",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1412,7 +1479,7 @@
       },
       {
         "name": "Sky Sport Nz 2",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=I6ewxSYt5r6g13Z8HbmUYA&expires=1790304626",
+        "url": "https://cdn9.zohanayaan.com:1686/hls/sky2nz.m3u8?md5=3jivR0iPxKXUAEca1nGZkQ&expires=1790343326",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1425,7 +1492,7 @@
       },
       {
         "name": "Sky Sport Nz 3",
-        "url": "https://cdn7.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=0myNxAxLitUlbnKSfXBW9w&expires=1790304626",
+        "url": "https://cdn8.zohanayaan.com:1686/hls/sky3nz.m3u8?md5=OiwJyxqkv_-8__yV9SH-ig&expires=1790343326",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1438,7 +1505,7 @@
       },
       {
         "name": "Sky Sport Nz 4",
-        "url": "https://cdn6.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=zJanJ3Gy3drkAOlvUeqBFg&expires=1790304627",
+        "url": "https://cdn7.zohanayaan.com:1686/hls/sky4nz.m3u8?md5=Aych9N-2ckw4jxDf8jhZHA&expires=1790343327",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1451,7 +1518,7 @@
       },
       {
         "name": "Sky Sport Nz 5",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=u-_ZkTehU1E0MCXohOdbvA&expires=1790304627",
+        "url": "https://cdn9.zohanayaan.com:1686/hls/sky5nz.m3u8?md5=4FAN1DDZNlCbCb7THlNMXw&expires=1790343327",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1464,7 +1531,7 @@
       },
       {
         "name": "Sky Sport 6 Nz",
-        "url": "https://cdn6.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=9_WhNY2AnWuZEn8XiW20SA&expires=1790304627",
+        "url": "https://cdn8.zohanayaan.com:1686/hls/sky6nz.m3u8?md5=TprvVQnndfenTlkyN-S27w&expires=1790343327",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1477,7 +1544,7 @@
       },
       {
         "name": "Sky Sport Nz 7",
-        "url": "https://cdn7.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=yVnu-QDDz32KIlqDlulS0w&expires=1790304627",
+        "url": "https://cdn4.zohanayaan.com:1686/hls/sky7nz.m3u8?md5=f4oqVyZvfDtQ8Y6pbRQaGg&expires=1790343327",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1490,7 +1557,7 @@
       },
       {
         "name": "Sky Sport Nz 8",
-        "url": "https://cdn8.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=SGkVfbSMD7X4zRqSkX6JkA&expires=1790304627",
+        "url": "https://cdn1.zohanayaan.com:1686/hls/sky8nz.m3u8?md5=f3RC25FQv-SFOa3acw_zvw&expires=1790343327",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1503,7 +1570,7 @@
       },
       {
         "name": "Sky Sport Nz 9",
-        "url": "https://cdn4.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=PZyQokphhHcFhwynvm5E1g&expires=1790304627",
+        "url": "https://cdn10.zohanayaan.com:1686/hls/sky9nz.m3u8?md5=lhOprxykB0Scya9e_kpIMQ&expires=1790343328",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/56-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1516,7 +1583,7 @@
       },
       {
         "name": "Sky Sports Action",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/skysact.m3u8?md5=biCoUhuuzMEJ99Kg0SL3pQ&expires=1790304627",
+        "url": "https://cdn7.zohanayaan.com:1686/hls/skysact.m3u8?md5=rTPLxVXU1JPl8705JyfvzQ&expires=1790343328",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745007829332.png",
         "country": "Bangladesh",
@@ -1529,7 +1596,7 @@
       },
       {
         "name": "Sky Sports Golf",
-        "url": "https://cdn6.zohanayaan.com:1686/hls/skysgol.m3u8?md5=AWHwkpwwjt76nnCnxYiScQ&expires=1790304628",
+        "url": "https://cdn4.zohanayaan.com:1686/hls/skysgol.m3u8?md5=pSaSSR_F2GxA0M-ub7GRzw&expires=1790343328",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008055327.png",
         "country": "Bangladesh",
@@ -1542,7 +1609,7 @@
       },
       {
         "name": "Sky Sports Premier League",
-        "url": "https://cdn5.zohanayaan.com:1686/hls/skysprem.m3u8?md5=u7U1Bd0FDIbdSLnoEZgeBA&expires=1790304628",
+        "url": "https://cdn9.zohanayaan.com:1686/hls/skysprem.m3u8?md5=OPecxzvGPuwonMyOSsI5Lg&expires=1790343329",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/43-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1555,7 +1622,7 @@
       },
       {
         "name": "Sky Sports Football",
-        "url": "https://cdn9.zohanayaan.com:1686/hls/skysfott.m3u8?md5=dojVDv5p9OY63wCr-lk8dw&expires=1790304628",
+        "url": "https://cdn10.zohanayaan.com:1686/hls/skysfott.m3u8?md5=YXQWX4gvM92q9HEeuhAqtw&expires=1790343329",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/44-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1568,7 +1635,7 @@
       },
       {
         "name": "Sky Sports Plus",
-        "url": "https://cdn6.zohanayaan.com:1686/hls/skysare.m3u8?md5=w3aDAkOzzAYG1x-pHG3eiw&expires=1790304628",
+        "url": "https://cdn8.zohanayaan.com:1686/hls/skysare.m3u8?md5=zzKFCGkweuADyPj9IRS63w&expires=1790343329",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008347584.png",
         "country": "Bangladesh",
@@ -1581,7 +1648,7 @@
       },
       {
         "name": "Sky Sports F1",
-        "url": "https://cdn8.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=k1iYXFjPEHNC1NWwQ7z5ZQ&expires=1790304628",
+        "url": "https://cdn8.zohanayaan.com:1686/hls/skysfor1.m3u8?md5=R1mDzRVcs0IaSzG_woMlgA&expires=1790343330",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008468637.png",
         "country": "Bangladesh",
@@ -1594,7 +1661,7 @@
       },
       {
         "name": "LaLiGA",
-        "url": "https://cdn2.zohanayaan.com:1686/hls/laligauk.m3u8?md5=h-51vi6ZpGv98q82-6sopg&expires=1790304628",
+        "url": "https://cdn3.zohanayaan.com:1686/hls/laligauk.m3u8?md5=wiujaJe2rMJNl1R_24y4wA&expires=1790343330",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/19-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1607,7 +1674,7 @@
       },
       {
         "name": "Premier Sports 1",
-        "url": "https://cdn10.zohanayaan.com:1686/hls/premieruk.m3u8?md5=lmRsc0Oc3YGMfMK8wEte6w&expires=1790304628",
+        "url": "https://cdn10.zohanayaan.com:1686/hls/premieruk.m3u8?md5=orU10f1_c9X81e8coM6_fg&expires=1790343332",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/31-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1620,7 +1687,7 @@
       },
       {
         "name": "Premier Sports 2",
-        "url": "https://cdn8.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=J3lTLD88CGbp1KZ9uQiKVA&expires=1790304628",
+        "url": "https://cdn1.zohanayaan.com:1686/hls/hdchnl2.m3u8?md5=PGKQo4Jdsik6Ckhz8mkpcA&expires=1790343335",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/31-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1633,7 +1700,7 @@
       },
       {
         "name": "Super Football",
-        "url": "https://cdn3.zohanayaan.com:1686/hls/superfotball.m3u8?md5=ip_7om_TJwfyr_i48cFY4g&expires=1790304629",
+        "url": "https://cdn7.zohanayaan.com:1686/hls/superfotball.m3u8?md5=neWJLyj5pACroNcx9QUvUw&expires=1790343335",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/34-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1646,7 +1713,7 @@
       },
       {
         "name": "Super Premier League",
-        "url": "https://cdn8.zohanayaan.com:1686/hls/superpremier.m3u8?md5=KwwXvDhMJnO1mVtp4FUO-A&expires=1790304629",
+        "url": "https://cdn4.zohanayaan.com:1686/hls/superpremier.m3u8?md5=oHp9Gssg7cYvD8wA2a_FcQ&expires=1790343335",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008781606.png",
         "country": "Bangladesh",
@@ -1659,7 +1726,7 @@
       },
       {
         "name": "Astro Cricket",
-        "url": "https://cdn3.zohanayaan.com:1686/hls/fox501.m3u8?md5=1i0CfMV8oR41OZkFn3D63Q&expires=1790304629",
+        "url": "https://cdn3.zohanayaan.com:1686/hls/fox501.m3u8?md5=PuJMNfhNN9u6g-LeVxR4kA&expires=1790343336",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745008895589.png",
         "country": "Bangladesh",
@@ -1672,7 +1739,7 @@
       },
       {
         "name": "ESPN 1",
-        "url": "https://cdn5.zohanayaan.com:1686/hls/espnusa.m3u8?md5=KHK6uthfwkhpbiaBkfo9aQ&expires=1790304629",
+        "url": "https://cdn3.zohanayaan.com:1686/hls/espnusa.m3u8?md5=FYFSy5H2FVc6UYBNNneYaQ&expires=1790343336",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/17-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1685,7 +1752,7 @@
       },
       {
         "name": "ESPN 2",
-        "url": "https://cdn4.zohanayaan.com:1686/hls/espn2.m3u8?md5=YNVOt_ND0Slvhzu0-QdSCQ&expires=1790304629",
+        "url": "https://cdn1.zohanayaan.com:1686/hls/espn2.m3u8?md5=0eMnTccl7zBVylcwSwTeBQ&expires=1790343336",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/17-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1698,7 +1765,7 @@
       },
       {
         "name": "Sky Sports Mix",
-        "url": "https://cdn5.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=kus6J7h8EK_QB0dI1yIIjA&expires=1790304629",
+        "url": "https://cdn2.zohanayaan.com:1686/hls/skysmixx.m3u8?md5=x4dJ0pqZ2mVLhWhE5i9r3Q&expires=1790343337",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/13-by-xfireflix.png",
         "country": "Bangladesh",
@@ -1711,7 +1778,7 @@
       },
       {
         "name": "Sky Sports Tennis",
-        "url": "https://cdn5.zohanayaan.com:1686/hls/skystennis.m3u8?md5=KkiOpdG4OBfedHjv1goFOw&expires=1790304629",
+        "url": "https://cdn8.zohanayaan.com:1686/hls/skystennis.m3u8?md5=5igwyDTV3yTVSAcbshj_Og&expires=1790343337",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1745009085794.png",
         "country": "Bangladesh",
@@ -1724,7 +1791,7 @@
       },
       {
         "name": "Sony Sports3",
-        "url": "https://cdn10.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=XbMSrentgAxixSKwn2LE7A&expires=1790304630",
+        "url": "https://cdn2.zohanayaan.com:1686/hls/ten1hd.m3u8?md5=WRwtG_VEwZXJZ8PJIbTI3A&expires=1790343338",
         "group": "Sports",
         "logo": "https://abusaeeidx.github.io/Tv-Channel-Logo/CricHD/runded/1000173192-modified.png",
         "country": "Bangladesh",
@@ -2229,19 +2296,6 @@
         "type": "hls"
       },
       {
-        "name": "MTRSPT",
-        "url": "https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8",
-        "group": "Sports",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "MTRSPT",
-          "group-title": "Sports"
-        },
-        "type": "hls"
-      },
-      {
         "name": "Willow Extra",
         "url": "http://27.124.71.27/Willow_Extra/index.m3u8",
         "group": "Sports",
@@ -2250,45 +2304,6 @@
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
           "tvg-name": "Willow Extra",
-          "group-title": "Sports"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "Trace Sport",
-        "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
-        "group": "Sports",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "Trace Sport",
-          "group-title": "Sports"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "Horse & Country",
-        "url": "https://hncfree-samsungau.amagi.tv/playlist.m3u8",
-        "group": "Sports",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "Horse & Country",
-          "group-title": "Sports"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "Star Sports 2 HD",
-        "url": "http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8",
-        "group": "Sports",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "Star Sports 2 HD",
           "group-title": "Sports"
         },
         "type": "hls"
@@ -2307,14 +2322,66 @@
         "type": "hls"
       },
       {
-        "name": "Sony Sports 5 HD",
-        "url": "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
+        "name": "MTRSPT",
+        "url": "https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8",
         "group": "Sports",
         "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
         "country": "Bangladesh",
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
-          "tvg-name": "Sony Sports 5 HD",
+          "tvg-name": "MTRSPT",
+          "group-title": "Sports"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "Horse & Country",
+        "url": "https://hncfree-samsungau.amagi.tv/playlist.m3u8",
+        "group": "Sports",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "Horse & Country",
+          "group-title": "Sports"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "Star Sports 1 Hindi HD",
+        "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+        "group": "Sports",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "Star Sports 1 Hindi HD",
+          "group-title": "Sports"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "Star Sports 2 HD",
+        "url": "http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8",
+        "group": "Sports",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "Star Sports 2 HD",
+          "group-title": "Sports"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "Trace Sport",
+        "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+        "group": "Sports",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "Trace Sport",
           "group-title": "Sports"
         },
         "type": "hls"
@@ -2342,48 +2409,6 @@
         "attributes": {
           "tvg-id": "ddsports.in",
           "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/6/64/DD_Sports_new_logo.jpg",
-          "group-title": "Sports"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "---Live(GO 3 sport 1)---",
-        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18000/index.m3u8",
-        "group": "Sports",
-        "logo": "https://static.wikia.nocookie.net/logopedia/images/0/03/Go3_Sport.svg",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-id": "GO 3 sport 3",
-          "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/0/03/Go3_Sport.svg",
-          "group-title": "Sports"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "---Live(GO 3 sport 2)---",
-        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18012/index.m3u8",
-        "group": "Sports",
-        "logo": "https://static.wikia.nocookie.net/logopedia/images/4/48/Go3_Sport_2_II.svg",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-id": "GO 3 sport 3",
-          "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/4/48/Go3_Sport_2_II.svg",
-          "group-title": "Sports"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "---Live(GO 3 sport 3)---",
-        "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18025/index.m3u8",
-        "group": "Sports",
-        "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c3/Go3_Sport_3_II.svg",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-id": "GO 3 sport 3",
-          "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/c/c3/Go3_Sport_3_II.svg",
           "group-title": "Sports"
         },
         "type": "hls"
@@ -2516,7 +2541,7 @@
       },
       {
         "name": "CR | Fox Cricket 501 HD",
-        "url": "http://ee0c5e74.akadatel.com/iptv/QRDWGTBMDHSDGK/19146/index.m3u8",
+        "url": "http://i0ckghar.otttv.pw/iptv/HYVPB352KPFADRC2A2KTW8XK/19146/index.m3u8",
         "group": "Sports",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/2/24/FoxCricket.svg",
         "country": "Bangladesh",
@@ -2949,6 +2974,20 @@
         "type": "hls"
       },
       {
+        "name": "MIXER | WOF 1",
+        "url": "https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/rakutenAA-mainstreammediafreesportsintl-rakuten/playlist.m3u8",
+        "group": "Sports",
+        "logo": "https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-id": "d2152bbb-64e0-4822-826b-60853ca1d056",
+          "tvg-logo": "https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6",
+          "group-title": "Sports"
+        },
+        "type": "hls"
+      },
+      {
         "name": "MIXER | World of Freesports",
         "url": "https://amg01866-mainstreammedia-freesportsinc-sportstribal-b3zdo.amagi.tv/ts-eu-w1-n2/playlist/amg01866-mainstreammedia-freesportsinc-sportstribal/playlist.m3u8",
         "group": "Sports",
@@ -3172,7 +3211,7 @@
       },
       {
         "name": "w_300,q_85/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png\",[BD] Toffee TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/toffee_drama/playlist.m3u8?edge-cache-token=Expires%3D1790296878~Starts%3D1790293278~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D-YorGx0Qpf_5gj4kQXFHDSwrDDp_HgNxie4JaTDpz8vg-RvvaDxWz9c0ciOQxfUQkP6pjkxh_dTtzXBinErDAw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/toffee_drama/playlist.m3u8?edge-cache-token=Expires%3D1790328069~Starts%3D1790324469~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3Dtm0Ov4-rM2L8Z7LMfsyjJWl4J2TtMtlnbNYtqKHVY1q7zs6q3z5n4b2qDKHlNQl02LbFi2iUdramrFSsdX-8CA",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/DNMXs5UBm1RY_In7IJ72/posters/737b5c6e-8435-4cd8-81de-16a499fa6f4e.png",
         "country": "Bangladesh",
@@ -3185,7 +3224,7 @@
       },
       {
         "name": "w_300,q_85/wHLVIJ4B7a1HdMSjaGLJ/posters/83b89557-3ae8-4ca8-8c5d-3c617359c738.png\",[BD] NTV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/n_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296879~Starts%3D1790293279~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DYOd14J5UcMPCIKqSdvcU5prEHQYcAcsfOFzOabwSOZcZzsjjFWeJ8odruBQbLi7YESvrglG-FZYanpHRof-lBg",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/n_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328070~Starts%3D1790324470~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DdCD1caIeDKJK24uTCIt9l9-QVhwCmXuYa7v_3rQ7PQqWdn1k-5w9zOZYuIrxYJvdj0UEUQLZNEv3-s3c33t6Bw",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/wHLVIJ4B7a1HdMSjaGLJ/posters/83b89557-3ae8-4ca8-8c5d-3c617359c738.png",
         "country": "Bangladesh",
@@ -3198,7 +3237,7 @@
       },
       {
         "name": "w_300,q_85/xi6xX5UBv9knK3AH9aMk/posters/f4db1c12-b10f-46e8-a09b-e0efb8820970.png\",[BD] Sony Aath",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/sonyaath/playlist.m3u8?edge-cache-token=Expires%3D1790296880~Starts%3D1790293280~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DVyDEacjnKdvqg9yAtExdYxyeTDQNVRH0dscLaXJ134_G86MgWC00sMTC0O7dDp9LXakC2iPU-nE2KjyRcEF_Aw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/sonyaath/playlist.m3u8?edge-cache-token=Expires%3D1790328071~Starts%3D1790324471~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DzDdScA37mxB2ngkZDQ_z3entQYXDFcTEE4B81tYfskSS9trDcoSINiGRsy2DyJNuCwcv4irb-7qGT3j9wNXbDQ",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/xi6xX5UBv9knK3AH9aMk/posters/f4db1c12-b10f-46e8-a09b-e0efb8820970.png",
         "country": "Bangladesh",
@@ -3211,7 +3250,7 @@
       },
       {
         "name": "w_300,q_85/qnv835oBcqxnFHJBuQcB/posters/348dfac3-c1e0-485d-a72b-3d282c9e2c73.png\",[BD] Channel i",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/channel_i/playlist.m3u8?edge-cache-token=Expires%3D1790296880~Starts%3D1790293280~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DVyDEacjnKdvqg9yAtExdYxyeTDQNVRH0dscLaXJ134_G86MgWC00sMTC0O7dDp9LXakC2iPU-nE2KjyRcEF_Aw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/channel_i/playlist.m3u8?edge-cache-token=Expires%3D1790328071~Starts%3D1790324471~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DzDdScA37mxB2ngkZDQ_z3entQYXDFcTEE4B81tYfskSS9trDcoSINiGRsy2DyJNuCwcv4irb-7qGT3j9wNXbDQ",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/qnv835oBcqxnFHJBuQcB/posters/348dfac3-c1e0-485d-a72b-3d282c9e2c73.png",
         "country": "Bangladesh",
@@ -3302,7 +3341,7 @@
       },
       {
         "name": "w_300,q_85/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png\",[BD] &TV HD",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/and_tv_hd/playlist.m3u8?edge-cache-token=Expires%3D1790296885~Starts%3D1790293285~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D34PFmtJZc6hmurpaXsavvZ3WJTAf4VxX43wnutPy8GIb3-D1gcxyTI2XwTPtHn2RSnYPs2_43q9rTi1ZeLH0BA",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/and_tv_hd/playlist.m3u8?edge-cache-token=Expires%3D1790328076~Starts%3D1790324476~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D4ip0LoA2rDa_H5BSosWUhIEGsYER2WMR3dLTaY1zxhQZO9O6S03BATBWRhBspKizt_e3WmSCjmSvj5KDaceqDg",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png",
         "country": "Bangladesh",
@@ -3315,7 +3354,7 @@
       },
       {
         "name": "w_300,q_85/2S5t-JQBv9knK3AHJTTW/posters/ae74f943-77c9-4395-a16c-8ed84b439080.webp\",[BD] Sony Entertainment Television",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/sony_entertainment/playlist.m3u8?edge-cache-token=Expires%3D1790296886~Starts%3D1790293286~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DH7cwSdVRDtwWyR0lO301ZYY9057jHLo7R60U4toRsuwU0rzpsYVFeU_cvoK4cghhaIA61jBzSdXqaB0E3uXjDw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/sony_entertainment/playlist.m3u8?edge-cache-token=Expires%3D1790328076~Starts%3D1790324476~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D4ip0LoA2rDa_H5BSosWUhIEGsYER2WMR3dLTaY1zxhQZO9O6S03BATBWRhBspKizt_e3WmSCjmSvj5KDaceqDg",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/2S5t-JQBv9knK3AHJTTW/posters/ae74f943-77c9-4395-a16c-8ed84b439080.webp",
         "country": "Bangladesh",
@@ -3328,7 +3367,7 @@
       },
       {
         "name": "w_300,q_85/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png\",[BD] Somoy TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296887~Starts%3D1790293287~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3Dg6FvsqgzqkoI5-Go4E-P0-PrfKhV7GDevsQakhKAnOTiKNtUVW7oXI9Ui3U2mkmYmUl2DubQWKy5eRJNUq5iAA",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328078~Starts%3D1790324478~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DiZ7oFHGZScNJZa7ynJQXMGtaRQiy_o7mNL-i6_54fOT0c7QLrIATQwsIDGU_DL727habCE4N5J602h74oOWFCg",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png",
         "country": "Bangladesh",
@@ -3341,7 +3380,7 @@
       },
       {
         "name": "w_300,q_85/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png\",[BD] Ekhon TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/ekhon_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296887~Starts%3D1790293287~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3Dg6FvsqgzqkoI5-Go4E-P0-PrfKhV7GDevsQakhKAnOTiKNtUVW7oXI9Ui3U2mkmYmUl2DubQWKy5eRJNUq5iAA",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/ekhon_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328078~Starts%3D1790324478~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DiZ7oFHGZScNJZa7ynJQXMGtaRQiy_o7mNL-i6_54fOT0c7QLrIATQwsIDGU_DL727habCE4N5J602h74oOWFCg",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png",
         "country": "Bangladesh",
@@ -3354,7 +3393,7 @@
       },
       {
         "name": "w_300,q_85/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png\",[BD] Global TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/globaltv/playlist.m3u8?edge-cache-token=Expires%3D1790296888~Starts%3D1790293288~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DVMaB4kDzAnN83DiDTdWSHfxZil1A_yXEGfQUBqOqV0XB7SA-dXy93_CATIWPcFAay_dinWLfx6mxJNNMXl-qBw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/globaltv/playlist.m3u8?edge-cache-token=Expires%3D1790328079~Starts%3D1790324479~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D6wzq_sCLvdUt9NRppV9yjr1LzbOSOBZ-05fO4q6VR9vnJZ1bgbjoLvFVjg82zVoKchX_duQRnmMsXtfXNnTbBg",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/0y_tDJsBNnOkwJLWNrdE/posters/2ff058e1-630f-4657-8dc6-b677e65642c5.png",
         "country": "Bangladesh",
@@ -3367,7 +3406,7 @@
       },
       {
         "name": "w_300,q_85/b60Ss5UBrjBfS2_RJPb8/posters/c68ede73-0be0-41b7-9130-9628a16f2feb.png\",[BD] Toffee Movies",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/toffee_movie/playlist.m3u8?edge-cache-token=Expires%3D1790296888~Starts%3D1790293288~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DVMaB4kDzAnN83DiDTdWSHfxZil1A_yXEGfQUBqOqV0XB7SA-dXy93_CATIWPcFAay_dinWLfx6mxJNNMXl-qBw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/toffee_movie/playlist.m3u8?edge-cache-token=Expires%3D1790328079~Starts%3D1790324479~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D6wzq_sCLvdUt9NRppV9yjr1LzbOSOBZ-05fO4q6VR9vnJZ1bgbjoLvFVjg82zVoKchX_duQRnmMsXtfXNnTbBg",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/b60Ss5UBrjBfS2_RJPb8/posters/c68ede73-0be0-41b7-9130-9628a16f2feb.png",
         "country": "Bangladesh",
@@ -3380,7 +3419,7 @@
       },
       {
         "name": "w_300,q_85/PiL635oBEef-9-uV2uCe/posters/36f380e0-6c71-4b27-a73b-2afb3ce7e982.png\",[BD] Jamuna TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/jamuna_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296889~Starts%3D1790293289~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DGVyQPAof3Pf1WNBRUbPQqQ2DVotyqartZ0uiOo-em0Gkll5eccNK2BloIeFgxJm6xelf9Jy1JmAF2riQ37TWAA",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/jamuna_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328080~Starts%3D1790324480~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DJaB3CsbPBa5LfM3XKMMPyC3e4pmO-_T7f12AuH0Q555HaW3mtegYyLXLjaeQI6BUOBWYJlVGD3Lh9uvJEJcTDQ",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PiL635oBEef-9-uV2uCe/posters/36f380e0-6c71-4b27-a73b-2afb3ce7e982.png",
         "country": "Bangladesh",
@@ -3393,7 +3432,7 @@
       },
       {
         "name": "w_300,q_85/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png\",[BD] Rajdhani TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/rajdhani_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296890~Starts%3D1790293290~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3Dh0m6KrpEVmuBU0xnTMNG6n-wxYBhtSawOUILfA66ZL9HSqKSj7pIfKYAgpbCJDLZs_vkgz1z5mD8gDmTQGW_Dw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/rajdhani_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328080~Starts%3D1790324480~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DJaB3CsbPBa5LfM3XKMMPyC3e4pmO-_T7f12AuH0Q555HaW3mtegYyLXLjaeQI6BUOBWYJlVGD3Lh9uvJEJcTDQ",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png",
         "country": "Bangladesh",
@@ -3406,7 +3445,7 @@
       },
       {
         "name": "w_300,q_85/JiK-_poBEef-9-uVZv6L/posters/757a328e-70d6-45de-b093-0a843c69ade7.png\",[BD] Bangla TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/bangla_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296890~Starts%3D1790293290~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3Dh0m6KrpEVmuBU0xnTMNG6n-wxYBhtSawOUILfA66ZL9HSqKSj7pIfKYAgpbCJDLZs_vkgz1z5mD8gDmTQGW_Dw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/bangla_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328081~Starts%3D1790324481~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DpfvSm1xgSy29P4DzqdXTokJAhs63GhRO1w_TPSLJ2DsFDnd7zCARBrTLMNsP9aO4g-s8I53zckDj_r5CYgYWDw",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JiK-_poBEef-9-uVZv6L/posters/757a328e-70d6-45de-b093-0a843c69ade7.png",
         "country": "Bangladesh",
@@ -3419,7 +3458,7 @@
       },
       {
         "name": "w_300,q_85/ES_cZZsBNnOkwJLW1Oz1/posters/b872b8f5-cb6b-45a1-a1cd-7609df51d614.png\",[BD] Independent TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/independent_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296891~Starts%3D1790293291~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D2xQ3iTtBBWAPnKDHg4CahVNGMcWnvLEWMAWuQe-mMPTYcI29AFEZ5kbY_5E1B2DnsteNjGqYq5aRQ0e4v7uVDw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/independent_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328082~Starts%3D1790324482~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D1LaYGcXaPIqNYQl8SLHOLZqldvDgLerozj9yL37fRYe7NqVSf-zPcg4QH2krSDelgrV5Ku-nowFgIlxtsP20CA",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ES_cZZsBNnOkwJLW1Oz1/posters/b872b8f5-cb6b-45a1-a1cd-7609df51d614.png",
         "country": "Bangladesh",
@@ -3432,7 +3471,7 @@
       },
       {
         "name": "w_300,q_85/WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png\",[BD] Channel S",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/channel_s_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296892~Starts%3D1790293292~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3De-0lFk55PYu15zKDMHZFi8iKMymk8zBmVNaj-BHv_95X7txZT6hRJ45OobwvGr9ZqPY6x5Y19WHaW-wyyDWXCw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/channel_s_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328083~Starts%3D1790324483~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DGm4R1crYTeX6HhHIod5NeR0OJcM92u-pBHzZ4haTdTgS8NTqMTQFs5kQxn8Yv4nqN1UjzcvsQ-bCZGsXIQizAw",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png",
         "country": "Bangladesh",
@@ -3445,7 +3484,7 @@
       },
       {
         "name": "w_300,q_85/PS_La5oBNnOkwJLWLRN_/posters/e8c444fd-ee3b-4bf3-bb0a-f969bc295f82.png\",[BD] Ekattor TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/ekattor_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296892~Starts%3D1790293292~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3De-0lFk55PYu15zKDMHZFi8iKMymk8zBmVNaj-BHv_95X7txZT6hRJ45OobwvGr9ZqPY6x5Y19WHaW-wyyDWXCw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/ekattor_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328083~Starts%3D1790324483~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DGm4R1crYTeX6HhHIod5NeR0OJcM92u-pBHzZ4haTdTgS8NTqMTQFs5kQxn8Yv4nqN1UjzcvsQ-bCZGsXIQizAw",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/PS_La5oBNnOkwJLWLRN_/posters/e8c444fd-ee3b-4bf3-bb0a-f969bc295f82.png",
         "country": "Bangladesh",
@@ -3458,7 +3497,7 @@
       },
       {
         "name": "w_300,q_85/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png\",[BD] Ananda TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/anandatv/playlist.m3u8?edge-cache-token=Expires%3D1790296893~Starts%3D1790293293~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DMpMrNChcHpPboIma58InkVpDI9r9NvGUZYlR_Guqjp4py7EreLOOyb44_RaC3Vs-75hcsamYvq6z2555rxMGDQ",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/anandatv/playlist.m3u8?edge-cache-token=Expires%3D1790328084~Starts%3D1790324484~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DoY768WkW4ZVO5rvClG8X5y-7ZlQeoXDUm0WSGw_EG2EmGUKFbW1cUrmz_4rTthwaRlIputSBHaacO5v0bA6lCA",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/wCM3l5sBEef-9-uVXFvD/posters/d80f7aee-5bd7-4edc-97eb-ead0e3ebbe09.png",
         "country": "Bangladesh",
@@ -3471,7 +3510,7 @@
       },
       {
         "name": "w_300,q_85/bns4l5sBcqxnFHJBVZ32/posters/feaf9f3d-cc3b-4a3d-81a3-2cb703e561eb.png\",[BD] Bijoy TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/bijoytv/playlist.m3u8?edge-cache-token=Expires%3D1790296894~Starts%3D1790293294~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DWg0eV3uVMTTEemOW1CV87joxoMJVum0lN6pJWBimknmJ3jePuvy1fDeohvnNc7662WY8tZn-qdjBewCqJcD8Bg",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/bijoytv/playlist.m3u8?edge-cache-token=Expires%3D1790328084~Starts%3D1790324484~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DoY768WkW4ZVO5rvClG8X5y-7ZlQeoXDUm0WSGw_EG2EmGUKFbW1cUrmz_4rTthwaRlIputSBHaacO5v0bA6lCA",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/bns4l5sBcqxnFHJBVZ32/posters/feaf9f3d-cc3b-4a3d-81a3-2cb703e561eb.png",
         "country": "Bangladesh",
@@ -3484,7 +3523,7 @@
       },
       {
         "name": "w_300,q_85/jehEA54BIxFjn23xAmdw/posters/2c276556-cbcd-4467-b627-4394bb20f250.png\",[BD] Islamic TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/islamic_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296894~Starts%3D1790293294~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DWg0eV3uVMTTEemOW1CV87joxoMJVum0lN6pJWBimknmJ3jePuvy1fDeohvnNc7662WY8tZn-qdjBewCqJcD8Bg",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/islamic_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328085~Starts%3D1790324485~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DdfmWVv39baNdKPqv_6KikNadOrur_qR2oT9oZGOKyDr0L8yvQAyW5fflJBJEKme9I7Z3qNUImpQwJ5ASFJ19DQ",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/jehEA54BIxFjn23xAmdw/posters/2c276556-cbcd-4467-b627-4394bb20f250.png",
         "country": "Bangladesh",
@@ -3497,7 +3536,7 @@
       },
       {
         "name": "w_300,q_85/MyK__poBEef-9-uVmf5l/posters/1eadef5b-28e7-4dc2-b42f-c67a3357c9a0.png\",[BD] Asian TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/asian_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296895~Starts%3D1790293295~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DzCsgUnj_l1DOidFe91Yj159IVoJYwROlZ42VQdGXNCEs-yoN4OVC4ygYHj6BDE03oFombSw_1HFzMJFbkJ4qDw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/asian_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328086~Starts%3D1790324486~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3Da9EAqpg2CQHl-H6CIwPLVd-MhdTd2gzDw37o60VqDjzkqV9ss12BgCkFGk8YVBKZqynGAc8eZvlje76FHzjzBQ",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MyK__poBEef-9-uVmf5l/posters/1eadef5b-28e7-4dc2-b42f-c67a3357c9a0.png",
         "country": "Bangladesh",
@@ -3510,7 +3549,7 @@
       },
       {
         "name": "w_300,q_85/6Hz1PJwBcqxnFHJBhgkV/posters/845f1e3f-987a-47cc-a48d-ee12d8f4d419.png\",[BD] Desh TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/desh_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296895~Starts%3D1790293295~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DzCsgUnj_l1DOidFe91Yj159IVoJYwROlZ42VQdGXNCEs-yoN4OVC4ygYHj6BDE03oFombSw_1HFzMJFbkJ4qDw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/desh_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328086~Starts%3D1790324486~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3Da9EAqpg2CQHl-H6CIwPLVd-MhdTd2gzDw37o60VqDjzkqV9ss12BgCkFGk8YVBKZqynGAc8eZvlje76FHzjzBQ",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/6Hz1PJwBcqxnFHJBhgkV/posters/845f1e3f-987a-47cc-a48d-ee12d8f4d419.png",
         "country": "Bangladesh",
@@ -3523,7 +3562,7 @@
       },
       {
         "name": "w_300,q_85/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png\",[BD] Nexus TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/nexus_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296896~Starts%3D1790293296~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DKeeloJWrLf2yQdGl-e681oa5fTBJk-vMIT9CI3lLL_3jaAK8_oEPUQjB4ucTKs1bMMGCoIZmcZlfJ7muyhgdDw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/nexus_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328087~Starts%3D1790324487~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DFsaw7ir60olD84c4WY7o_KLhtVGcmwkJ-tQGmvyJbT82XM0jjES6_vR0jbzkuYnuhCBJXMK3LyQis4KerapuCw",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png",
         "country": "Bangladesh",
@@ -3536,7 +3575,7 @@
       },
       {
         "name": "w_300,q_85/-Xz3PJwBcqxnFHJBDAlE/posters/fecea361-8b60-4aeb-a530-6e27eee8178a.png\",[BD] Mohona TV",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/mohona_tv/playlist.m3u8?edge-cache-token=Expires%3D1790296896~Starts%3D1790293296~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DKeeloJWrLf2yQdGl-e681oa5fTBJk-vMIT9CI3lLL_3jaAK8_oEPUQjB4ucTKs1bMMGCoIZmcZlfJ7muyhgdDw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/mohona_tv/playlist.m3u8?edge-cache-token=Expires%3D1790328087~Starts%3D1790324487~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DFsaw7ir60olD84c4WY7o_KLhtVGcmwkJ-tQGmvyJbT82XM0jjES6_vR0jbzkuYnuhCBJXMK3LyQis4KerapuCw",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/-Xz3PJwBcqxnFHJBDAlE/posters/fecea361-8b60-4aeb-a530-6e27eee8178a.png",
         "country": "Bangladesh",
@@ -3549,7 +3588,7 @@
       },
       {
         "name": "w_300,q_85/CXz4PJwBcqxnFHJBPwrG/posters/2f913e34-3a6c-45e6-9f1f-97bf129a2ff5.png\",[BD] Movie Bangla",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/movie_bangla/playlist.m3u8?edge-cache-token=Expires%3D1790296897~Starts%3D1790293297~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D_MtunVlaMFzy7MRFfvbS7kBphb-r7ORPtCoD8HhPoVl6JgpN7rbh_oZZWBc7Tx4Pbl0LD9Z4katjuvNU7HkOCw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/movie_bangla/playlist.m3u8?edge-cache-token=Expires%3D1790328088~Starts%3D1790324488~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DfKoFsRaKCtg4zV9wwShWegvNGce3dKsI2kSfdsJITHb6mShfuibfpt30cjkCon3esXK7z3t6OYxHaw6Io-3nAQ",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/CXz4PJwBcqxnFHJBPwrG/posters/2f913e34-3a6c-45e6-9f1f-97bf129a2ff5.png",
         "country": "Bangladesh",
@@ -3562,7 +3601,7 @@
       },
       {
         "name": "w_300,q_85/HHnAgJkBcqxnFHJBabwO/posters/75840160-3f7d-4939-a562-37d44c616e87.png\",[BD] BFL | Live 1",
-        "url": "https://prod-cdn01-live.toffeelive.com/live/BFFL-1/index.m3u8?edge-cache-token=Expires%3D1790300500~Starts%3D1790293300~URLPrefix%3DaHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D17kAP8PSCuQg4yAF7LfVHCfg45kuj4EcsZ0CW1IMhKBajbbzLOKgghdw_2Qlin7XfIOd80lzcacHzgOOjVS1Cw",
+        "url": "https://prod-cdn01-live.toffeelive.com/live/BFFL-1/index.m3u8?edge-cache-token=Expires%3D1790331691~Starts%3D1790324491~URLPrefix%3DaHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3Dlk9TLQ60f7KloOhrOfEptgRaa1u6_Q6d-ytwDmGdiRMl8atogvzofPIBxRm5RbCknKANBVY17raJ79Z1r7C_BQ",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/HHnAgJkBcqxnFHJBabwO/posters/75840160-3f7d-4939-a562-37d44c616e87.png",
         "country": "Bangladesh",
@@ -3575,7 +3614,7 @@
       },
       {
         "name": "w_300,q_85/MXnGgJkBcqxnFHJBILyR/posters/5df9763a-aaa7-4bf3-9fb9-d765af13567c.png\",[BD] BFL | Live 2",
-        "url": "https://prod-cdn01-live.toffeelive.com/live/BFFL-2/index.m3u8?edge-cache-token=Expires%3D1790300500~Starts%3D1790293300~URLPrefix%3DaHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D17kAP8PSCuQg4yAF7LfVHCfg45kuj4EcsZ0CW1IMhKBajbbzLOKgghdw_2Qlin7XfIOd80lzcacHzgOOjVS1Cw",
+        "url": "https://prod-cdn01-live.toffeelive.com/live/BFFL-2/index.m3u8?edge-cache-token=Expires%3D1790331691~Starts%3D1790324491~URLPrefix%3DaHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3Dlk9TLQ60f7KloOhrOfEptgRaa1u6_Q6d-ytwDmGdiRMl8atogvzofPIBxRm5RbCknKANBVY17raJ79Z1r7C_BQ",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MXnGgJkBcqxnFHJBILyR/posters/5df9763a-aaa7-4bf3-9fb9-d765af13567c.png",
         "country": "Bangladesh",
@@ -3601,7 +3640,7 @@
       },
       {
         "name": "w_300,q_85/V__o054BObUt2AG6LL5C/posters/84590b8d-6430-4ba8-a0a5-757bf2f57c05.png\",[BD] WC Match Recap",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/fifa_world_cup/playlist.m3u8?edge-cache-token=Expires%3D1790296901~Starts%3D1790293301~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DEgyLLL1hJH5xw8YsYSpA9hRH7ipUu99Df2u4loOrrenNeje8a5nyxaZmgGyChorBng-tGVuD3skxqLrAA-HdDw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/fifa_world_cup/playlist.m3u8?edge-cache-token=Expires%3D1790328092~Starts%3D1790324492~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D2I5o2vMstOQ4hhVaymE-4fR831iCYL1Er1VgxxdO3ehOTVzQEfKMT6CbkU1csB7phxrXcpCwPBeCT9NhhP6KDA",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/V__o054BObUt2AG6LL5C/posters/84590b8d-6430-4ba8-a0a5-757bf2f57c05.png",
         "country": "Bangladesh",
@@ -3640,7 +3679,7 @@
       },
       {
         "name": "w_300,q_85/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp\",[BD] Sony Ten Cricket",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8?edge-cache-token=Expires%3D1790296904~Starts%3D1790293304~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3Ddwq5_y8idXThuqTE3N_iXQowjkfL0bj10ndHU6SO7K6PdVA0SZTe3T9k9kQGC48aRtr92Dd3R2znlxr3WAlxBw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/ten_cricket/playlist.m3u8?edge-cache-token=Expires%3D1790328095~Starts%3D1790324495~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D6mtASoYxsw27mxTvAQ9TTWLmWje8LPpr3L7srC7uWWlUBUBN4TD1suBn8tzn4eAbuOjB4ffqWGRZGsAR4I6EBg",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp",
         "country": "Bangladesh",
@@ -3731,7 +3770,7 @@
       },
       {
         "name": "w_300,q_85/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp\",[BD] Sony MAX 2",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/sonymax_2/playlist.m3u8?edge-cache-token=Expires%3D1790296909~Starts%3D1790293309~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D-vP-LMM1MPbcrRrzpUR-dZM--vc8qkcqOM1y5nk18QiH50_RFPB3RDprSDQH1igAhSVyzte7hFYOlnLqs_rLBw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/sonymax_2/playlist.m3u8?edge-cache-token=Expires%3D1790328101~Starts%3D1790324501~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DrCjz-coBA0ot5dBbdbyyFqMjOeZJFPD1ocIcL_Yy4bvhgVNgR05veE16cE_wdH7EiE73bjjjoQ2AGJRQ48VTDg",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp",
         "country": "Bangladesh",
@@ -3874,7 +3913,7 @@
       },
       {
         "name": "w_300,q_85/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp\",[BD] Sony BBC Earth HD",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/sonybbc_earth_hd/playlist.m3u8?edge-cache-token=Expires%3D1790296921~Starts%3D1790293321~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DCPt6oJxt9aoCUPnCd58DwgJdcfmM4md26VGgrNOGYkNAJBfJcfjPSZZ3nDYEH8UR-PpmhI-8BxqaXWRtkX6oDg",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/sonybbc_earth_hd/playlist.m3u8?edge-cache-token=Expires%3D1790328115~Starts%3D1790324515~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DLCHuWlvJKqL6Yv0VqgHtRlfMqxHY-CHXEwBTgN4QMglvtCp_plgPJZS_Sfi7TGXmVOZVEs4alPKdug159_OHBg",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp",
         "country": "Bangladesh",
@@ -4004,7 +4043,7 @@
       },
       {
         "name": "w_300,q_85/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp\",[BD] Sony YAY",
-        "url": "https://prod-linear-media.toffeelive.com/cdn/live/sonyyay/playlist.m3u8?edge-cache-token=Expires%3D1790296928~Starts%3D1790293328~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3D6-pOLZhQgH3s5X2SiGFqgAfWjgGZ1hJPcLyHoFBVRdw9wAlhLCO_MbbLlA4fN8ekj2RnejmfRQWEkcZiyTCMBw",
+        "url": "https://prod-linear-media.toffeelive.com/cdn/live/sonyyay/playlist.m3u8?edge-cache-token=Expires%3D1790328122~Starts%3D1790324522~URLPrefix%3DaHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbQ~Data%3DeyJzdWJzY3JpYmVyX2lkIjoiNjkyZjU2OWQtNzE2Mi00MDcwLWEwYTktNDA0MWYwMTQxMWQ1In0~Signature%3DzuPCe_4NA5fsClWHdSO9Jf6QWpPCEdVdu9Gw6rFYGgn8JSkswqAyMnmfCgmwYxgvkaSlI_G-EMcJZdox78ybBw",
         "group": "[LIVE] BDIX ♛",
         "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",
         "country": "Bangladesh",
@@ -4731,20 +4770,6 @@
         "type": "hls"
       },
       {
-        "name": "News 21 Bangla TV",
-        "url": "http://103.190.133.68:1935/news21live/live/playlist.m3u8",
-        "group": "News",
-        "logo": "https://i.imgur.com/ijuJfmd.png",
-        "country": "Bangladesh",
-        "source": "https://iptv-org.github.io/iptv/countries/bd.m3u",
-        "attributes": {
-          "tvg-id": "News21BanglaTV.bd@SD",
-          "tvg-logo": "https://i.imgur.com/ijuJfmd.png",
-          "group-title": "News"
-        },
-        "type": "hls"
-      },
-      {
         "name": "Probashi TV News (1080p)",
         "url": "http://158.69.24.53:8080/probashi_tv/index.m3u8",
         "group": "News",
@@ -5086,7 +5111,7 @@
       },
       {
         "name": "0. Disney Channel Latin America",
-        "url": "http://45.166.93.156:9999/play/a0f3/index.m3u8",
+        "url": "http://15.204.246.24:8080/DisneyHD/index.m3u8",
         "group": "Kids",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/f/f0/DISNEYCHANNEL-2025.svg",
         "country": "Bangladesh",
@@ -5870,7 +5895,7 @@
       },
       {
         "name": "Anime All Day",
-        "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a781-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6903cfae-183e-4d3b-a482-b7acf38ce356",
+        "url": "https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5812b7d3249444e05d09cc49&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=830&terminate=false&userId=",
         "group": "Kids",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/5/59/ANIME_ALL_DAY.svg",
         "country": "Bangladesh",
@@ -6032,20 +6057,6 @@
         "attributes": {
           "tvg-id": "XtremaCartoons.ar",
           "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/e/e5/Pinoyextremechannel.png",
-          "group-title": "Kids"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "ZB Cartoon",
-        "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
-        "group": "Kids",
-        "logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-id": "ZBCartoon.in",
-          "tvg-logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
           "group-title": "Kids"
         },
         "type": "hls"
@@ -7454,6 +7465,19 @@
         "type": "hls"
       },
       {
+        "name": "YRF Music",
+        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
+        "group": "Music",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "YRF Music",
+          "group-title": "Music"
+        },
+        "type": "hls"
+      },
+      {
         "name": "TNT Music",
         "url": "https://tntm.mediacdn.ru/cdn/tntmusic/playlist.m3u8",
         "group": "Music",
@@ -7790,7 +7814,7 @@
       },
       {
         "name": "EN | V2BEAT",
-        "url": "https://abr.de1se01.v2beat.live/playlist.m3u8",
+        "url": "https://de1se01.v2beat.live/playlist.m3u8",
         "group": "Music",
         "logo": "https://buddytv.netlify.app/img/no-logo.png",
         "country": "Bangladesh",
@@ -7930,7 +7954,7 @@
       },
       {
         "name": "EN | XITE Hits",
-        "url": "https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/ts-eu-w1-n2/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8",
+        "url": "https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8",
         "group": "Music",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/0/02/Xite_2013.svg",
         "country": "Bangladesh",
@@ -8148,6 +8172,20 @@
         "attributes": {
           "tvg-id": "Vevo Hip Hop & R&B",
           "tvg-logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD2300001C0_20250107T030829SQUARE.png",
+          "group-title": "Music"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "ATN Music (360p)",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
+        "group": "Music",
+        "logo": "https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681",
+        "country": "Bangladesh",
+        "source": "https://iptv-org.github.io/iptv/countries/bd.m3u",
+        "attributes": {
+          "tvg-id": "ATNMusic.bd@SD",
+          "tvg-logo": "https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681",
           "group-title": "Music"
         },
         "type": "hls"
@@ -8401,19 +8439,6 @@
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
           "tvg-name": "Sony 8",
-          "group-title": "Indian Bangla"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "CTVN AKD Plus",
-        "url": "https://live.legitpro.co.in/ctvnakdplus/index.m3u8",
-        "group": "Indian Bangla",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "CTVN AKD Plus",
           "group-title": "Indian Bangla"
         },
         "type": "hls"
@@ -8710,19 +8735,6 @@
         "type": "hls"
       },
       {
-        "name": "Ananda TV",
-        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
-        "group": "Unknown",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "Ananda TV",
-          "group-title": "Unknown"
-        },
-        "type": "hls"
-      },
-      {
         "name": "My TV",
         "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8",
         "group": "Unknown",
@@ -8731,45 +8743,6 @@
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
           "tvg-name": "My TV",
-          "group-title": "Unknown"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "Boishakhi TV",
-        "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
-        "group": "Unknown",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "Boishakhi TV",
-          "group-title": "Unknown"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "NAN TV",
-        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
-        "group": "Unknown",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "NAN TV",
-          "group-title": "Unknown"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "ATN Music (360p)",
-        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
-        "group": "Unknown",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "ATN Music (360p)",
           "group-title": "Unknown"
         },
         "type": "hls"
@@ -8801,14 +8774,53 @@
         "type": "hls"
       },
       {
-        "name": "Gazi TV",
-        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
+        "name": "Boishakhi TV",
+        "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
         "group": "Unknown",
         "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
         "country": "Bangladesh",
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
-          "tvg-name": "Gazi TV",
+          "tvg-name": "Boishakhi TV",
+          "group-title": "Unknown"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "Ananda TV",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8",
+        "group": "Unknown",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "Ananda TV",
+          "group-title": "Unknown"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "Maasranga TV (720p)",
+        "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+        "group": "Unknown",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "Maasranga TV (720p)",
+          "group-title": "Unknown"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "NAN TV",
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
+        "group": "Unknown",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "NAN TV",
           "group-title": "Unknown"
         },
         "type": "hls"
@@ -8827,14 +8839,66 @@
         "type": "hls"
       },
       {
+        "name": "RTV (720p)",
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
+        "group": "Unknown",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "RTV (720p)",
+          "group-title": "Unknown"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "Nexus TV (576p)",
+        "url": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
+        "group": "Unknown",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "Nexus TV (576p)",
+          "group-title": "Unknown"
+        },
+        "type": "hls"
+      },
+      {
         "name": "Maasranga TV (720p)",
-        "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+        "url": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
         "group": "Unknown",
         "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
         "country": "Bangladesh",
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
           "tvg-name": "Maasranga TV (720p)",
+          "group-title": "Unknown"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "Rajdhani TV (1080p)",
+        "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
+        "group": "Unknown",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "Rajdhani TV (1080p)",
+          "group-title": "Unknown"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "NTV (720p)",
+        "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+        "group": "Unknown",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "NTV (720p)",
           "group-title": "Unknown"
         },
         "type": "hls"
@@ -8861,45 +8925,6 @@
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
           "tvg-name": "RTV (720p)",
-          "group-title": "Unknown"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "Maasranga TV (720p)",
-        "url": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
-        "group": "Unknown",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "Maasranga TV (720p)",
-          "group-title": "Unknown"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "NTV (720p)",
-        "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
-        "group": "Unknown",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "NTV (720p)",
-          "group-title": "Unknown"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "Nexus TV (576p)",
-        "url": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
-        "group": "Unknown",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "Nexus TV (576p)",
           "group-title": "Unknown"
         },
         "type": "hls"
@@ -8961,19 +8986,6 @@
         "type": "hls"
       },
       {
-        "name": "BTV Chattogram",
-        "url": "https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8",
-        "group": "Bangladesh",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "BTV Chattogram",
-          "group-title": "Bangladesh"
-        },
-        "type": "hls"
-      },
-      {
         "name": "Boishakhi TV",
         "url": "https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/index.m3u8",
         "group": "Bangladesh",
@@ -8987,14 +8999,14 @@
         "type": "hls"
       },
       {
-        "name": "Channel I",
-        "url": "https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8",
+        "name": "BTV Chattogram",
+        "url": "https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8",
         "group": "Bangladesh",
         "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
         "country": "Bangladesh",
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
-          "tvg-name": "Channel I",
+          "tvg-name": "BTV Chattogram",
           "group-title": "Bangladesh"
         },
         "type": "hls"
@@ -9008,6 +9020,19 @@
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
           "tvg-name": "Desh TV",
+          "group-title": "Bangladesh"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "Channel I",
+        "url": "https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8",
+        "group": "Bangladesh",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "Channel I",
           "group-title": "Bangladesh"
         },
         "type": "hls"
@@ -9091,6 +9116,19 @@
         "type": "hls"
       },
       {
+        "name": "SA TV",
+        "url": "https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8",
+        "group": "Bangladesh",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "SA TV",
+          "group-title": "Bangladesh"
+        },
+        "type": "hls"
+      },
+      {
         "name": "RTV",
         "url": "http://tvsen5.aynascope.net/RtvHD/tracks-v1a1/mono.ts.m3u8",
         "group": "Bangladesh",
@@ -9104,19 +9142,6 @@
         "type": "hls"
       },
       {
-        "name": "Bijoy TV",
-        "url": "https://stream.ottplus.live/live/bijoy_tv_abr/live/bijoy_tv_720/chunks.m3u8",
-        "group": "Bangladesh",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "Bijoy TV",
-          "group-title": "Bangladesh"
-        },
-        "type": "hls"
-      },
-      {
         "name": "Channel 1",
         "url": "https://stream.ottplus.live/live/channel_1_hd_abr/live/channel_1_hd_720/chunks.m3u8",
         "group": "Bangladesh",
@@ -9125,19 +9150,6 @@
         "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
         "attributes": {
           "tvg-name": "Channel 1",
-          "group-title": "Bangladesh"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "SA TV",
-        "url": "https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8",
-        "group": "Bangladesh",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "SA TV",
           "group-title": "Bangladesh"
         },
         "type": "hls"
@@ -9644,6 +9656,20 @@
         "type": "hls"
       },
       {
+        "name": "MU | 7X Music",
+        "url": "https://cdn2.in/7xPunjabihls/live.m3u8",
+        "group": "India",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-id": "7X Music",
+          "tvg-logo": "",
+          "group-title": "India"
+        },
+        "type": "hls"
+      },
+      {
         "name": "MU | 8XM",
         "url": "https://vodzong.mjunoon.tv:8087/streamtest/8XM-131/playlist.m3u8",
         "group": "India",
@@ -9701,7 +9727,7 @@
       },
       {
         "name": "MU | 9XM",
-        "url": "https://cc-706183qeo55ez.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-706183qeo55ez/DIYC/PMSL/9X/9XMusic_IN/9XMusic_IN.m3u8",
+        "url": "https://wiselp.wiseplayout.com/9XM/master.m3u8",
         "group": "India",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/2/29/9x_media.png",
         "country": "Bangladesh",
@@ -9946,20 +9972,6 @@
         "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
         "attributes": {
           "tvg-id": "YRFMusic.in",
-          "tvg-logo": "https://a.jsrdn.com/hls/23146/yrf-music/logo_20240322_175611_70.png",
-          "group-title": "India"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "MU | YRF Music HD",
-        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
-        "group": "India",
-        "logo": "https://a.jsrdn.com/hls/23146/yrf-music/logo_20240322_175611_70.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-id": "YRFMusicHD",
           "tvg-logo": "https://a.jsrdn.com/hls/23146/yrf-music/logo_20240322_175611_70.png",
           "group-title": "India"
         },
@@ -10442,6 +10454,21 @@
         "type": "hls"
       }
     ],
+    "Bangla | 24/7": [
+      {
+        "name": "Doraemon",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+        "group": "Bangla | 24/7",
+        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-name": "Doraemon",
+          "group-title": "Bangla | 24/7"
+        },
+        "type": "hls"
+      }
+    ],
     "Cartoons | 24/7": [
       {
         "name": "Motu Patlu",
@@ -10466,21 +10493,6 @@
         "attributes": {
           "tvg-name": "Gopal Bhar",
           "group-title": "Cartoons | 24/7"
-        },
-        "type": "hls"
-      }
-    ],
-    "Bangla | 24/7": [
-      {
-        "name": "Doraemon",
-        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
-        "group": "Bangla | 24/7",
-        "logo": "https://abbasali01843.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-name": "Doraemon",
-          "group-title": "Bangla | 24/7"
         },
         "type": "hls"
       }
@@ -10552,6 +10564,20 @@
         "attributes": {
           "tvg-id": "jamuna.tv",
           "tvg-logo": "https://www.freekaj.com/assets/images/stock/image/2024/01/14/65a43ac0d1ffc1705261760.jpg",
+          "group-title": "Bangla News"
+        },
+        "type": "hls"
+      },
+      {
+        "name": "BD | NEWS 21 BANGLA",
+        "url": "http://103.190.133.68:1935/news21live/live/playlist.m3u8",
+        "group": "Bangla News",
+        "logo": "https://www.jagobd.com/wp-content/uploads/2024/11/news21.jpg",
+        "country": "Bangladesh",
+        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+        "attributes": {
+          "tvg-id": "NEWS 21 BANGLA",
+          "tvg-logo": "https://www.jagobd.com/wp-content/uploads/2024/11/news21.jpg",
           "group-title": "Bangla News"
         },
         "type": "hls"
@@ -10797,20 +10823,6 @@
         "type": "hls"
       },
       {
-        "name": "AccuWeather NOW",
-        "url": "https://amg00684-accuweather-accuweather-plex-jbd2s.amagi.tv/playlist/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1",
-        "group": "International News",
-        "logo": "https://static.wikia.nocookie.net/logopedia/images/e/ec/AccuWeather_2019_stacked.svg",
-        "country": "Bangladesh",
-        "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-        "attributes": {
-          "tvg-id": "AccuWeatherNOW.us",
-          "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/e/ec/AccuWeather_2019_stacked.svg",
-          "group-title": "International News"
-        },
-        "type": "hls"
-      },
-      {
         "name": "Al Jazeera English HD",
         "url": "https://live-hls-web-aje-fa.getaj.net/AJE/index.m3u8",
         "group": "International News",
@@ -11050,7 +11062,7 @@
       },
       {
         "name": "Global News (US)",
-        "url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
+        "url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8",
         "group": "International News",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/6/6b/Global_News_2022_Block_inside.svg",
         "country": "Bangladesh",
@@ -11206,7 +11218,7 @@
       },
       {
         "name": "ENT | aur LIFE HD",
-        "url": "https://s3.ideationtec.live/Aur_Life/Aur_Life.m3u8",
+        "url": "http://124.109.47.101/hls/stream1.m3u8",
         "group": "Pakistan",
         "logo": "https://aurlife.tv/wp-content/uploads/2021/11/Aur-life-Logo-png.png",
         "country": "Bangladesh",
@@ -11416,7 +11428,7 @@
       },
       {
         "name": "NEWS | GNN HD",
-        "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/gnnnews-181/playlist.m3u8",
+        "url": "https://s5.ideationtec.live/GNN_HD/GNN_HD.m3u8",
         "group": "Pakistan",
         "logo": "https://gnnhd.tv/_next/image?url=%2Fimages%2Fgnn-logo.png&w=640&q=75",
         "country": "Bangladesh",
@@ -12274,7 +12286,7 @@
       },
       {
         "name": "INSIGHT",
-        "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8",
+        "url": "https://d30jgtzu0azlqq.cloudfront.net/playlist/samsungus-insighttv/playlist.m3u8",
         "group": "Educational",
         "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300022JX_20250513T012654SQUARE.png",
         "country": "Bangladesh",
@@ -12428,7 +12440,7 @@
       },
       {
         "name": "REAL WILD",
-        "url": "https://amg00426-littledotstudio-realwild-tcl-fzsi1.amagi.tv/playlist/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
+        "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
         "group": "Educational",
         "logo": "https://i.ibb.co/sRhcqHT/realwild.png",
         "country": "Bangladesh",
@@ -13062,7 +13074,7 @@
       },
       {
         "name": "Travel XP English EU",
-        "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
+        "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/3000.m3u8",
         "group": "Travel",
         "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Travel%20XP.png",
         "country": "Bangladesh",
@@ -24197,20 +24209,6 @@
         "attributes": {
           "tvg-id": "AnandaTV.bd@SD",
           "tvg-logo": "https://i.imgur.com/jkbo7Qe.png",
-          "group-title": "Entertainment"
-        },
-        "type": "hls"
-      },
-      {
-        "name": "Rupashi Bangla TV (720p)",
-        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-        "group": "Entertainment",
-        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Rupashi_Bangla.png",
-        "country": "Bangladesh",
-        "source": "https://iptv-org.github.io/iptv/countries/bd.m3u",
-        "attributes": {
-          "tvg-id": "RupashiBanglaTV.bd@SD",
-          "tvg-logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Rupashi_Bangla.png",
           "group-title": "Entertainment"
         },
         "type": "hls"
