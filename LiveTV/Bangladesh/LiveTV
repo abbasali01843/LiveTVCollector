@@ -5765,7 +5765,7 @@
   },
   {
     "name": "Amar Digital TV",
-    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/amardigital.stream/playlist.m3u8",
+    "url": "http://115.187.41.216:8080/hls/amardigital/index.m3u8",
     "group": "Bangla",
     "logo": "https://th.bing.com/th/id/OIP.ZSBINjQw_TEmElNoECErVQHaDL?rs=1&pid=ImgDetMain",
     "country": "Bangladesh",
@@ -5918,20 +5918,6 @@
     "type": "hls"
   },
   {
-    "name": "Channel S",
-    "url": "https://app.ncare.live/live-orgin/channels.stream/playlist.m3u8",
-    "group": "Bangla",
-    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxT37QeLoNwrMrzrL8NUx_sA4tyZw0hnHoqF5RhwENo_TOP2Z29HYAMAk&s=10",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "ChannelS.bd",
-      "tvg-logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxT37QeLoNwrMrzrL8NUx_sA4tyZw0hnHoqF5RhwENo_TOP2Z29HYAMAk&s=10",
-      "group-title": "Bangla"
-    },
-    "type": "hls"
-  },
-  {
     "name": "Colors Bangla HD",
     "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8",
     "group": "Bangla",
@@ -5989,7 +5975,7 @@
   },
   {
     "name": "Enter10 Bangla HD",
-    "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_240p/chunks.m3u8",
+    "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8",
     "group": "Bangla",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/0/01/Enterr10_Bangla.jpg",
     "country": "Bangladesh",
@@ -6025,6 +6011,20 @@
     "attributes": {
       "tvg-id": "GTVHD.bd",
       "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/6/60/Gtvhd.png",
+      "group-title": "Bangla"
+    },
+    "type": "hls"
+  },
+  {
+    "name": "GLOBAL TV HD",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/tracks-v1a1/mono.m3u8",
+    "group": "Bangla",
+    "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/f/f6/Global_Television_HD_logo.png",
+    "country": "Bangladesh",
+    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+    "attributes": {
+      "tvg-id": "GLOBALTV.bd",
+      "tvg-logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/f/f6/Global_Television_HD_logo.png",
       "group-title": "Bangla"
     },
     "type": "hls"
@@ -6086,8 +6086,22 @@
     "type": "hls"
   },
   {
+    "name": "MOV | ZB Cinema",
+    "url": "https://server.zillarbarta.com/ZBCINEMA/index.m3u8",
+    "group": "Bangla",
+    "logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
+    "country": "Bangladesh",
+    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+    "attributes": {
+      "tvg-id": "ZBCinema.in",
+      "tvg-logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
+      "group-title": "Bangla"
+    },
+    "type": "hls"
+  },
+  {
     "name": "MOV | ZEE BANGLA CINEMA",
-    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/Zeebanglahd.m3u8",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master2.m3u8",
     "group": "Bangla",
     "logo": "http://openboxv8s.com/india/zee_bangla_cinema.jpg",
     "country": "Bangladesh",
@@ -6151,6 +6165,20 @@
     "attributes": {
       "tvg-id": "dhoommusic.bd",
       "tvg-logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/68/Dhoom_Music_Bangla_logo_%282014%29.png",
+      "group-title": "Bangla"
+    },
+    "type": "hls"
+  },
+  {
+    "name": "MU | ZB Music",
+    "url": "https://server.zillarbarta.com/zbmusic/tracks-v1a1/mono.m3u8",
+    "group": "Bangla",
+    "logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
+    "country": "Bangladesh",
+    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+    "attributes": {
+      "tvg-id": "ZBMusic.in",
+      "tvg-logo": "https://cdn.dribbble.com/userupload/32075529/file/original-52b78ab450ff3dd796b6b99265e319f4.jpg",
       "group-title": "Bangla"
     },
     "type": "hls"
@@ -6283,7 +6311,7 @@
   },
   {
     "name": "STAR JALSHA HD (Ads Only)",
-    "url": "https://catchup.yuppcdn.net/amazonv2/36/preview/starjalsha/master/chunklist.m3u8",
+    "url": "https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8",
     "group": "Bangla",
     "logo": "http://openboxv8s.com/india/star_jalsha.png",
     "country": "Bangladesh",
@@ -6291,6 +6319,20 @@
     "attributes": {
       "tvg-id": "starjalsha.in",
       "tvg-logo": "http://openboxv8s.com/india/star_jalsha.png",
+      "group-title": "Bangla"
+    },
+    "type": "hls"
+  },
+  {
+    "name": "TIKANA TV",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/thikanatv.stream/tracks-v1a1/mono.m3u8",
+    "group": "Bangla",
+    "logo": "https://yt3.googleusercontent.com/AbXfwy0BwAB4yjwV4gkMmSZizuTv30M9kZjO7V33LLvpy7CRVxK523zdvnZ3oTMtanUf9tHe=s900-c-k-c0x00ffffff-no-rj",
+    "country": "Bangladesh",
+    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+    "attributes": {
+      "tvg-id": "TIKANA TV",
+      "tvg-logo": "https://yt3.googleusercontent.com/AbXfwy0BwAB4yjwV4gkMmSZizuTv30M9kZjO7V33LLvpy7CRVxK523zdvnZ3oTMtanUf9tHe=s900-c-k-c0x00ffffff-no-rj",
       "group-title": "Bangla"
     },
     "type": "hls"
@@ -6409,7 +6451,7 @@
   },
   {
     "name": "IN | ABP Ananda",
-    "url": "https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8",
+    "url": "https://amg01412-xiaomiasia-abpananda-xiaomi-lzyzw.amagi.tv/playlist/amg01412-xiaomiasia-abpananda-xiaomi/playlist.m3u8",
     "group": "Bangla News",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/a/a2/Abp-ananda.png",
     "country": "Bangladesh",
@@ -6459,6 +6501,20 @@
     "attributes": {
       "tvg-id": "CalcuttaNews",
       "tvg-logo": "https://assets.calcuttatelevisionnetwork.in/cn.png",
+      "group-title": "Bangla News"
+    },
+    "type": "hls"
+  },
+  {
+    "name": "IN | High News",
+    "url": "http://highmedia.livebox.co.in:80/HIGHNEWShls/LIVE.m3u8",
+    "group": "Bangla News",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c8/High-news.jpg",
+    "country": "Bangladesh",
+    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+    "attributes": {
+      "tvg-id": "highnews.in",
+      "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/c/c8/High-news.jpg",
       "group-title": "Bangla News"
     },
     "type": "hls"
@@ -6604,6 +6660,20 @@
     "type": "hls"
   },
   {
+    "name": "AccuWeather NOW",
+    "url": "https://amg00684-accuweather-accuweather-plex-jbd2s.amagi.tv/playlist/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1",
+    "group": "International News",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/e/ec/AccuWeather_2019_stacked.svg",
+    "country": "Bangladesh",
+    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+    "attributes": {
+      "tvg-id": "AccuWeatherNOW.us",
+      "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/e/ec/AccuWeather_2019_stacked.svg",
+      "group-title": "International News"
+    },
+    "type": "hls"
+  },
+  {
     "name": "Al Jazeera English HD",
     "url": "https://live-hls-web-aje-fa.getaj.net/AJE/index.m3u8",
     "group": "International News",
@@ -6647,7 +6717,7 @@
   },
   {
     "name": "Bloomberg TV",
-    "url": "https://www.bloomberg.com/media-manifest/streams/aus.m3u8",
+    "url": "https://www.bloomberg.com/media-manifest/streams/eu.m3u8",
     "group": "International News",
     "logo": "https://cordcutting.com/wp-content/uploads/2018/01/bloomberg-television-logo-300x150.png",
     "country": "Bangladesh",
@@ -6689,7 +6759,7 @@
   },
   {
     "name": "CGTN",
-    "url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master540p.m3u8",
+    "url": "https://dai.google.com/linear/hls/event/r4sa-f6GSN2XIvzKv5jVng/master.m3u8",
     "group": "International News",
     "logo": "https://yt3.googleusercontent.com/ZswtbrleL4K7ameGvmiWb-FTsBCPpWf9Awwt6rUTQtbKe-sf1MbdvxtCGAqcdp7rksGs0oi1=s120-c-k-c0x00ffffff-no-rj",
     "country": "Bangladesh",
@@ -6731,7 +6801,7 @@
   },
   {
     "name": "CNN International",
-    "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8",
+    "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
     "group": "International News",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/8/8e/CNN_International_2009.svg",
     "country": "Bangladesh",
@@ -6773,7 +6843,7 @@
   },
   {
     "name": "DW News",
-    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
+    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
     "group": "International News",
     "logo": "https://img.favpng.com/8/20/21/logo-deutsche-welle-dw-tv-dw-espa-ol-png-favpng-HaURNeixYqyctM1CSnmKA1kWk.jpg",
     "country": "Bangladesh",
@@ -7206,20 +7276,6 @@
     "type": "hls"
   },
   {
-    "name": "ENT | ZEE TV HD",
-    "url": "http://41.205.93.154/ZEE-TV/index.m3u8",
-    "group": "India",
-    "logo": "https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "ZEETVhd.tv",
-      "tvg-logo": "https://1000logos.net/wp-content/uploads/2025/05/Zee-TV-Logo-768x432.png",
-      "group-title": "India"
-    },
-    "type": "hls"
-  },
-  {
     "name": "History TV18 HD Hindi",
     "url": "https://n18syndication.akamaized.net/bpk-tv/History_TV18_Hindi_NW18_MOB/output01/master.m3u8",
     "group": "India",
@@ -7473,7 +7529,7 @@
   },
   {
     "name": "MU | 9XM",
-    "url": "https://wiselp.wiseplayout.com/9XM/master.m3u8",
+    "url": "https://cc-706183qeo55ez.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-706183qeo55ez/DIYC/PMSL/9X/9XMusic_IN/9XMusic_IN.m3u8",
     "group": "India",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/2/29/9x_media.png",
     "country": "Bangladesh",
@@ -7753,7 +7809,7 @@
   },
   {
     "name": "NEWS | Aaj Tak HD",
-    "url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8",
+    "url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_720p/chunks.m3u8",
     "group": "India",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/Aaj_Tak_HD_v2.png",
     "country": "Bangladesh",
@@ -7991,7 +8047,7 @@
   },
   {
     "name": "NEWS | NDTV Hindi",
-    "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679-b/ndtvindia/master.m3u8",
+    "url": "https://backupndtvindiaelemarchana.akamaized.net/hls/live/2004134/ndtvindia/master_1.m3u8",
     "group": "India",
     "logo": "https://logodix.com/logo/2131933.jpg",
     "country": "Bangladesh",
@@ -8103,7 +8159,7 @@
   },
   {
     "name": "NEWS | ZEE BUSINESS",
-    "url": "https://dwby15d04agvq.cloudfront.net/index_5.m3u8",
+    "url": "https://dwby15d04agvq.cloudfront.net/index_1.m3u8",
     "group": "India",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/0/07/Zee_Business_%282025%29.svg",
     "country": "Bangladesh",
@@ -8131,7 +8187,7 @@
   },
   {
     "name": "NEWS | ZEE News",
-    "url": "https://dknttpxmr0dwf.cloudfront.net/index_2.m3u8",
+    "url": "https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8",
     "group": "India",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c4/Zee_News_HD.jpg",
     "country": "Bangladesh",
@@ -8215,7 +8271,7 @@
   },
   {
     "name": "ENT | aur LIFE HD",
-    "url": "http://124.109.47.101/hls/stream1.m3u8",
+    "url": "https://s3.ideationtec.live/Aur_Life/Aur_Life.m3u8",
     "group": "Pakistan",
     "logo": "https://aurlife.tv/wp-content/uploads/2021/11/Aur-life-Logo-png.png",
     "country": "Bangladesh",
@@ -8293,20 +8349,6 @@
     "attributes": {
       "tvg-id": "LTN FAMILY HD",
       "tvg-logo": "https://i.imgur.com/n4CenYn.png",
-      "group-title": "Pakistan"
-    },
-    "type": "hls"
-  },
-  {
-    "name": "ENT | SAB ENTERTAINMENT",
-    "url": "https://s1.ideationtec.live/SAB_Entertainment/SAB_Entertainment.m3u8",
-    "group": "Pakistan",
-    "logo": "https://i.imgur.com/79g2kMA.png",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "SAB ENTERTAINMENT",
-      "tvg-logo": "https://i.imgur.com/79g2kMA.png",
       "group-title": "Pakistan"
     },
     "type": "hls"
@@ -8509,7 +8551,7 @@
   },
   {
     "name": "EN | AMG TV (Classic)",
-    "url": "https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/playlist.m3u8",
+    "url": "https://2-fss-2.streamhoster.com/pl_138/201660-1270634-1/chunklist.m3u8",
     "group": "Movies",
     "logo": "https://img1.wsimg.com/isteam/ip/f5ca61b0-4924-46b3-93d1-5961808d44f6/Home%20no%20vignette%20low_Half2.jpg",
     "country": "Bangladesh",
@@ -8928,20 +8970,6 @@
     "type": "hls"
   },
   {
-    "name": "Adventure Earth",
-    "url": "https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8",
-    "group": "Educational",
-    "logo": "https://www.sefiles.net/merchant/5511/images/site/logo_ae_300x80.png",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "Adventure Earth",
-      "tvg-logo": "https://www.sefiles.net/merchant/5511/images/site/logo_ae_300x80.png",
-      "group-title": "Educational"
-    },
-    "type": "hls"
-  },
-  {
     "name": "Alone By History",
     "url": "https://d3181anftsyl2u.cloudfront.net/v1/aenetworks_alone_1/samsungheadend_us/latest/main/hls/playlist.m3u8",
     "group": "Educational",
@@ -9119,6 +9147,20 @@
     "attributes": {
       "tvg-id": "Deadly Women: powered by Banijay",
       "tvg-logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB4900001NW_20250811T172507SQUARE.png",
+      "group-title": "Educational"
+    },
+    "type": "hls"
+  },
+  {
+    "name": "Discover Pakistan TV",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/discoverpakistan.stream/playlist.m3u8",
+    "group": "Educational",
+    "logo": "https://www.discoverpakistan.tv/assets/dp-logo-DEj6gG6U.png",
+    "country": "Bangladesh",
+    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+    "attributes": {
+      "tvg-id": "DiscoverPakistanTV",
+      "tvg-logo": "https://www.discoverpakistan.tv/assets/dp-logo-DEj6gG6U.png",
       "group-title": "Educational"
     },
     "type": "hls"
@@ -9433,7 +9475,7 @@
   },
   {
     "name": "REAL WILD",
-    "url": "https://amg00426-littledotstudio-realwild-tcl-fzsi1.amagi.tv/playlist/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
+    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
     "group": "Educational",
     "logo": "https://i.ibb.co/sRhcqHT/realwild.png",
     "country": "Bangladesh",
@@ -10007,7 +10049,7 @@
   },
   {
     "name": "EN | V2BEAT",
-    "url": "https://abr.de1se01.v2beat.live/playlist.m3u8",
+    "url": "https://de1se01.v2beat.live/playlist.m3u8",
     "group": "Music",
     "logo": "https://buddytv.netlify.app/img/no-logo.png",
     "country": "Bangladesh",
@@ -10147,7 +10189,7 @@
   },
   {
     "name": "EN | XITE Hits",
-    "url": "https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/ts-eu-w1-n2/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8",
+    "url": "https://amg01243-xitenetworksint-hitsuk-samsunguk-mvovq.amagi.tv/playlist/amg01243-xitenetworksint-hitsuk-samsunguk/playlist.m3u8",
     "group": "Music",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/0/02/Xite_2013.svg",
     "country": "Bangladesh",
@@ -10197,20 +10239,6 @@
     "attributes": {
       "tvg-id": "1Mus",
       "tvg-logo": "https://i.postimg.cc/RFrMsR7Y/download-1.jpg",
-      "group-title": "Music"
-    },
-    "type": "hls"
-  },
-  {
-    "name": "OTHER | 4 Fun TV",
-    "url": "https://stream.4fun.tv:8888/hls/4f_low/index.m3u8",
-    "group": "Music",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/4fun.tv_Logo_%282017%29.svg/1200px-4fun.tv_Logo_%282017%29.svg.png",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "4FunTV",
-      "tvg-logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/4fun.tv_Logo_%282017%29.svg/1200px-4fun.tv_Logo_%282017%29.svg.png",
       "group-title": "Music"
     },
     "type": "hls"
@@ -10790,43 +10818,15 @@
     "type": "hls"
   },
   {
-    "name": "---Live(GO 3 sport 1)---",
-    "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18000/index.m3u8",
+    "name": "---Live(STAR SPORTS SELECT 2 HD)---",
+    "url": "http://tvsen7.aynascope.net/ssport2hd/index.m3u8",
     "group": "Sports",
-    "logo": "https://static.wikia.nocookie.net/logopedia/images/0/03/Go3_Sport.svg",
+    "logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
     "country": "Bangladesh",
     "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
     "attributes": {
-      "tvg-id": "GO 3 sport 3",
-      "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/0/03/Go3_Sport.svg",
-      "group-title": "Sports"
-    },
-    "type": "hls"
-  },
-  {
-    "name": "---Live(GO 3 sport 2)---",
-    "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18012/index.m3u8",
-    "group": "Sports",
-    "logo": "https://static.wikia.nocookie.net/logopedia/images/4/48/Go3_Sport_2_II.svg",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "GO 3 sport 3",
-      "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/4/48/Go3_Sport_2_II.svg",
-      "group-title": "Sports"
-    },
-    "type": "hls"
-  },
-  {
-    "name": "---Live(GO 3 sport 3)---",
-    "url": "http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/18025/index.m3u8",
-    "group": "Sports",
-    "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c3/Go3_Sport_3_II.svg",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "GO 3 sport 3",
-      "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/c/c3/Go3_Sport_3_II.svg",
+      "tvg-id": "starsportsselect1.in",
+      "tvg-logo": "https://static.epg.best/in/StarSportsSelect1.in.png",
       "group-title": "Sports"
     },
     "type": "hls"
@@ -11000,20 +11000,6 @@
     "type": "hls"
   },
   {
-    "name": "FB | Unite8 Sports 2",
-    "url": "http://59.103.38.46:8000/play/a126/index.m3u8",
-    "group": "Sports",
-    "logo": "https://s3.aynaott.com/storage/bec77d9ab072a37a8912d9d4f9853298",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "Unite8 Sports 2",
-      "tvg-logo": "https://s3.aynaott.com/storage/bec77d9ab072a37a8912d9d4f9853298",
-      "group-title": "Sports"
-    },
-    "type": "hls"
-  },
-  {
     "name": "FIGHT | FIGHT NETWORK",
     "url": "https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8",
     "group": "Sports",
@@ -11182,20 +11168,6 @@
     "type": "hls"
   },
   {
-    "name": "MIXER | FUEL TV",
-    "url": "https://amg01074-fueltv-fueltvemeaen-sportstribal-n7krp.amagi.tv/ts-eu-w1-n2/playlist/amg01074-fueltv-fueltvemeaen-sportstribal/playlist.m3u8",
-    "group": "Sports",
-    "logo": "https://a.jsrdn.com/hls/23055/fuel-tv-ww/logo_20231219_202054_68.png",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "FUELTV",
-      "tvg-logo": "https://a.jsrdn.com/hls/23055/fuel-tv-ww/logo_20231219_202054_68.png",
-      "group-title": "Sports"
-    },
-    "type": "hls"
-  },
-  {
     "name": "MIXER | HOOP TV",
     "url": "https://amg00585-amg00585c9-sportstribal-emea-5518.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-hooptv-sportstribalemea/playlist.m3u8",
     "group": "Sports",
@@ -11295,7 +11267,7 @@
   },
   {
     "name": "MIXER | Redbull TV",
-    "url": "http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_928.m3u8",
+    "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8",
     "group": "Sports",
     "logo": "https://openpaddock.net/wp-content/uploads/2014/11/RedbullTV_blue.jpg",
     "country": "Bangladesh",
@@ -11359,20 +11331,6 @@
     "attributes": {
       "tvg-id": "Unbeaten.us@SD",
       "tvg-logo": "https://i.imgur.com/LmkNt3v.png",
-      "group-title": "Sports"
-    },
-    "type": "hls"
-  },
-  {
-    "name": "MIXER | WOF 1",
-    "url": "https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/rakutenAA-mainstreammediafreesportsintl-rakuten/playlist.m3u8",
-    "group": "Sports",
-    "logo": "https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "d2152bbb-64e0-4822-826b-60853ca1d056",
-      "tvg-logo": "https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6",
       "group-title": "Sports"
     },
     "type": "hls"
@@ -11597,6 +11555,20 @@
     "attributes": {
       "tvg-id": "BAHRAINQURAN",
       "tvg-logo": "https://i.ibb.co/cygNtwH/bahrain-quaran.png",
+      "group-title": "Religious"
+    },
+    "type": "hls"
+  },
+  {
+    "name": "Channel WIN",
+    "url": "https://cdn.smartstream.video/smartstream-us/channelwinlive/channelwinlive/chunks.m3u8",
+    "group": "Religious",
+    "logo": "https://shiachannel.in/livetv/img/channels/win.png",
+    "country": "Bangladesh",
+    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
+    "attributes": {
+      "tvg-id": "ChannelWIN.in@SD",
+      "tvg-logo": "https://shiachannel.in/livetv/img/channels/win.png",
       "group-title": "Religious"
     },
     "type": "hls"
@@ -12241,20 +12213,6 @@
     "attributes": {
       "tvg-id": "MotuPatlu",
       "tvg-logo": "https://static.wikia.nocookie.net/logopedia/images/6/64/WowKidz_Logo.png",
-      "group-title": "Kids"
-    },
-    "type": "hls"
-  },
-  {
-    "name": "1. 4 Fun Kids",
-    "url": "https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8",
-    "group": "Kids",
-    "logo": "https://i.imgur.com/2JO5Y8c.png",
-    "country": "Bangladesh",
-    "source": "https://raw.githubusercontent.com/time2shine/Rokon-IPTV/main/playlist.m3u",
-    "attributes": {
-      "tvg-id": "4FunKids.pl@SD",
-      "tvg-logo": "https://i.imgur.com/2JO5Y8c.png",
       "group-title": "Kids"
     },
     "type": "hls"
