@@ -277,53 +277,58 @@ BT Sports 2 | Cricket | https://tvsen6.aynaott.com/btSport2/index.m3u8?e=1784102
 Willow TV | Cricket | https://tvsen5.aynaott.com/willowhd/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=a9cdf8d7d3bacb7c8aea83611a6c3906
 PTV Sports | Cricket | https://tvsen7.aynaott.com/zY3hJ7pQ2vM5gD8s/index.m3u8?e=1784102658&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&ip=52.157.32.49&token=b75669e4aa0dd58c602b637ab66af304
 Deshi TV (720p) | Unknown | https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
-My TV | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
-Ananda TV | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
-Channel S | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
 Boishakhi TV | Unknown | https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
 RTV (720p) | Unknown | http://tvsen5.aynascope.net/RtvHD/index.m3u8
 Maasranga TV (720p) | Unknown | http://tvsen5.aynascope.net/maasrangatv/index.m3u8
+RTV (720p) | Unknown | https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8
 RTV (720p) | Unknown | https://tvsen5.aynaott.com/RtvHD/index.m3u8
 Maasranga TV (720p) | Unknown | https://tvsen5.aynaott.com/maasrangatv/index.m3u8
 Duronto TV (720p) | Unknown | https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
-Rajdhani TV (1080p) | Unknown | https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
-Nexus TV (576p) | Unknown | https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
+My TV | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
 NTV (720p) | Unknown | https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
+Channel S | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
+Nexus TV (576p) | Unknown | https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
+Rajdhani TV (1080p) | Unknown | https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
+Ananda TV | Unknown | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
+Ekushey TV (480p) | Unknown | https://ekusheyserver.com/etvlivesn.m3u8
 Sananda TV | Indian Bangla | http://27.124.71.27/Zee_Bangla/tracks-v1a1/mono.m3u8
 ATN News | Bangladesh | https://tvsen6.aynaott.com/da6WMXAk/index.m3u8
 Ananda TV | Bangladesh | https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 Sananda TV | Indian Bangla | https://live.sanandatelevision.in/sananda/index.m3u8
-Bein Sports Extra 2 | Sports | https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
-BTV Chattogram | Bangladesh | https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8
 Boishakhi TV | Bangladesh | https://tvsen6.aynaott.com/1d3uG9VCgrR9DRtWZM57/index.m3u8
-Channel I | Bangladesh | https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
+BTV Chattogram | Bangladesh | https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8
 Ekattor TV | Bangladesh | https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8
 Ekhon TV | Bangladesh | https://tvsen6.aynaott.com/fbgZV3X17hwWcyfZ4pdb/index.m3u8
-Ekushe ETV | Bangladesh | https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8
+Channel I | Bangladesh | https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
+Bein Sports Extra 2 | Sports | https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 Desh TV | Bangladesh | https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8
+Ekushe ETV | Bangladesh | https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8
 Global TV | Bangladesh | https://tvsen6.aynaott.com/y0q9eFAuquAtvTxRzUHq/index.m3u8
-MTRSPT | Sports | https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8
-NTV | Bangladesh | https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8
 RTV | Bangladesh | http://tvsen5.aynascope.net/RtvHD/tracks-v1a1/mono.ts.m3u8
-Willow Extra | Sports | http://27.124.71.27/Willow_Extra/index.m3u8
-Horse & Country | Sports | https://hncfree-samsungau.amagi.tv/playlist.m3u8
-Sony TV HD | India | http://premimum.online:80/live/jen12345/jen54321/98854.ts
-Hindi Hits HD | Music | http://146.59.253.52:8080/hindihitshd/index.m3u8
+NTV | Bangladesh | https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8
 My TV | Bangladesh | https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8
+MTRSPT | Sports | https://amg02873-kravemedia-mtrspt1-sportstribal-ajosc.amagi.tv/playlist/amg02873-kravemedia-mtrspt1-sportstribal/playlist.m3u8
+Willow Extra | Sports | http://27.124.71.27/Willow_Extra/index.m3u8
+Pardesi TV | India | http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
+Horse & Country | Sports | https://hncfree-samsungau.amagi.tv/playlist.m3u8
 SA TV | Bangladesh | https://tvsen6.aynaott.com/rELXiuUXqbgzPb06Npom/index.m3u8
+Hindi Hits HD | Music | http://146.59.253.52:8080/hindihitshd/index.m3u8
+Sony TV HD | India | http://premimum.online:80/live/jen12345/jen54321/98854.ts
 A Sports | Sports | https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
 Trace Sport | Sports | https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 Music TV | Music | http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
-Shemaroo Bollywood | India | https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
-Bhojpuri Cinema | India | https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
 Radio BBC | Radio | https://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/audio_syndication_vlow_sbr_v1/cfs/bbc_world_service_news_internet.m3u8
 Cricket Gold | Sports | https://tvsen6.aynaott.com/M2W2UR49dmeKbZnmdRzN/index.m3u8
+Bhojpuri Cinema | India | https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
+Shemaroo Bollywood | India | https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
 30A Music | Music | https://30a-tv.com/music.m3u8
 Rongeen TV | Kids | https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8
 TNT Music | Music | https://tntm.mediacdn.ru/cdn/tntmusic/playlist.m3u8
-Hindi Movies | Hindi | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8
+Motu Patlu | Cartoons | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
 Gopal Bhar | Cartoons | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
+Doraemon | Bangla | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 South Movies | Hindi | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
+Hindi Movies | Hindi | 24/7 | https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8
 Amar Bangla | Bangla | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 Amar Digital TV | Bangla | http://115.187.41.216:8080/hls/amardigital/index.m3u8
 ASIAN TV | Bangla | https://tvsen6.aynaott.com/pKb5k6NnzxsKpWUs6E8M/index.m3u8
@@ -427,7 +432,6 @@ ENT | DD URDU | India | https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/9b91e9007e7
 ENT | E24 | India | https://amg13643-amg13643c2-amgplt0016.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg13643-amg13643c2-amgplt0016/playlist.m3u8
 ENT | Epic TV | India | https://epiconvh.akamaized.net/live/epic/master.m3u8
 ENT | Gangaur | India | https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8
-ENT | Pardesi TV | India | http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8
 ENT | Shemaroo TV | India | https://airtelapp.shemaroo.com/shemarootv/smil:shemarootvadp.smil/playlist.m3u8
 w_300,q_85/-y50-JQBv9knK3AHLzSn/posters/0ab48ac0-ec84-4ca2-9601-746ff3cb809e.webp" group-title="India",ENT | Sony Entertainment | India | http://38.96.178.205/SONYHD/index.m3u8
 History TV18 HD Hindi | India | https://n18syndication.akamaized.net/bpk-tv/History_TV18_Hindi_NW18_MOB/output01/master.m3u8
@@ -752,7 +756,6 @@ Zainabia Channel | Religious | https://zainabia.livebox.co.in/ZainabiaChannelhls
 0. Discovery Family | Kids | https://tvsen5.aynaott.com/discoveryfamily/index.m3u8
 0. Disney Channel Latin America | Kids | http://15.204.246.24:8080/DisneyHD/index.m3u8
 0. Disney Jr. | Kids | http://190.93.224.42/DISNEY-JR/index.m3u8
-0. Doraemon | Kids | https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 0. Just For Laughs Gags | Kids | https://distributionsjustepourrire-justforlaughsgags-1-be.samsung.wurl.tv/playlist.m3u8
 0. Knowledge Network | Kids | https://d1wal6k3d7ssin.cloudfront.net/out/v1/ea91db0906c847a4931b46a9ec36e77b/index.m3u8
 0. Lego Channel | Kids | https://dltiqboxjw21d.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evri8jwgwmxus/index.m3u8?ads.device_did=%7BPSID%7D&ads.device_dnt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D&ads.ssai_vendor=SSSLIVE&ads.service_id=GBBC4300005AL
@@ -1511,7 +1514,6 @@ Azan TV | Religious | https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8
 DBC News (480p) | News | http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
 Disney International HD (576p) | Kids | http://103.151.60.162:2122/play/a018/index.m3u8?hls=
 Ekhon TV (1080p) | Business | https://tplay.live/out/bangladesh/ekhontv.index.m3u8
-Ekushey TV (480p) | News | https://ekusheyserver.com/etvlivesn.m3u8
 Express News (576p) | News | http://51.75.127.199:3141/expressnews/index.m3u8
 Gazi TV (1080p) | General | http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
 Green TV (1080p) | Family | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
